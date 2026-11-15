@@ -42,12 +42,17 @@ def _depths(records: dict[str, dict]) -> dict[str, int]:
         if comment_id in depths:
             return depths[comment_id]
         record = records.get(comment_id)
-        if record is None or record["is_top_level"] or comment_id in guard:
+        if record is None:
+            return 0
+        if record["is_top_level"] or comment_id in guard:
+            depths[comment_id] = 0
+            return 0
+        parent_id = record.get("parent_id")
+        if parent_id is None or str(parent_id) not in records:
             depths[comment_id] = 0
             return 0
         guard.add(comment_id)
-        parent_depth = resolve(str(record["parent_id"]), guard)
-        depths[comment_id] = parent_depth + 1
+        depths[comment_id] = resolve(str(parent_id), guard) + 1
         return depths[comment_id]
 
     for comment_id in records:
