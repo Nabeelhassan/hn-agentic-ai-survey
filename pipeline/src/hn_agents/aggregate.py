@@ -90,7 +90,7 @@ def aggregate_snapshot(snapshot_id: str) -> None:
     meta = read_json(paths["meta"]) if paths["meta"].exists() else {}
     denominator = len(respondents)
 
-    primary_model = "z-ai/glm-5.3-flash"
+    primary_model = "deepseek/deepseek-v4.1-flash"
     chosen: dict[str, dict] = {}
     for record in extractions:
         if record["model"] != primary_model:

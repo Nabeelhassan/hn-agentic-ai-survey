@@ -4,7 +4,7 @@ from .canonicalize import canonicalize_record
 from .taxonomy import load_taxonomy
 from .util import read_json, read_jsonl, snapshot_paths, utc_now, write_json, write_jsonl
 
-PRIMARY_ORDER = ["z-ai/glm-5.3-flash", "deepseek/deepseek-v4.1-flash"]
+PRIMARY_ORDER = ["deepseek/deepseek-v4.1-flash", "z-ai/glm-5.3-flash"]
 
 
 def _rank_model(model: str) -> int:
