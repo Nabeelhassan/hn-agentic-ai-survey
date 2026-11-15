@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { Callout } from "@/components/primitives";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { ViewTabs } from "@/components/ui/tabs";
 import { loadDataset } from "@/lib/data";
 import { formatNumber } from "@/lib/format";
@@ -82,7 +83,8 @@ export function App() {
           </div>
         </div>
 
-        <ViewTabs
+        <ErrorBoundary>
+          <ViewTabs
           defaultValue="overview"
           items={[
             { value: "overview", label: "Overview", content: <Overview data={overview} /> },
@@ -114,7 +116,8 @@ export function App() {
               content: <Methodology data={dataset.methodology} />,
             },
           ]}
-        />
+          />
+        </ErrorBoundary>
       </header>
 
       <footer className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4 text-[11px] text-muted">
