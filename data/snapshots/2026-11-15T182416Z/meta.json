@@ -1,0 +1,19 @@
+{
+  "snapshot_id": "2026-11-15T182416Z",
+  "normalize": {
+    "snapshot_id": "2026-11-15T182416Z",
+    "normalized_at": "2026-11-15T18:24:44.725473+00:00",
+    "comments": 856,
+    "top_level": 500,
+    "deleted": 23,
+    "dead": 126,
+    "empty_text": 23,
+    "authors": 659,
+    "max_depth": 9,
+    "source_labels": {
+      "algolia_only": 0,
+      "both": 716,
+      "firebase_only": 140
+    }
+  }
+}
