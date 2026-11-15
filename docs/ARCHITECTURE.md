@@ -35,49 +35,31 @@ The system turns that into:
 ## 3. System context
 
 ```mermaid
-flowchart LR
-  subgraph HN["Hacker News (free APIs)"]
-    A1["Algolia search API<br/>comment text + parentage"]
-    A2["Firebase item API<br/>reply tree + dead/deleted"]
-  end
+flowchart TD
+  HN["Hacker News APIs<br/>Algolia: text, parent, time<br/>Firebase: tree, dead, deleted"]
+  FETCH["fetch<br/>freeze both payloads"]
+  RAW[("data/raw/&lt;snapshot_id&gt;/")]
+  NORM["normalize<br/>HTML to text · depth · content hash"]
+  COMMENTS[("comments.jsonl")]
+  TAX["taxonomy<br/>harvest 1,809 mentions → 383 candidates → approve v1"]
+  EXTRACT["extract<br/>cmd headless · 2 models · 30 comments per batch"]
+  EXTRACTIONS[("extractions.jsonl<br/>review.jsonl")]
+  MERGE["merge<br/>per author · canonical ids · conflicts kept"]
+  RESP[("respondents.jsonl")]
+  THEMES["themes<br/>cluster 1,252 phrases"]
+  AGG["aggregate<br/>denominators · unstated rows · comment ids"]
+  AGGJSON[("aggregates/*.json")]
+  DASH["dashboard<br/>Vite + React 19 + ECharts"]
+  PAGES["GitHub Pages"]
 
-  subgraph Pipeline["pipeline/ — Python 3.13 + uv"]
-    F["fetch"]
-    N["normalize"]
-    X["extract<br/>cmd headless × 2 models"]
-    C["canonicalize"]
-    M["merge"]
-    T["themes"]
-    G["aggregate"]
-    V["validate"]
-    F --> N --> X --> M --> G
-    C --> M
-    T --> G
-    V --> G
-  end
-
-  subgraph Store["data/ — committed"]
-    R["raw/&lt;snapshot&gt;/"]
-    S["snapshots/&lt;snapshot&gt;/"]
-    E["eval/"]
-  end
-
-  A1 --> F
-  A2 --> F
-  F --> R
-  N --> S
-  X --> S
-  M --> S
-  G --> S
-  V --> E
-  S --> D
-
-  subgraph Dash["dashboard/ — Vite + React 19"]
-    D["views + ECharts + UI SDK"]
-  end
-
-  D --> P["GitHub Actions → GitHub Pages"]
-  S -. "dashboard-data" .-> D
+  HN --> FETCH --> RAW --> NORM --> COMMENTS
+  COMMENTS --> EXTRACT
+  TAX --> EXTRACT
+  EXTRACT --> EXTRACTIONS --> MERGE --> RESP
+  RESP --> THEMES
+  RESP --> AGG
+  THEMES --> AGG
+  AGG --> AGGJSON --> DASH --> PAGES
 ```
 
 ## 4. Repository layout
@@ -465,18 +447,13 @@ If the beta breaks a part, one adapter file changes and no view does.
 ## 8. CI and deployment
 
 ```mermaid
-flowchart LR
-  DEV["git push main"] --> CI["ci.yml<br/>pytest + tsc + build"]
-  DEV --> PAGES["pages.yml"]
-  subgraph PAGESJOB["pages job"]
-    P1["checkout"] --> P2["uv sync<br/>python 3.13"]
-    P2 --> P3["dashboard-data<br/>copy aggregates"]
-    P3 --> P4["npm ci + npm run build<br/>VITE_BASE=/hn-agentic-ai-survey/"]
-    P4 --> P5["upload-pages-artifact"]
-    P5 --> P6["deploy-pages"]
-  end
-  PAGES --> PAGESJOB
-  P6 --> LIVE["nabeelhassan.github.io/hn-agentic-ai-survey"]
+flowchart TD
+  PUSH["git push to main"] --> CI["ci.yml<br/>pytest · typecheck · build"]
+  PUSH --> BUILD["pages.yml build job"]
+  BUILD --> STEPS["checkout → uv sync → dashboard-data<br/>→ npm ci → npm run build<br/>VITE_BASE=/hn-agentic-ai-survey/"]
+  STEPS --> ART["upload-pages-artifact"]
+  ART --> DEPLOY["deploy-pages"]
+  DEPLOY --> LIVE["nabeelhassan.github.io<br/>/hn-agentic-ai-survey/"]
 ```
 
 - **No secrets in CI.** Extraction needs `cmd` and a logged-in account; CI never extracts. It tests, builds from committed aggregates, and deploys.
