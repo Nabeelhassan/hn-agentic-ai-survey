@@ -29,6 +29,10 @@ def main(argv: list[str] | None = None) -> None:
     extract.add_argument("--batch-size", type=int, default=20)
     extract.add_argument("--concurrency", type=int, default=4)
 
+    themes = sub.add_parser("themes", help="cluster free-text themes into canonical labels")
+    themes.add_argument("--snapshot")
+    themes.add_argument("--model", default="z-ai/glm-5.3-flash")
+
     merge = sub.add_parser("merge", help="merge comment extractions into respondent profiles")
     merge.add_argument("--snapshot")
 
@@ -73,6 +77,12 @@ def main(argv: list[str] | None = None) -> None:
             batch_size=args.batch_size,
             concurrency=args.concurrency,
         )
+        return
+
+    if args.command == "themes":
+        from .themes import cluster_themes
+
+        cluster_themes(resolve_snapshot(args.snapshot), model=args.model)
         return
 
     if args.command == "merge":
