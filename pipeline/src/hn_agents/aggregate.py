@@ -98,6 +98,9 @@ def aggregate_snapshot(snapshot_id: str) -> None:
         if record["comment_id"] not in chosen or record.get("status") == "ok":
             chosen[record["comment_id"]] = record
     answer_counts = Counter(record["answers_questions"] for record in chosen.values())
+    answer_ids: dict[str, set[str]] = defaultdict(set)
+    for comment_id, record in chosen.items():
+        answer_ids[record["answers_questions"]].add(comment_id)
     second_hand = sum(1 for record in chosen.values() if record.get("second_hand"))
 
     aggregates = paths["aggregates"]
@@ -123,7 +126,7 @@ def aggregate_snapshot(snapshot_id: str) -> None:
                     "count": answer_counts.get(label, 0),
                     "pct": round(100 * answer_counts.get(label, 0) / max(sum(answer_counts.values()), 1), 1),
                     "n_denominator": sum(answer_counts.values()),
-                    "comment_ids": [],
+                    "comment_ids": sorted(answer_ids.get(label, set())),
                 }
                 for label in ("full", "partial", "none", "meta", "off_topic")
             ],
@@ -196,6 +199,27 @@ def aggregate_snapshot(snapshot_id: str) -> None:
                         "comment_ids": harness.get("comment_ids", []),
                     }
                 )
+    migration_edges, suppressed_edges = _migration_edges(migrations, labels)
+    migration_pairs: dict[tuple[str, str], dict] = {}
+    for migration in migrations:
+        key = (migration["from"], migration["to"])
+        pair = migration_pairs.setdefault(
+            key,
+            {
+                "from": migration["from"],
+                "from_label": migration["from_label"],
+                "to": migration["to"],
+                "to_label": migration["to_label"],
+                "count": 0,
+                "comment_ids": [],
+                "authors": [],
+            },
+        )
+        pair["count"] += 1
+        pair["authors"].append(migration["author"])
+        for comment_id in migration["comment_ids"]:
+            if comment_id not in pair["comment_ids"]:
+                pair["comment_ids"].append(comment_id)
     write_json(
         aggregates / "harnesses.json",
         {
@@ -203,6 +227,11 @@ def aggregate_snapshot(snapshot_id: str) -> None:
             "adoption": _breakdown(harness_authors, harness_comments, denominator, labels),
             "primary": _breakdown(primary_authors, primary_comments, denominator, labels, include_unstated=False),
             "migrations": migrations,
+            "migration_edges": migration_edges,
+            "migration_pairs": sorted(
+                migration_pairs.values(), key=lambda pair: (-pair["count"], pair["from_label"], pair["to_label"])
+            ),
+            "suppressed_migration_edges": suppressed_edges,
             "switch_reasons": reasons,
         },
     )
@@ -229,19 +258,27 @@ def aggregate_snapshot(snapshot_id: str) -> None:
 
     theme_counts: dict[str, set[str]] = defaultdict(set)
     theme_comments: dict[str, set[str]] = defaultdict(set)
+    theme_variants: dict[str, set[str]] = defaultdict(set)
+    theme_map_path = paths["root"] / "theme-map.json"
+    mapping = read_json(theme_map_path).get("mapping", {}) if theme_map_path.exists() else {}
     for respondent in respondents:
         for theme, sources in (respondent.get("theme_sources") or {}).items():
-            theme_counts[theme].add(respondent["author"])
-            theme_comments[theme].update(sources)
+            cleaned = " ".join(str(theme).split()).strip().lower()
+            label = mapping.get(cleaned, cleaned)
+            theme_counts[label].add(respondent["author"])
+            theme_comments[label].update(sources)
+            theme_variants[label].add(cleaned)
     write_json(
         aggregates / "themes.json",
         {
             "n_denominator": denominator,
+            "clustered": bool(mapping),
             "themes": sorted(
                 (
                     {
                         "theme": theme,
                         "count": len(authors),
+                        "variants": len(theme_variants[theme]),
                         "n_denominator": denominator,
                         "comment_ids": sorted(theme_comments[theme]),
                     }
@@ -265,26 +302,26 @@ def aggregate_snapshot(snapshot_id: str) -> None:
                 "subscriptions": [
                     {
                         "node": item["node"],
-                        "label": labels.get(item["node"], item["node"]),
+                        "label": labels.get(item["node"], item["node"].replace("other:", "")),
                         "tier_raw": item.get("tier_raw"),
                         "comment_ids": item.get("comment_ids", []),
                     }
                     for item in respondent.get("subscriptions") or []
                 ],
                 "outside": [
-                    {"node": item["node"], "label": labels.get(item["node"], item["node"]), "access": item.get("access")}
+                    {"node": item["node"], "label": labels.get(item["node"], item["node"].replace("other:", "")), "access": item.get("access")}
                     for item in respondent.get("outside_models") or []
                 ],
                 "harnesses": [
-                    {"node": item["node"], "label": labels.get(item["node"], item["node"]), "role": item.get("role")}
+                    {"node": item["node"], "label": labels.get(item["node"], item["node"].replace("other:", "")), "role": item.get("role")}
                     for item in respondent.get("harnesses") or []
                 ],
                 "orchestration": [
-                    {"node": item["node"], "label": labels.get(item["node"], item["node"])}
+                    {"node": item["node"], "label": labels.get(item["node"], item["node"].replace("other:", ""))}
                     for item in respondent.get("orchestration") or []
                 ],
                 "platforms": [
-                    {"node": item["node"], "label": labels.get(item["node"], item["node"])}
+                    {"node": item["node"], "label": labels.get(item["node"], item["node"].replace("other:", ""))}
                     for item in respondent.get("platforms") or []
                 ],
                 "spend_monthly_usd": (respondent.get("spend_monthly_usd") or {}).get("value"),
@@ -316,6 +353,61 @@ def aggregate_snapshot(snapshot_id: str) -> None:
         },
     )
     print(f"aggregated {denominator} respondents into {len(list(aggregates.glob('*.json')))} files")
+
+
+def _migration_edges(migrations: list[dict], labels: dict) -> tuple[list[dict], int]:
+    counts: Counter[tuple[str, str]] = Counter(
+        (migration["from"], migration["to"]) for migration in migrations
+    )
+
+    for left, right in list(counts):
+        if (right, left) in counts and left < right:
+            net = counts[(left, right)] - counts[(right, left)]
+            del counts[(right, left)]
+            if net > 0:
+                counts[(left, right)] = net
+            else:
+                del counts[(left, right)]
+
+    edges = [(left, right, count) for (left, right), count in counts.items()]
+    suppressed = 0
+
+    def acyclic(candidate: list[tuple[str, str, int]]) -> bool:
+        nodes = {node for left, right, _ in candidate for node in (left, right)}
+        adjacency: dict[str, list[str]] = defaultdict(list)
+        indegree = Counter({node: 0 for node in nodes})
+        for left, right, _ in candidate:
+            adjacency[left].append(right)
+            indegree[right] += 1
+        queue = [node for node in nodes if indegree[node] == 0]
+        visited = 0
+        while queue:
+            node = queue.pop()
+            visited += 1
+            for neighbour in adjacency[node]:
+                indegree[neighbour] -= 1
+                if indegree[neighbour] == 0:
+                    queue.append(neighbour)
+        return visited == len(nodes)
+
+    while not acyclic(edges):
+        weakest = sorted(edges, key=lambda edge: (edge[2], edge[0], edge[1]))[0]
+        edges = [edge for edge in edges if edge != weakest]
+        suppressed += weakest[2]
+
+    return (
+        [
+            {
+                "from": left,
+                "from_label": labels.get(left, left),
+                "to": right,
+                "to_label": labels.get(right, right),
+                "count": count,
+            }
+            for left, right, count in sorted(edges, key=lambda edge: -edge[2])
+        ],
+        suppressed,
+    )
 
 
 def _tier_breakdown(respondents: list[dict], labels: dict) -> list[dict]:
