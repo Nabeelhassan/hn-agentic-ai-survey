@@ -94,8 +94,8 @@ nodes:
     aliases: [codex, codex cli, openai codex, codex app]
   - id: opencode
     label: OpenCode
-    categories: [harness]
-    aliases: [opencode, open code]
+    categories: [harness, subscription]
+    aliases: [opencode, open code, opencode go, opencode go plus, opencode pro]
   - id: pi
     label: Pi
     categories: [harness]
@@ -180,9 +180,13 @@ nodes:
     label: nodecode
     categories: [harness]
     aliases: [nodecode]
+  - id: vscode
+    label: VS Code
+    categories: [harness]
+    aliases: [vscode, vs code, visual studio code]
   - id: muse-code
     label: Muse Code
-    categories: [harness]
+    categories: [harness, subscription]
     aliases: [muse code]
 
   # ---- orchestration ------------------------------------------------------------
@@ -246,7 +250,7 @@ nodes:
     aliases: [openclaw]
   - id: hermes-agent
     label: Hermes Agent
-    categories: [platform]
+    categories: [platform, harness]
     aliases: [hermes, hermes agent]
   - id: grok-bot
     label: Grok Bot
