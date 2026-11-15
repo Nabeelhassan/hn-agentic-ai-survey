@@ -47,25 +47,56 @@ export function Harnesses({ data }: { data: HarnessesData }) {
         kicker="Migration"
         title="What they moved away from"
         description={
-          moves > 0
-            ? `${moves} respondents named a harness they left. Width is respondents, not mentions.`
+          data.migration_edges.length > 0
+            ? `${moves} stated moves. The diagram shows net flows after reciprocal moves are cancelled and ${data.suppressed_migration_edges} net move(s) are suppressed to keep it acyclic; the table below lists every stated move.`
             : "No respondent stated a harness they moved away from in this snapshot."
         }
       >
-        {moves > 0 ? (
+        {data.migration_edges.length > 0 ? (
           <div className="card p-3">
             <Chart
-              option={sankeyOption(data.migrations)}
-              height={Math.max(280, moves * 14)}
-              ariaLabel="Harness migrations from previous tool to current tool"
+              option={sankeyOption(data.migration_edges)}
+              height={Math.max(280, data.migration_edges.length * 18)}
+              ariaLabel="Net harness migrations from previous tool to current tool"
             />
           </div>
         ) : (
           <Callout>Nothing to draw yet. The table below lists every stated switch reason.</Callout>
         )}
+        {data.migration_pairs.length ? (
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b border-line text-left">
+                  {["From", "To", "Respondents", "Evidence"].map((header) => (
+                    <th
+                      key={header}
+                      className="py-2 pr-4 font-mono text-[10px] font-normal uppercase tracking-[0.12em] text-muted"
+                    >
+                      {header}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {data.migration_pairs.map((pair) => (
+                  <tr key={`${pair.from}-${pair.to}`} className="border-b border-line/60">
+                    <td className="py-2 pr-4">{pair.from_label}</td>
+                    <td className="py-2 pr-4">{pair.to_label}</td>
+                    <td className="num py-2 pr-4">{pair.count}</td>
+                    <td className="py-2">
+                      <Evidence ids={pair.comment_ids} />
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : null}
         <Callout>
           Arrows are only drawn from explicit statements such as “switched from Cursor”. Silence about
-          a previous tool is not treated as a migration.
+          a previous tool is not treated as a migration, and two people swapping tools in opposite
+          directions cancel out rather than forming a cycle.
         </Callout>
       </Section>
 

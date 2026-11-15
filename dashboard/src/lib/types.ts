@@ -72,11 +72,30 @@ export interface Migration {
   comment_ids: string[];
 }
 
+export interface MigrationEdge {
+  from: string;
+  from_label: string;
+  to: string;
+  to_label: string;
+  count: number;
+}
+
 export interface HarnessesData {
   n_denominator: number;
   adoption: BreakdownRow[];
   primary: BreakdownRow[];
   migrations: Migration[];
+  migration_edges: MigrationEdge[];
+  migration_pairs: {
+    from: string;
+    from_label: string;
+    to: string;
+    to_label: string;
+    count: number;
+    comment_ids: string[];
+    authors: string[];
+  }[];
+  suppressed_migration_edges: number;
   switch_reasons: {
     node: string;
     reason: string;

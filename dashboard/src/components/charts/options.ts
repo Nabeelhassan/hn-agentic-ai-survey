@@ -1,6 +1,6 @@
 import type { EChartsCoreOption } from "echarts/core";
 
-import type { BreakdownRow, CooccurrenceData, Migration } from "@/lib/types";
+import type { BreakdownRow, CooccurrenceData, MigrationEdge } from "@/lib/types";
 
 export const PALETTE = [
   "#d6f36a",
@@ -66,19 +66,13 @@ export function barOption(rows: BreakdownRow[], { unit = "respondents" } = {}): 
   };
 }
 
-export function sankeyOption(migrations: Migration[]): EChartsCoreOption {
-  const links = new Map<string, { source: string; target: string; value: number }>();
-  for (const migration of migrations) {
-    const key = `${migration.from_label}→${migration.to_label}`;
-    const existing = links.get(key);
-    if (existing) existing.value += 1;
-    else links.set(key, { source: migration.from_label, target: migration.to_label, value: 1 });
-  }
+export function sankeyOption(edges: MigrationEdge[]): EChartsCoreOption {
   const names = new Set<string>();
-  for (const link of links.values()) {
-    names.add(link.source);
-    names.add(link.target);
+  for (const edge of edges) {
+    names.add(edge.from_label);
+    names.add(edge.to_label);
   }
+  const ordered = [...names];
   return {
     backgroundColor: "transparent",
     tooltip: {
@@ -99,11 +93,15 @@ export function sankeyOption(migrations: Migration[]): EChartsCoreOption {
         label: { color: "#d4d4d8", fontFamily: FONT, fontSize: 11 },
         lineStyle: { color: "gradient", opacity: 0.28, curveness: 0.5 },
         itemStyle: { borderWidth: 0 },
-        data: [...names].map((name) => ({
+        data: ordered.map((name) => ({
           name,
-          itemStyle: { color: PALETTE[[...names].indexOf(name) % PALETTE.length] },
+          itemStyle: { color: PALETTE[ordered.indexOf(name) % PALETTE.length] },
         })),
-        links: [...links.values()],
+        links: edges.map((edge) => ({
+          source: edge.from_label,
+          target: edge.to_label,
+          value: edge.count,
+        })),
       },
     ],
   };
