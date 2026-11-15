@@ -224,7 +224,10 @@ def extract_snapshot(
         )
         print(f"  wrote {written} records, {failed} failed batches, ~${cost:.4f}")
 
-    records = sorted(records_by_key.values(), key=lambda r: (r["comment_id"], r["model"]))
+    records = sorted(
+        (record for record in records_by_key.values() if record.get("prompt_hash") == phash),
+        key=lambda r: (r["comment_id"], r["model"]),
+    )
     write_jsonl(paths["extractions"], records)
 
     by_comment: dict[str, dict[str, dict]] = {}
