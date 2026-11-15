@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import re
+
 from .taxonomy import alias_index
+
+OTHER_RE = re.compile(r"[^a-z0-9.+]+")
 
 FIELD_CATEGORIES: dict[str, tuple[str, ...]] = {
     "q1_subscriptions": ("subscription",),
@@ -20,6 +24,16 @@ def _index(taxonomy: dict, category: str) -> dict[str, str]:
     return _INDEX_CACHE[key]
 
 
+def slugify_other(name: str) -> str:
+    return OTHER_RE.sub("-", name.strip().lower()).strip("-")
+
+
+def normalize_node_id(node: str) -> str:
+    if node.startswith("other:"):
+        return f"other:{slugify_other(node[len('other:'):])}"
+    return node
+
+
 def canonicalize_node(raw: str, taxonomy: dict, categories: tuple[str, ...]) -> str:
     key = (raw or "").strip().lower()
     if not key:
@@ -30,7 +44,7 @@ def canonicalize_node(raw: str, taxonomy: dict, categories: tuple[str, ...]) -> 
         match = _index(taxonomy, category).get(key)
         if match:
             return match
-    return f"other:{key}"
+    return f"other:{slugify_other(key)}"
 
 
 def canonicalize_record(record: dict, taxonomy: dict) -> dict:

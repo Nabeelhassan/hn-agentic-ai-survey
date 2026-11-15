@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from .canonicalize import normalize_node_id
 from .util import EVAL_DIR, read_json, read_jsonl, snapshot_paths, utc_now, write_json
 
 NODE_FIELDS = {
@@ -15,7 +16,7 @@ NODE_FIELDS = {
 
 
 def _nodes(record: dict, field: str) -> set[str]:
-    return {item.get("node") for item in record.get(field, []) if item.get("node")}
+    return {normalize_node_id(str(item.get("node"))) for item in record.get(field, []) if item.get("node")}
 
 
 def _prf(true_positive: int, predicted: int, actual: int) -> dict:
@@ -62,7 +63,7 @@ def evaluate_snapshot(snapshot_id: str, gold_path: Path | None = None, model: st
         if predicted.get("answers_questions") == expected.get("answers_questions"):
             answer_correct += 1
         for field in NODE_FIELDS:
-            actual_nodes = set(expected.get(field, []))
+            actual_nodes = {normalize_node_id(node) for node in expected.get(field, [])}
             predicted_nodes = _nodes(predicted, field)
             per_field[field]["tp"] += len(actual_nodes & predicted_nodes)
             per_field[field]["predicted"] += len(predicted_nodes)
