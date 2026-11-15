@@ -1,0 +1,3638 @@
+{
+  "n_denominator": 413,
+  "n_with_subscription": 243,
+  "providers": [
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "count": 172,
+      "pct": 41.6,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367207",
+        "50367215",
+        "50367272",
+        "50367399",
+        "50367453",
+        "50367546",
+        "50367571",
+        "50367589",
+        "50367619",
+        "50367676",
+        "50367701",
+        "50367744",
+        "50367764",
+        "50367970",
+        "50367976",
+        "50368019",
+        "50368106",
+        "50368119",
+        "50368325",
+        "50368566",
+        "50368640",
+        "50370886",
+        "50372070",
+        "50373001",
+        "50373065",
+        "50373208",
+        "50373255",
+        "50373322",
+        "50373324",
+        "50373366",
+        "50373432",
+        "50373433",
+        "50373463",
+        "50373589",
+        "50373624",
+        "50373649",
+        "50373684",
+        "50373697",
+        "50373698",
+        "50373740",
+        "50373770",
+        "50373805",
+        "50373887",
+        "50373956",
+        "50373974",
+        "50373985",
+        "50374270",
+        "50374344",
+        "50374380",
+        "50374417",
+        "50374450",
+        "50374491",
+        "50374498",
+        "50374502",
+        "50374549",
+        "50374678",
+        "50374746",
+        "50374764",
+        "50374994",
+        "50375134",
+        "50375158",
+        "50375205",
+        "50375265",
+        "50375312",
+        "50375338",
+        "50375378",
+        "50375539",
+        "50375606",
+        "50375609",
+        "50375826",
+        "50375836",
+        "50375959",
+        "50375966",
+        "50376022",
+        "50376062",
+        "50376110",
+        "50376167",
+        "50376279",
+        "50376328",
+        "50376348",
+        "50376390",
+        "50376402",
+        "50376463",
+        "50376505",
+        "50376567",
+        "50376632",
+        "50376652",
+        "50376733",
+        "50376760",
+        "50376810",
+        "50376872",
+        "50377004",
+        "50377121",
+        "50377137",
+        "50377195",
+        "50377284",
+        "50377449",
+        "50377455",
+        "50377554",
+        "50377573",
+        "50377579",
+        "50377597",
+        "50377705",
+        "50377814",
+        "50377888",
+        "50378016",
+        "50378028",
+        "50378086",
+        "50378106",
+        "50378153",
+        "50378217",
+        "50378293",
+        "50378303",
+        "50378365",
+        "50378434",
+        "50378479",
+        "50378511",
+        "50378518",
+        "50378651",
+        "50378737",
+        "50378756",
+        "50378772",
+        "50378856",
+        "50378890",
+        "50378897",
+        "50379016",
+        "50379165",
+        "50379312",
+        "50379352",
+        "50379355",
+        "50379612",
+        "50379685",
+        "50379808",
+        "50379819",
+        "50379840",
+        "50379944",
+        "50380005",
+        "50380213",
+        "50380233",
+        "50380358",
+        "50380371",
+        "50380407",
+        "50380504",
+        "50380522",
+        "50380888",
+        "50380973",
+        "50381009",
+        "50381092",
+        "50381382",
+        "50384963",
+        "50385108",
+        "50388077",
+        "50391245",
+        "50391332",
+        "50392572",
+        "50393227",
+        "50395313",
+        "50395602",
+        "50399014",
+        "50402364",
+        "50407369",
+        "50407937",
+        "50409929",
+        "50410297",
+        "50411017",
+        "50411184",
+        "50417991",
+        "50428201",
+        "50444232",
+        "50445173",
+        "50447027",
+        "50499298"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "count": 113,
+      "pct": 27.4,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367207",
+        "50367272",
+        "50367571",
+        "50367582",
+        "50367589",
+        "50367676",
+        "50367866",
+        "50367947",
+        "50367970",
+        "50367976",
+        "50368019",
+        "50368043",
+        "50368119",
+        "50368526",
+        "50368566",
+        "50369791",
+        "50370716",
+        "50370886",
+        "50373001",
+        "50373324",
+        "50373432",
+        "50373463",
+        "50373589",
+        "50373649",
+        "50373697",
+        "50373740",
+        "50373805",
+        "50373985",
+        "50374450",
+        "50374491",
+        "50374498",
+        "50374678",
+        "50374746",
+        "50375134",
+        "50375205",
+        "50375265",
+        "50375539",
+        "50375606",
+        "50375645",
+        "50375826",
+        "50375836",
+        "50375966",
+        "50376167",
+        "50376216",
+        "50376279",
+        "50376390",
+        "50376410",
+        "50376505",
+        "50376567",
+        "50376601",
+        "50376652",
+        "50376760",
+        "50376855",
+        "50376908",
+        "50377284",
+        "50377455",
+        "50377554",
+        "50377573",
+        "50377579",
+        "50377597",
+        "50377705",
+        "50377715",
+        "50377746",
+        "50377814",
+        "50377888",
+        "50377956",
+        "50378016",
+        "50378028",
+        "50378077",
+        "50378273",
+        "50378415",
+        "50378479",
+        "50378511",
+        "50378518",
+        "50378651",
+        "50378737",
+        "50378756",
+        "50378776",
+        "50378847",
+        "50378856",
+        "50378890",
+        "50378907",
+        "50379016",
+        "50379119",
+        "50379150",
+        "50379165",
+        "50379312",
+        "50379350",
+        "50379352",
+        "50379685",
+        "50379808",
+        "50379819",
+        "50380092",
+        "50380213",
+        "50380310",
+        "50380371",
+        "50380504",
+        "50380522",
+        "50380888",
+        "50381382",
+        "50381456",
+        "50381494",
+        "50384963",
+        "50387527",
+        "50391332",
+        "50395602",
+        "50399014",
+        "50407937",
+        "50410297",
+        "50428201",
+        "50444232",
+        "50447027",
+        "50457219",
+        "50499298"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "count": 21,
+      "pct": 5.1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367326",
+        "50367589",
+        "50367789",
+        "50370716",
+        "50373317",
+        "50373351",
+        "50373357",
+        "50373974",
+        "50374549",
+        "50374806",
+        "50375807",
+        "50376216",
+        "50376286",
+        "50376733",
+        "50377290",
+        "50377705",
+        "50378907",
+        "50379169",
+        "50380005",
+        "50380946",
+        "50381117",
+        "50381494"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "count": 19,
+      "pct": 4.6,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367399",
+        "50368119",
+        "50370886",
+        "50373357",
+        "50373432",
+        "50373740",
+        "50374261",
+        "50376463",
+        "50376538",
+        "50376848",
+        "50377290",
+        "50377500",
+        "50378217",
+        "50379016",
+        "50380185",
+        "50380473",
+        "50381009",
+        "50384963",
+        "50399014"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "count": 14,
+      "pct": 3.4,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367523",
+        "50373432",
+        "50373740",
+        "50374417",
+        "50374491",
+        "50375302",
+        "50375552",
+        "50377455",
+        "50377705",
+        "50378303",
+        "50380504",
+        "50395313",
+        "50399014",
+        "50410297"
+      ]
+    },
+    {
+      "node": "xai",
+      "label": "xAI (Grok plans)",
+      "count": 13,
+      "pct": 3.1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367523",
+        "50367582",
+        "50370886",
+        "50373740",
+        "50374678",
+        "50376652",
+        "50377290",
+        "50379150",
+        "50380200",
+        "50380522",
+        "50391332",
+        "50410297",
+        "50457219"
+      ]
+    },
+    {
+      "node": "zai",
+      "label": "Z.ai (GLM plans)",
+      "count": 9,
+      "pct": 2.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50370716",
+        "50373447",
+        "50374094",
+        "50374678",
+        "50376056",
+        "50376488",
+        "50377579",
+        "50380522",
+        "50385925"
+      ]
+    },
+    {
+      "node": "copilot",
+      "label": "GitHub Copilot",
+      "count": 5,
+      "pct": 1.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368526",
+        "50378415",
+        "50380092",
+        "50380946",
+        "50407937"
+      ]
+    },
+    {
+      "node": "mistral",
+      "label": "Mistral",
+      "count": 4,
+      "pct": 1.0,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367326",
+        "50377144",
+        "50380252",
+        "50399014"
+      ]
+    },
+    {
+      "node": "moonshot",
+      "label": "Moonshot (Kimi plans)",
+      "count": 4,
+      "pct": 1.0,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367326",
+        "50373740",
+        "50373805",
+        "50377579"
+      ]
+    },
+    {
+      "node": "muse-code",
+      "label": "Muse Code",
+      "count": 4,
+      "pct": 1.0,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373256",
+        "50373740",
+        "50376760",
+        "50377888"
+      ]
+    },
+    {
+      "node": "other:ollama",
+      "label": "ollama",
+      "count": 4,
+      "pct": 1.0,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376733",
+        "50376782",
+        "50380092",
+        "50380609"
+      ]
+    },
+    {
+      "node": "perplexity",
+      "label": "Perplexity",
+      "count": 3,
+      "pct": 0.7,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374502",
+        "50380640",
+        "50385840"
+      ]
+    },
+    {
+      "node": "other:deepseek",
+      "label": "deepseek",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50385812",
+        "50417991"
+      ]
+    },
+    {
+      "node": "other:muse",
+      "label": "muse",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367744",
+        "50374678"
+      ]
+    },
+    {
+      "node": "synthetic",
+      "label": "Synthetic",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50383038",
+        "50409929"
+      ]
+    },
+    {
+      "node": "other:antigravity",
+      "label": "antigravity",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374491"
+      ]
+    },
+    {
+      "node": "other:charm-hyper",
+      "label": "charm-hyper",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "node": "codebuddy",
+      "label": "CodeBuddy",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50391332"
+      ]
+    },
+    {
+      "node": "other:codex",
+      "label": "codex",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374764"
+      ]
+    },
+    {
+      "node": "other:exe.dev",
+      "label": "exe.dev",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376381"
+      ]
+    },
+    {
+      "node": "other:fable",
+      "label": "fable",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50381009"
+      ]
+    },
+    {
+      "node": "melious",
+      "label": "Melious",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367557"
+      ]
+    },
+    {
+      "node": "other:meta-ai",
+      "label": "meta-ai",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380473"
+      ]
+    },
+    {
+      "node": "other:nous",
+      "label": "nous",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380232"
+      ]
+    },
+    {
+      "node": "other:opencode-go",
+      "label": "opencode-go",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378279"
+      ]
+    },
+    {
+      "node": "other:opencode-zen",
+      "label": "opencode-zen",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376760"
+      ]
+    },
+    {
+      "node": "other:suno",
+      "label": "suno",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50428201"
+      ]
+    },
+    {
+      "node": "other:unnamed",
+      "label": "unnamed",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373236"
+      ]
+    },
+    {
+      "node": "other:xiaomi-mimo",
+      "label": "xiaomi-mimo",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374722"
+      ]
+    },
+    {
+      "node": "unstated",
+      "label": "Unstated",
+      "count": 170,
+      "pct": 41.2,
+      "n_denominator": 413,
+      "comment_ids": []
+    }
+  ],
+  "tiers": [
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Ultra",
+      "count": 24,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367272",
+        "50367571",
+        "50367976",
+        "50368640",
+        "50370886",
+        "50373001",
+        "50373432",
+        "50373684",
+        "50373740",
+        "50374764",
+        "50375158",
+        "50375312",
+        "50375338",
+        "50376348",
+        "50376652",
+        "50377449",
+        "50377455",
+        "50377597",
+        "50377814",
+        "50378737",
+        "50379312",
+        "50379819",
+        "50399014",
+        "50407369"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "unspecified",
+      "count": 23,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367546",
+        "50367589",
+        "50367676",
+        "50367764",
+        "50368019",
+        "50374491",
+        "50374678",
+        "50375966",
+        "50376022",
+        "50376167",
+        "50378028",
+        "50378890",
+        "50379165",
+        "50380213",
+        "50380522",
+        "50381009",
+        "50381382",
+        "50391245",
+        "50392572",
+        "50409929",
+        "50411017",
+        "50417991",
+        "50445173"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "unspecified",
+      "count": 21,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367589",
+        "50367676",
+        "50368019",
+        "50368119",
+        "50374491",
+        "50374678",
+        "50375826",
+        "50375966",
+        "50376167",
+        "50376601",
+        "50376652",
+        "50378028",
+        "50378890",
+        "50379150",
+        "50379165",
+        "50380213",
+        "50380522",
+        "50381382",
+        "50381494",
+        "50384963",
+        "50444232"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$20",
+      "count": 12,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373432",
+        "50376216",
+        "50376279",
+        "50376410",
+        "50377284",
+        "50377888",
+        "50378479",
+        "50378518",
+        "50378651",
+        "50378776",
+        "50378907",
+        "50407937"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Plus",
+      "count": 12,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367582",
+        "50367970",
+        "50367976",
+        "50368526",
+        "50370716",
+        "50370886",
+        "50376390",
+        "50377597",
+        "50377715",
+        "50377746",
+        "50379312",
+        "50379350"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$100",
+      "count": 10,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368566",
+        "50375826",
+        "50376505",
+        "50377705",
+        "50378479",
+        "50378518",
+        "50378651",
+        "50379685",
+        "50379944",
+        "50447027"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Pro",
+      "count": 10,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368325",
+        "50373366",
+        "50374344",
+        "50374549",
+        "50375378",
+        "50375959",
+        "50378086",
+        "50378293",
+        "50381092",
+        "50411184"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$20",
+      "count": 9,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367215",
+        "50373255",
+        "50373974",
+        "50377284",
+        "50380005",
+        "50380973",
+        "50388077",
+        "50391332",
+        "50407937"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$200",
+      "count": 9,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367207",
+        "50375539",
+        "50375836",
+        "50376760",
+        "50378756",
+        "50379352",
+        "50380358",
+        "50380371",
+        "50395313"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Max",
+      "count": 9,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367453",
+        "50367619",
+        "50367970",
+        "50368119",
+        "50376279",
+        "50376872",
+        "50377121",
+        "50378511",
+        "50379840"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Pro",
+      "count": 9,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367571",
+        "50373001",
+        "50376567",
+        "50378511",
+        "50378737",
+        "50379819",
+        "50380092",
+        "50381456",
+        "50399014"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$100",
+      "count": 8,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368566",
+        "50376505",
+        "50377705",
+        "50378756",
+        "50379352",
+        "50380371",
+        "50391332",
+        "50447027"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "pro",
+      "count": 7,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50372070",
+        "50373805",
+        "50376110",
+        "50376733",
+        "50377195",
+        "50378106",
+        "50393227"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$200",
+      "count": 7,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367207",
+        "50375539",
+        "50375836",
+        "50376760",
+        "50378077",
+        "50379119",
+        "50379685"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "$10",
+      "count": 7,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373351",
+        "50374806",
+        "50376216",
+        "50377705",
+        "50378907",
+        "50379169",
+        "50380005",
+        "50381117"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$20/mo",
+      "count": 5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373624",
+        "50373698",
+        "50378856",
+        "50379612",
+        "50380888"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "max",
+      "count": 5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373697",
+        "50373887",
+        "50375609",
+        "50376632",
+        "50377137"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "ultra",
+      "count": 5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367701",
+        "50374270",
+        "50375606",
+        "50378016",
+        "50378434"
+      ]
+    },
+    {
+      "node": "xai",
+      "label": "xAI (Grok plans)",
+      "tier_raw": "unspecified",
+      "count": 5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367523",
+        "50374678",
+        "50379150",
+        "50380200",
+        "50380522"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$20/month",
+      "count": 4,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373589",
+        "50374417",
+        "50380233",
+        "50380504"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "unspecified",
+      "count": 4,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367523",
+        "50374491",
+        "50375552",
+        "50399014"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "unspecified",
+      "count": 4,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368119",
+        "50373357",
+        "50384963",
+        "50399014"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "Google AI Pro",
+      "count": 3,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373740",
+        "50377290",
+        "50380473"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "Pro",
+      "count": 3,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50370886",
+        "50376848",
+        "50377500"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$100 plan",
+      "count": 3,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378273",
+        "50457219",
+        "50499298"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Pro 200",
+      "count": 3,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373324",
+        "50373740",
+        "50376855"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "Go",
+      "count": 3,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367589",
+        "50370716",
+        "50374549"
+      ]
+    },
+    {
+      "node": "zai",
+      "label": "Z.ai (GLM plans)",
+      "tier_raw": "unspecified",
+      "count": 3,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374678",
+        "50376488",
+        "50385925"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$100/mo",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367399",
+        "50374994"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "basic",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378303",
+        "50378772"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "$20",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373432",
+        "50377705"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "$20/month",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374417",
+        "50380504"
+      ]
+    },
+    {
+      "node": "copilot",
+      "label": "GitHub Copilot",
+      "tier_raw": "unspecified",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380092",
+        "50380946"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "Ultra",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376538",
+        "50380185"
+      ]
+    },
+    {
+      "node": "mistral",
+      "label": "Mistral",
+      "tier_raw": "unspecified",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377144",
+        "50399014"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$20/mo",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378856",
+        "50380888"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$20/month",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373589",
+        "50380504"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Pro 100",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375205",
+        "50378847"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "codex pro",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373649",
+        "50375265"
+      ]
+    },
+    {
+      "node": "other:deepseek",
+      "label": "other:deepseek",
+      "tier_raw": "unspecified",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50385812",
+        "50417991"
+      ]
+    },
+    {
+      "node": "xai",
+      "label": "xAI (Grok plans)",
+      "tier_raw": "SuperGrok",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50370886",
+        "50373740"
+      ]
+    },
+    {
+      "node": "xai",
+      "label": "xAI (Grok plans)",
+      "tier_raw": "X Premium",
+      "count": 2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376652",
+        "50377290"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$100 for business",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379355"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$100 plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50499298"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$100/m",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376062"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$100/plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50428201"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$20 Claude subscription",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367744"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$20 tier",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379016"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$200 max x5 plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373065"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$200/ea",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373985"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$200/mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50395602"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "$20usd",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373433"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "100 USD",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379808"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "100$/mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373208"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "180 euro / month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377573"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "20$",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376402"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "200/mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373956"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "5x Claude sub",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374498"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Claude Max",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374502"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Claude Pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50385108"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Claude ultra",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375265"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "MAX",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "MAX plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380407"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Max $100",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378365"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Max ($100)",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377888"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Max (£90/month)",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377004"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Max 200",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373324"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Max 20x",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376567"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Max 5x",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376390"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Max plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374380"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Pro ($20/mo)",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376463"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Pro 20",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375205"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Pro 20$/mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376810"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Ultra (200)",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374746"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Ultra (aka Max 20x)",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373322"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Ultra aka 20x Max, about $250/mo incl VAT",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376328"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "Ultra plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377554"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "annual 200 bucks",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378217"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "claude team pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373649"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "max 200",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374450"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "max 20x",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378897"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "monthly",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368106"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "opus 5.5",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378153"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "pro 100",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50444232"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "pro monthly",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373770"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "smallest plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50384963"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "top tier",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377579"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "ultra plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375134"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "~$200/month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373463"
+      ]
+    },
+    {
+      "node": "anthropic",
+      "label": "Anthropic (Claude plans)",
+      "tier_raw": "£18 a month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50402364"
+      ]
+    },
+    {
+      "node": "codebuddy",
+      "label": "CodeBuddy",
+      "tier_raw": "pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50391332"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "$16 a month on annual plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378303"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "$1k/month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375302"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "$200",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50395313"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "200",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "Cursor Pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373740"
+      ]
+    },
+    {
+      "node": "cursor",
+      "label": "Cursor",
+      "tier_raw": "Pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377455"
+      ]
+    },
+    {
+      "node": "copilot",
+      "label": "GitHub Copilot",
+      "tier_raw": "$10",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50407937"
+      ]
+    },
+    {
+      "node": "copilot",
+      "label": "GitHub Copilot",
+      "tier_raw": "$100",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368526"
+      ]
+    },
+    {
+      "node": "copilot",
+      "label": "GitHub Copilot",
+      "tier_raw": "max plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378415"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "$100/mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367399"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "$20",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373432"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "$20 tier",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379016"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "20 buck a month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378217"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "AI Premium ($20/mo)",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376463"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "Google One subcription",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50381009"
+      ]
+    },
+    {
+      "node": "google",
+      "label": "Google (Gemini plans)",
+      "tier_raw": "Google Ultra $100/month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374261"
+      ]
+    },
+    {
+      "node": "melious",
+      "label": "Melious",
+      "tier_raw": "Pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367557"
+      ]
+    },
+    {
+      "node": "mistral",
+      "label": "Mistral",
+      "tier_raw": "$14.99 /mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380252"
+      ]
+    },
+    {
+      "node": "mistral",
+      "label": "Mistral",
+      "tier_raw": "Pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367326"
+      ]
+    },
+    {
+      "node": "moonshot",
+      "label": "Moonshot (Kimi plans)",
+      "tier_raw": "Kimi Pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373740"
+      ]
+    },
+    {
+      "node": "moonshot",
+      "label": "Moonshot (Kimi plans)",
+      "tier_raw": "pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373805"
+      ]
+    },
+    {
+      "node": "moonshot",
+      "label": "Moonshot (Kimi plans)",
+      "tier_raw": "top tier",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377579"
+      ]
+    },
+    {
+      "node": "moonshot",
+      "label": "Moonshot (Kimi plans)",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367326"
+      ]
+    },
+    {
+      "node": "muse-code",
+      "label": "Muse Code",
+      "tier_raw": "$12?",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377888"
+      ]
+    },
+    {
+      "node": "muse-code",
+      "label": "Muse Code",
+      "tier_raw": "$5 month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373256"
+      ]
+    },
+    {
+      "node": "muse-code",
+      "label": "Muse Code",
+      "tier_raw": "$50",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376760"
+      ]
+    },
+    {
+      "node": "muse-code",
+      "label": "Muse Code",
+      "tier_raw": "High Usage",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373740"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$100 mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368043"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$100/mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367272"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$100/plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50428201"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$20 sub",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380310"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$20 tier",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379016"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$200/ea",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373985"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$200/mo",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50395602"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "$500 a month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375606"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "100 USD",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379808"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "100 USD / month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377573"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "100 plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377814"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "20",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374746"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "200 plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377554"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "500",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Business (premium seat)",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377455"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Business Plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376908"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Business Premium",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50369791"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Plus (20 bucks)",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377956"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "Pro x 1",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367866",
+        "50367947"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "business",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373805"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "casual plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50387527"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "cheap",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378016"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "go plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375134"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "max",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373697"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "max 200 codex",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374450"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "plus",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375645"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "pro lite codex sub",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374498"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "team",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377579"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "teams/business plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378415"
+      ]
+    },
+    {
+      "node": "openai",
+      "label": "OpenAI (ChatGPT plans)",
+      "tier_raw": "~$200/month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373463"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "$10 Opencode Go plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373317"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "$10/month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367789"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "$40",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373974"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "$50 a month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375807"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "10 dollars",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50381494"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "10$",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380946"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "10euro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376286"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "Go Plus",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367326"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "USD40",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373357"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "go",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376733"
+      ]
+    },
+    {
+      "node": "opencode",
+      "label": "OpenCode",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377290"
+      ]
+    },
+    {
+      "node": "perplexity",
+      "label": "Perplexity",
+      "tier_raw": "$17 per month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50385840"
+      ]
+    },
+    {
+      "node": "perplexity",
+      "label": "Perplexity",
+      "tier_raw": "$17/month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380640"
+      ]
+    },
+    {
+      "node": "perplexity",
+      "label": "Perplexity",
+      "tier_raw": "legacy",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374502"
+      ]
+    },
+    {
+      "node": "synthetic",
+      "label": "Synthetic",
+      "tier_raw": "$10",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "node": "synthetic",
+      "label": "Synthetic",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50409929"
+      ]
+    },
+    {
+      "node": "zai",
+      "label": "Z.ai (GLM plans)",
+      "tier_raw": "$14 a month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373447"
+      ]
+    },
+    {
+      "node": "zai",
+      "label": "Z.ai (GLM plans)",
+      "tier_raw": "1 year subscription for their mid tier",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376056"
+      ]
+    },
+    {
+      "node": "zai",
+      "label": "Z.ai (GLM plans)",
+      "tier_raw": "GLM 5.3",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380522"
+      ]
+    },
+    {
+      "node": "zai",
+      "label": "Z.ai (GLM plans)",
+      "tier_raw": "GLM Coding Lite-Monthly Plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50370716"
+      ]
+    },
+    {
+      "node": "zai",
+      "label": "Z.ai (GLM plans)",
+      "tier_raw": "top tier",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377579"
+      ]
+    },
+    {
+      "node": "zai",
+      "label": "Z.ai (GLM plans)",
+      "tier_raw": "~9USD/month lite sub",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374094"
+      ]
+    },
+    {
+      "node": "other:antigravity",
+      "label": "other:antigravity",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374491"
+      ]
+    },
+    {
+      "node": "other:charm-hyper",
+      "label": "other:charm-hyper",
+      "tier_raw": "$10",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "node": "other:codex",
+      "label": "other:codex",
+      "tier_raw": "Plus",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374764"
+      ]
+    },
+    {
+      "node": "other:exe.dev",
+      "label": "other:exe.dev",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376381"
+      ]
+    },
+    {
+      "node": "other:fable",
+      "label": "other:fable",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50381009"
+      ]
+    },
+    {
+      "node": "other:meta-ai",
+      "label": "other:meta-ai",
+      "tier_raw": "pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380473"
+      ]
+    },
+    {
+      "node": "other:muse",
+      "label": "other:muse",
+      "tier_raw": "$5/month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367744"
+      ]
+    },
+    {
+      "node": "other:muse",
+      "label": "other:muse",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374678"
+      ]
+    },
+    {
+      "node": "other:nous",
+      "label": "other:nous",
+      "tier_raw": "$20/month",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380232"
+      ]
+    },
+    {
+      "node": "other:ollama",
+      "label": "other:ollama",
+      "tier_raw": "Cloud",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376782"
+      ]
+    },
+    {
+      "node": "other:ollama",
+      "label": "other:ollama",
+      "tier_raw": "Max",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380092"
+      ]
+    },
+    {
+      "node": "other:ollama",
+      "label": "other:ollama",
+      "tier_raw": "Pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380609"
+      ]
+    },
+    {
+      "node": "other:ollama",
+      "label": "other:ollama",
+      "tier_raw": "pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376733"
+      ]
+    },
+    {
+      "node": "other:opencode-go",
+      "label": "other:opencode-go",
+      "tier_raw": "$10",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378279"
+      ]
+    },
+    {
+      "node": "other:opencode-zen",
+      "label": "other:opencode-zen",
+      "tier_raw": "$40",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376760"
+      ]
+    },
+    {
+      "node": "other:suno",
+      "label": "other:suno",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50428201"
+      ]
+    },
+    {
+      "node": "other:unnamed",
+      "label": "other:unnamed",
+      "tier_raw": "$200",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373236"
+      ]
+    },
+    {
+      "node": "other:xiaomi-mimo",
+      "label": "other:xiaomi-mimo",
+      "tier_raw": "Pro",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374722"
+      ]
+    },
+    {
+      "node": "xai",
+      "label": "xAI (Grok plans)",
+      "tier_raw": "$100 plan",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50457219"
+      ]
+    },
+    {
+      "node": "xai",
+      "label": "xAI (Grok plans)",
+      "tier_raw": "$30 for three months",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50391332"
+      ]
+    },
+    {
+      "node": "xai",
+      "label": "xAI (Grok plans)",
+      "tier_raw": "200",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "node": "xai",
+      "label": "xAI (Grok plans)",
+      "tier_raw": "three months at $30",
+      "count": 1,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367582"
+      ]
+    }
+  ],
+  "multi_subscription": [
+    {
+      "node": "true",
+      "label": "Two or more",
+      "count": 124,
+      "pct": 30.0,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367207",
+        "50367272",
+        "50367326",
+        "50367399",
+        "50367523",
+        "50367571",
+        "50367582",
+        "50367589",
+        "50367676",
+        "50367744",
+        "50367764",
+        "50367970",
+        "50367976",
+        "50368019",
+        "50368119",
+        "50368526",
+        "50368566",
+        "50370716",
+        "50370886",
+        "50373001",
+        "50373324",
+        "50373357",
+        "50373432",
+        "50373463",
+        "50373589",
+        "50373649",
+        "50373684",
+        "50373697",
+        "50373740",
+        "50373805",
+        "50373956",
+        "50373974",
+        "50373985",
+        "50374288",
+        "50374344",
+        "50374417",
+        "50374450",
+        "50374491",
+        "50374498",
+        "50374502",
+        "50374549",
+        "50374678",
+        "50374746",
+        "50374764",
+        "50375134",
+        "50375205",
+        "50375265",
+        "50375539",
+        "50375606",
+        "50375609",
+        "50375807",
+        "50375826",
+        "50375836",
+        "50375966",
+        "50376167",
+        "50376216",
+        "50376279",
+        "50376390",
+        "50376463",
+        "50376505",
+        "50376567",
+        "50376652",
+        "50376733",
+        "50376760",
+        "50376855",
+        "50377284",
+        "50377290",
+        "50377455",
+        "50377554",
+        "50377573",
+        "50377579",
+        "50377597",
+        "50377705",
+        "50377814",
+        "50377888",
+        "50378016",
+        "50378028",
+        "50378217",
+        "50378303",
+        "50378415",
+        "50378434",
+        "50378479",
+        "50378511",
+        "50378518",
+        "50378651",
+        "50378737",
+        "50378756",
+        "50378856",
+        "50378890",
+        "50378907",
+        "50379016",
+        "50379150",
+        "50379165",
+        "50379312",
+        "50379352",
+        "50379612",
+        "50379685",
+        "50379819",
+        "50380005",
+        "50380092",
+        "50380213",
+        "50380371",
+        "50380473",
+        "50380504",
+        "50380522",
+        "50380888",
+        "50380946",
+        "50381009",
+        "50381382",
+        "50381494",
+        "50383038",
+        "50384963",
+        "50391332",
+        "50395313",
+        "50395602",
+        "50399014",
+        "50407937",
+        "50409929",
+        "50410297",
+        "50428201",
+        "50444232",
+        "50447027",
+        "50457219",
+        "50499298"
+      ]
+    },
+    {
+      "node": "false",
+      "label": "One",
+      "count": 151,
+      "pct": 36.6,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367215",
+        "50367453",
+        "50367460",
+        "50367546",
+        "50367557",
+        "50367619",
+        "50367701",
+        "50367789",
+        "50367866",
+        "50367947",
+        "50367965",
+        "50368031",
+        "50368043",
+        "50368106",
+        "50368325",
+        "50368640",
+        "50369791",
+        "50371770",
+        "50372070",
+        "50373065",
+        "50373208",
+        "50373236",
+        "50373248",
+        "50373255",
+        "50373256",
+        "50373317",
+        "50373322",
+        "50373351",
+        "50373366",
+        "50373433",
+        "50373447",
+        "50373624",
+        "50373698",
+        "50373731",
+        "50373734",
+        "50373741",
+        "50373770",
+        "50373811",
+        "50373887",
+        "50373975",
+        "50374094",
+        "50374261",
+        "50374270",
+        "50374298",
+        "50374380",
+        "50374449",
+        "50374455",
+        "50374458",
+        "50374626",
+        "50374722",
+        "50374806",
+        "50374994",
+        "50375302",
+        "50375312",
+        "50375338",
+        "50375378",
+        "50375552",
+        "50375575",
+        "50375645",
+        "50375773",
+        "50375782",
+        "50375959",
+        "50376022",
+        "50376056",
+        "50376062",
+        "50376110",
+        "50376145",
+        "50376149",
+        "50376286",
+        "50376328",
+        "50376348",
+        "50376381",
+        "50376402",
+        "50376410",
+        "50376488",
+        "50376538",
+        "50376601",
+        "50376632",
+        "50376720",
+        "50376778",
+        "50376782",
+        "50376810",
+        "50376908",
+        "50376965",
+        "50376993",
+        "50377004",
+        "50377121",
+        "50377144",
+        "50377173",
+        "50377195",
+        "50377449",
+        "50377450",
+        "50377453",
+        "50377500",
+        "50377557",
+        "50377715",
+        "50377746",
+        "50377956",
+        "50378067",
+        "50378077",
+        "50378086",
+        "50378153",
+        "50378227",
+        "50378273",
+        "50378279",
+        "50378365",
+        "50378681",
+        "50378772",
+        "50378776",
+        "50378847",
+        "50378897",
+        "50379119",
+        "50379169",
+        "50379350",
+        "50379355",
+        "50379482",
+        "50379530",
+        "50379808",
+        "50379840",
+        "50379944",
+        "50380057",
+        "50380200",
+        "50380232",
+        "50380233",
+        "50380252",
+        "50380254",
+        "50380281",
+        "50380310",
+        "50380358",
+        "50380407",
+        "50380509",
+        "50380609",
+        "50380640",
+        "50380756",
+        "50380973",
+        "50381092",
+        "50381117",
+        "50381456",
+        "50385108",
+        "50385251",
+        "50385415",
+        "50385740",
+        "50385840",
+        "50385925",
+        "50387527",
+        "50387654",
+        "50388077",
+        "50391245",
+        "50393227",
+        "50402364",
+        "50411017",
+        "50411184",
+        "50445173"
+      ]
+    },
+    {
+      "node": "unstated",
+      "label": "Unstated",
+      "count": 138,
+      "pct": 33.4,
+      "n_denominator": 413,
+      "comment_ids": []
+    }
+  ],
+  "spend": {
+    "stated": 57,
+    "values": [
+      {
+        "author": "furyofantares",
+        "usd": 1000.0,
+        "comment_ids": [
+          "50375539"
+        ]
+      },
+      {
+        "author": "spilist",
+        "usd": 690.0,
+        "comment_ids": [
+          "50376760"
+        ]
+      },
+      {
+        "author": "jeswin",
+        "usd": 600.0,
+        "comment_ids": [
+          "50373324"
+        ]
+      },
+      {
+        "author": "shepherdjerred",
+        "usd": 500.0,
+        "comment_ids": [
+          "50373740"
+        ]
+      },
+      {
+        "author": "bphish",
+        "usd": 400.0,
+        "comment_ids": [
+          "50395602"
+        ]
+      },
+      {
+        "author": "codingbear",
+        "usd": 400.0,
+        "comment_ids": [
+          "50367207"
+        ]
+      },
+      {
+        "author": "jvidalv",
+        "usd": 400.0,
+        "comment_ids": [
+          "50377554"
+        ]
+      },
+      {
+        "author": "qurren",
+        "usd": 400.0,
+        "comment_ids": [
+          "50375836"
+        ]
+      },
+      {
+        "author": "senordevnyc",
+        "usd": 400.0,
+        "comment_ids": [
+          "50395313"
+        ]
+      },
+      {
+        "author": "wahnfrieden",
+        "usd": 400.0,
+        "comment_ids": [
+          "50376855"
+        ]
+      },
+      {
+        "author": "JoeMattie",
+        "usd": 300.0,
+        "comment_ids": [
+          "50380371"
+        ]
+      },
+      {
+        "author": "marshalla",
+        "usd": 300.0,
+        "comment_ids": [
+          "50367399"
+        ]
+      },
+      {
+        "author": "rhodey",
+        "usd": 300.0,
+        "comment_ids": [
+          "50379685"
+        ]
+      },
+      {
+        "author": "sgt",
+        "usd": 250.0,
+        "comment_ids": [
+          "50376328"
+        ]
+      },
+      {
+        "author": "jauzeyimam",
+        "usd": 220.0,
+        "comment_ids": [
+          "50374746"
+        ]
+      },
+      {
+        "author": "AaronAPU",
+        "usd": 200.0,
+        "comment_ids": [
+          "50368566"
+        ]
+      },
+      {
+        "author": "KronisLV",
+        "usd": 200.0,
+        "comment_ids": [
+          "50379808"
+        ]
+      },
+      {
+        "author": "brentrockwood",
+        "usd": 200.0,
+        "comment_ids": [
+          "50378077"
+        ]
+      },
+      {
+        "author": "brightball",
+        "usd": 200.0,
+        "comment_ids": [
+          "50367523"
+        ]
+      },
+      {
+        "author": "syntex",
+        "usd": 200.0,
+        "comment_ids": [
+          "50380358"
+        ]
+      },
+      {
+        "author": "Northernator11",
+        "usd": 130.0,
+        "comment_ids": [
+          "50391332"
+        ]
+      },
+      {
+        "author": "FrameworkFred",
+        "usd": 120.0,
+        "comment_ids": [
+          "50379612"
+        ]
+      },
+      {
+        "author": "bsenftner",
+        "usd": 100.0,
+        "comment_ids": [
+          "50368043"
+        ]
+      },
+      {
+        "author": "dcferreira",
+        "usd": 100.0,
+        "comment_ids": [
+          "50379944"
+        ]
+      },
+      {
+        "author": "fritzo",
+        "usd": 100.0,
+        "comment_ids": [
+          "50380504"
+        ]
+      },
+      {
+        "author": "ls612",
+        "usd": 100.0,
+        "comment_ids": [
+          "50374994"
+        ]
+      },
+      {
+        "author": "willio58",
+        "usd": 100.0,
+        "comment_ids": [
+          "50373208"
+        ]
+      },
+      {
+        "author": "Footprint0521",
+        "usd": 50.0,
+        "comment_ids": [
+          "50375807"
+        ]
+      },
+      {
+        "author": "faradaycage314",
+        "usd": 50.0,
+        "comment_ids": [
+          "50407937"
+        ]
+      },
+      {
+        "author": "JheisonMB",
+        "usd": 40.0,
+        "comment_ids": [
+          "50385108"
+        ]
+      },
+      {
+        "author": "bookdood",
+        "usd": 40.0,
+        "comment_ids": [
+          "50380888"
+        ]
+      },
+      {
+        "author": "fonrex",
+        "usd": 40.0,
+        "comment_ids": [
+          "50376463"
+        ]
+      },
+      {
+        "author": "jbvlkt",
+        "usd": 40.0,
+        "comment_ids": [
+          "50377284"
+        ]
+      },
+      {
+        "author": "GoodFriday",
+        "usd": 30.0,
+        "comment_ids": [
+          "50380005"
+        ]
+      },
+      {
+        "author": "0xbadcafebee",
+        "usd": 20.0,
+        "comment_ids": [
+          "50383038"
+        ]
+      },
+      {
+        "author": "Bayart",
+        "usd": 20.0,
+        "comment_ids": [
+          "50380310"
+        ]
+      },
+      {
+        "author": "Macha",
+        "usd": 20.0,
+        "comment_ids": [
+          "50373624"
+        ]
+      },
+      {
+        "author": "Primer81",
+        "usd": 20.0,
+        "comment_ids": [
+          "50385251"
+        ]
+      },
+      {
+        "author": "__s",
+        "usd": 20.0,
+        "comment_ids": [
+          "50376402"
+        ]
+      },
+      {
+        "author": "a-saleh",
+        "usd": 20.0,
+        "comment_ids": [
+          "50376810"
+        ]
+      },
+      {
+        "author": "chasd00",
+        "usd": 20.0,
+        "comment_ids": [
+          "50380233"
+        ]
+      },
+      {
+        "author": "deskamess",
+        "usd": 20.0,
+        "comment_ids": [
+          "50373255"
+        ]
+      },
+      {
+        "author": "pentakkusu",
+        "usd": 20.0,
+        "comment_ids": [
+          "50379350"
+        ]
+      },
+      {
+        "author": "profdevloper",
+        "usd": 20.0,
+        "comment_ids": [
+          "50373770"
+        ]
+      },
+      {
+        "author": "simlevesque",
+        "usd": 20.0,
+        "comment_ids": [
+          "50367215"
+        ]
+      },
+      {
+        "author": "vvilliamperez",
+        "usd": 20.0,
+        "comment_ids": [
+          "50380973"
+        ]
+      },
+      {
+        "author": "bookofjoe",
+        "usd": 17.0,
+        "comment_ids": [
+          "50380640"
+        ]
+      },
+      {
+        "author": "rihegher",
+        "usd": 14.99,
+        "comment_ids": [
+          "50380252"
+        ]
+      },
+      {
+        "author": "mazone",
+        "usd": 14.0,
+        "comment_ids": [
+          "50373447"
+        ]
+      },
+      {
+        "author": "FacelessJim",
+        "usd": 10.0,
+        "comment_ids": [
+          "50380946"
+        ]
+      },
+      {
+        "author": "Maxpowerfreak",
+        "usd": 10.0,
+        "comment_ids": [
+          "50378279"
+        ]
+      },
+      {
+        "author": "higginsniggins",
+        "usd": 10.0,
+        "comment_ids": [
+          "50381494"
+        ]
+      },
+      {
+        "author": "swiftcoder",
+        "usd": 10.0,
+        "comment_ids": [
+          "50367789"
+        ]
+      },
+      {
+        "author": "alexfortin",
+        "usd": 9.0,
+        "comment_ids": [
+          "50374094"
+        ]
+      },
+      {
+        "author": "0xcoffee",
+        "usd": 5.0,
+        "comment_ids": [
+          "50373256"
+        ]
+      },
+      {
+        "author": "ddxv",
+        "usd": 5.0,
+        "comment_ids": [
+          "50373975"
+        ]
+      },
+      {
+        "author": "techman001",
+        "usd": 4.37,
+        "comment_ids": [
+          "50376778"
+        ]
+      }
+    ],
+    "buckets": [
+      {
+        "label": "$0–20",
+        "count": 11,
+        "n_denominator": 57,
+        "comment_ids": [
+          "50367789",
+          "50373256",
+          "50373447",
+          "50373975",
+          "50374094",
+          "50376778",
+          "50378279",
+          "50380252",
+          "50380640",
+          "50380946",
+          "50381494"
+        ]
+      },
+      {
+        "label": "$20–50",
+        "count": 17,
+        "n_denominator": 57,
+        "comment_ids": [
+          "50367215",
+          "50373255",
+          "50373624",
+          "50373770",
+          "50376402",
+          "50376463",
+          "50376810",
+          "50377284",
+          "50379350",
+          "50380005",
+          "50380233",
+          "50380310",
+          "50380888",
+          "50380973",
+          "50383038",
+          "50385108",
+          "50385251"
+        ]
+      },
+      {
+        "label": "$50–100",
+        "count": 2,
+        "n_denominator": 57,
+        "comment_ids": [
+          "50375807",
+          "50407937"
+        ]
+      },
+      {
+        "label": "$100–200",
+        "count": 7,
+        "n_denominator": 57,
+        "comment_ids": [
+          "50368043",
+          "50373208",
+          "50374994",
+          "50379612",
+          "50379944",
+          "50380504",
+          "50391332"
+        ]
+      },
+      {
+        "label": "$200–500",
+        "count": 16,
+        "n_denominator": 57,
+        "comment_ids": [
+          "50367207",
+          "50367399",
+          "50367523",
+          "50368566",
+          "50374746",
+          "50375836",
+          "50376328",
+          "50376855",
+          "50377554",
+          "50378077",
+          "50379685",
+          "50379808",
+          "50380358",
+          "50380371",
+          "50395313",
+          "50395602"
+        ]
+      },
+      {
+        "label": "$500+",
+        "count": 4,
+        "n_denominator": 57,
+        "comment_ids": [
+          "50373324",
+          "50373740",
+          "50375539",
+          "50376760"
+        ]
+      }
+    ]
+  }
+}

@@ -15,5 +15,57 @@
       "both": 716,
       "firebase_only": 140
     }
+  },
+  "extraction": {
+    "schema_version": 1,
+    "taxonomy_version": 1,
+    "runs": [
+      {
+        "model": "z-ai/glm-5.3-flash",
+        "run_id": "2026-11-15T182416Z:z-ai/glm-5.3-flash:d47e6c6d",
+        "prompt_hash": "d47e6c6df3f2684c3d924db0ec9509ef2920885f3f379bf020784b06fd934ee4",
+        "taxonomy_version": 1,
+        "started_at": "2026-11-15T19:04:09.806984+00:00",
+        "finished_at": "2026-11-15T19:06:28.400886+00:00",
+        "batches": 28,
+        "batch_failures": 0,
+        "records_written": 833,
+        "usage": {
+          "input_tokens": 976586,
+          "output_tokens": 231518,
+          "cache_read_input_tokens": 0
+        },
+        "cost_usd": 0.2622
+      },
+      {
+        "model": "deepseek/deepseek-v4.1-flash",
+        "run_id": "2026-11-15T182416Z:deepseek/deepseek-v4.1-flash:d47e6c6d",
+        "prompt_hash": "d47e6c6df3f2684c3d924db0ec9509ef2920885f3f379bf020784b06fd934ee4",
+        "taxonomy_version": 1,
+        "started_at": "2026-11-15T19:06:28.401545+00:00",
+        "finished_at": "2026-11-15T19:15:08.860147+00:00",
+        "batches": 28,
+        "batch_failures": 0,
+        "records_written": 833,
+        "usage": {
+          "input_tokens": 626955,
+          "output_tokens": 385576,
+          "cache_read_input_tokens": 0
+        },
+        "cost_usd": 0.3254
+      }
+    ],
+    "records": 1666,
+    "comments_extracted": 833,
+    "review_items": 242,
+    "total_cost_usd": 0.5876
+  },
+  "merge": {
+    "merged_at": "2026-11-15T19:19:12.891250+00:00",
+    "respondents": 659,
+    "with_setup": 413,
+    "second_hand_only": 6,
+    "with_conflicts": 1,
+    "commenters": 659
   }
 }

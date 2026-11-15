@@ -1,0 +1,523 @@
+{
+  "snapshot_id": "2026-11-15T182416Z",
+  "generated_at": "2026-11-15T19:19:13.504506+00:00",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "gold_cases": 40,
+  "evaluated": 40,
+  "answers_questions_accuracy": 0.9,
+  "fields": {
+    "q1_subscriptions": {
+      "label": "subscriptions",
+      "precision": 1.0,
+      "recall": 0.971,
+      "f1": 0.986
+    },
+    "q2_outside": {
+      "label": "outside models",
+      "precision": 0.875,
+      "recall": 0.656,
+      "f1": 0.75
+    },
+    "q3_harnesses": {
+      "label": "harnesses",
+      "precision": 0.778,
+      "recall": 0.778,
+      "f1": 0.778
+    },
+    "q4_orchestration": {
+      "label": "orchestration",
+      "precision": 0.5,
+      "recall": 0.583,
+      "f1": 0.538
+    },
+    "q5_platforms": {
+      "label": "platforms",
+      "precision": 0.923,
+      "recall": 0.857,
+      "f1": 0.889
+    }
+  },
+  "misses": [
+    {
+      "comment_id": "50367557",
+      "field": "q2_outside",
+      "expected": [
+        "deepseek",
+        "glm",
+        "other:entrim"
+      ],
+      "predicted": [
+        "other:entrim"
+      ]
+    },
+    {
+      "comment_id": "50373248",
+      "field": "q2_outside",
+      "expected": [
+        "luna",
+        "openrouter",
+        "openwebui"
+      ],
+      "predicted": [
+        "openrouter",
+        "openwebui"
+      ]
+    },
+    {
+      "comment_id": "50373248",
+      "field": "q3_harnesses",
+      "expected": [
+        "copilot",
+        "opencode",
+        "pi"
+      ],
+      "predicted": [
+        "copilot",
+        "pi"
+      ]
+    },
+    {
+      "comment_id": "50373740",
+      "field": "q3_harnesses",
+      "expected": [
+        "antigravity",
+        "claude-code",
+        "codex-cli",
+        "other:grok-cli",
+        "other:kimi-cli",
+        "other:muse-cli"
+      ],
+      "predicted": [
+        "antigravity",
+        "claude-code",
+        "codex-cli",
+        "kimi-code",
+        "muse-code",
+        "other:grok-cli"
+      ]
+    },
+    {
+      "comment_id": "50373740",
+      "field": "q4_orchestration",
+      "expected": [],
+      "predicted": [
+        "herdr"
+      ]
+    },
+    {
+      "comment_id": "50374261",
+      "field": "q2_outside",
+      "expected": [
+        "deepseek",
+        "other:omlx",
+        "qwen"
+      ],
+      "predicted": [
+        "deepseek",
+        "qwen"
+      ]
+    },
+    {
+      "comment_id": "50374261",
+      "field": "q3_harnesses",
+      "expected": [
+        "antigravity",
+        "other:deepseek-harness"
+      ],
+      "predicted": [
+        "antigravity",
+        "other:dsh"
+      ]
+    },
+    {
+      "comment_id": "50374626",
+      "field": "q2_outside",
+      "expected": [
+        "anthropic-api",
+        "gemma",
+        "qwen"
+      ],
+      "predicted": [
+        "anthropic-api"
+      ]
+    },
+    {
+      "comment_id": "50375606",
+      "field": "q2_outside",
+      "expected": [
+        "deepseek",
+        "other:abliterated",
+        "other:mercury"
+      ],
+      "predicted": [
+        "deepseek",
+        "other:abliterated-large-v2",
+        "other:mercury-3"
+      ]
+    },
+    {
+      "comment_id": "50375606",
+      "field": "q3_harnesses",
+      "expected": [],
+      "predicted": [
+        "antigravity"
+      ]
+    },
+    {
+      "comment_id": "50375606",
+      "field": "q4_orchestration",
+      "expected": [
+        "nova-sprint"
+      ],
+      "predicted": [
+        "nova-sprint",
+        "other:nova-bus"
+      ]
+    },
+    {
+      "comment_id": "50376262",
+      "field": "q2_outside",
+      "expected": [
+        "deepseek",
+        "glm",
+        "ollama",
+        "sonnet"
+      ],
+      "predicted": [
+        "deepseek",
+        "ollama"
+      ]
+    },
+    {
+      "comment_id": "50376601",
+      "field": "q2_outside",
+      "expected": [
+        "glm",
+        "gpt",
+        "other:mlx-serve",
+        "other:ornith",
+        "qwen"
+      ],
+      "predicted": [
+        "glm",
+        "other:clef",
+        "other:mlx-serve",
+        "other:ornith",
+        "qwen"
+      ]
+    },
+    {
+      "comment_id": "50376601",
+      "field": "q3_harnesses",
+      "expected": [
+        "other:swival"
+      ],
+      "predicted": [
+        "other:swival.dev"
+      ]
+    },
+    {
+      "comment_id": "50377455",
+      "field": "q2_outside",
+      "expected": [
+        "openrouter",
+        "other:comfyui",
+        "qwen"
+      ],
+      "predicted": [
+        "openrouter",
+        "qwen"
+      ]
+    },
+    {
+      "comment_id": "50377455",
+      "field": "q4_orchestration",
+      "expected": [
+        "agent-orchestrator",
+        "other:mastra"
+      ],
+      "predicted": [
+        "other:mastra"
+      ]
+    },
+    {
+      "comment_id": "50377715",
+      "field": "q2_outside",
+      "expected": [
+        "openrouter"
+      ],
+      "predicted": [
+        "openrouter",
+        "other:llama.app"
+      ]
+    },
+    {
+      "comment_id": "50377715",
+      "field": "q3_harnesses",
+      "expected": [],
+      "predicted": [
+        "codex-cli",
+        "opencode",
+        "other:open-webui",
+        "zed"
+      ]
+    },
+    {
+      "comment_id": "50378737",
+      "field": "q4_orchestration",
+      "expected": [
+        "agent-orchestrator"
+      ],
+      "predicted": [
+        "other:poteto-mode"
+      ]
+    },
+    {
+      "comment_id": "50379352",
+      "field": "q5_platforms",
+      "expected": [
+        "other:workforce"
+      ],
+      "predicted": [
+        "other:clara"
+      ]
+    },
+    {
+      "comment_id": "50380633",
+      "field": "q2_outside",
+      "expected": [
+        "deepseek",
+        "other:ifm-k2-horizon",
+        "other:mlx"
+      ],
+      "predicted": [
+        "deepseek",
+        "other:ifm-k2-horizon"
+      ]
+    },
+    {
+      "comment_id": "50368106",
+      "field": "q2_outside",
+      "expected": [
+        "ollama",
+        "qwen"
+      ],
+      "predicted": [
+        "anthropic-api",
+        "ollama",
+        "qwen"
+      ]
+    },
+    {
+      "comment_id": "50368106",
+      "field": "q3_harnesses",
+      "expected": [
+        "claude-code",
+        "claude-ide"
+      ],
+      "predicted": [
+        "claude-code",
+        "claude-ide",
+        "hermes-agent"
+      ]
+    },
+    {
+      "comment_id": "50373624",
+      "field": "q2_outside",
+      "expected": [
+        "deepseek",
+        "glm",
+        "openrouter",
+        "qwen"
+      ],
+      "predicted": [
+        "deepseek",
+        "glm",
+        "openrouter"
+      ]
+    },
+    {
+      "comment_id": "50373624",
+      "field": "q3_harnesses",
+      "expected": [
+        "claude-code",
+        "zed"
+      ],
+      "predicted": [
+        "zed"
+      ]
+    },
+    {
+      "comment_id": "50374455",
+      "field": "q2_outside",
+      "expected": [
+        "openrouter",
+        "other:chinese-models"
+      ],
+      "predicted": [
+        "openrouter"
+      ]
+    },
+    {
+      "comment_id": "50376304",
+      "field": "q3_harnesses",
+      "expected": [
+        "claude-code"
+      ],
+      "predicted": []
+    },
+    {
+      "comment_id": "50377091",
+      "field": "q1_subscriptions",
+      "expected": [
+        "copilot"
+      ],
+      "predicted": []
+    },
+    {
+      "comment_id": "50379016",
+      "field": "q2_outside",
+      "expected": [
+        "glm",
+        "openrouter"
+      ],
+      "predicted": [
+        "openrouter"
+      ]
+    },
+    {
+      "comment_id": "50380232",
+      "field": "q2_outside",
+      "expected": [
+        "argon",
+        "deepseek",
+        "other:comfyui",
+        "other:flux",
+        "qwen"
+      ],
+      "predicted": [
+        "argon",
+        "deepseek",
+        "qwen"
+      ]
+    },
+    {
+      "comment_id": "50380232",
+      "field": "q3_harnesses",
+      "expected": [
+        "hermes-agent"
+      ],
+      "predicted": []
+    },
+    {
+      "comment_id": "50380973",
+      "field": "q3_harnesses",
+      "expected": [
+        "claude-code",
+        "claude-desktop"
+      ],
+      "predicted": [
+        "claude-code"
+      ]
+    },
+    {
+      "comment_id": "50385555",
+      "field": "q4_orchestration",
+      "expected": [],
+      "predicted": [
+        "other:openrig"
+      ]
+    },
+    {
+      "comment_id": "50373887",
+      "field": "q2_outside",
+      "expected": [
+        "fable"
+      ],
+      "predicted": []
+    },
+    {
+      "comment_id": "50377761",
+      "field": "q2_outside",
+      "expected": [
+        "other:halogen",
+        "qwen"
+      ],
+      "predicted": [
+        "qwen"
+      ]
+    },
+    {
+      "comment_id": "50379104",
+      "field": "q2_outside",
+      "expected": [
+        "deepseek",
+        "glm"
+      ],
+      "predicted": [
+        "deepseek"
+      ]
+    },
+    {
+      "comment_id": "50379104",
+      "field": "q3_harnesses",
+      "expected": [
+        "claude-code",
+        "oh-my-pi"
+      ],
+      "predicted": [
+        "oh-my-pi"
+      ]
+    },
+    {
+      "comment_id": "50379104",
+      "field": "q4_orchestration",
+      "expected": [
+        "hermes-agent"
+      ],
+      "predicted": [
+        "other:hermes"
+      ]
+    },
+    {
+      "comment_id": "50379104",
+      "field": "q5_platforms",
+      "expected": [
+        "hermes-agent"
+      ],
+      "predicted": []
+    },
+    {
+      "comment_id": "50410297",
+      "field": "q2_outside",
+      "expected": [
+        "anthropic-api",
+        "google-api",
+        "gpt",
+        "kimi",
+        "other:muse-voyage"
+      ],
+      "predicted": [
+        "anthropic-api",
+        "google-api",
+        "kimi",
+        "openai-api",
+        "other:muse-voyage"
+      ]
+    },
+    {
+      "comment_id": "50410297",
+      "field": "q4_orchestration",
+      "expected": [
+        "hermes-agent",
+        "openclaw",
+        "other:actvox"
+      ],
+      "predicted": [
+        "other:actvox",
+        "other:hermes",
+        "other:openclaw"
+      ]
+    }
+  ]
+}

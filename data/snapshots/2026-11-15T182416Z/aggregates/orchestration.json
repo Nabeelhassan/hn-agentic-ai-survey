@@ -1,0 +1,1244 @@
+{
+  "n_denominator": 413,
+  "orchestration": [
+    {
+      "node": "agent-orchestrator",
+      "label": "Custom orchestrator",
+      "count": 62,
+      "pct": 15.0,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367272",
+        "50367571",
+        "50367699",
+        "50367744",
+        "50367866",
+        "50367876",
+        "50367970",
+        "50367976",
+        "50373432",
+        "50373463",
+        "50373485",
+        "50373649",
+        "50373684",
+        "50373974",
+        "50374223",
+        "50374270",
+        "50374380",
+        "50374746",
+        "50374764",
+        "50374774",
+        "50374982",
+        "50375312",
+        "50375407",
+        "50375539",
+        "50376058",
+        "50376182",
+        "50376286",
+        "50376357",
+        "50376390",
+        "50376410",
+        "50376505",
+        "50376567",
+        "50376582",
+        "50376733",
+        "50376760",
+        "50376908",
+        "50377367",
+        "50377455",
+        "50377501",
+        "50377573",
+        "50377582",
+        "50377705",
+        "50378157",
+        "50378273",
+        "50378434",
+        "50379016",
+        "50379312",
+        "50379826",
+        "50380057",
+        "50380522",
+        "50380633",
+        "50384963",
+        "50385925",
+        "50386447",
+        "50387654",
+        "50389282",
+        "50389538",
+        "50395602",
+        "50399014",
+        "50402364",
+        "50407369",
+        "50407937"
+      ]
+    },
+    {
+      "node": "herdr",
+      "label": "Herdr",
+      "count": 24,
+      "pct": 5.8,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367338",
+        "50367484",
+        "50367523",
+        "50370716",
+        "50373697",
+        "50373740",
+        "50373956",
+        "50374449",
+        "50375407",
+        "50375546",
+        "50375826",
+        "50376454",
+        "50377063",
+        "50377137",
+        "50377290",
+        "50377888",
+        "50378776",
+        "50378856",
+        "50378946",
+        "50379119",
+        "50379944",
+        "50380252",
+        "50380946",
+        "50391245"
+      ]
+    },
+    {
+      "node": "orca",
+      "label": "Orca",
+      "count": 7,
+      "pct": 1.7,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367676",
+        "50373433",
+        "50373447",
+        "50379176",
+        "50379643",
+        "50380310",
+        "50419445"
+      ]
+    },
+    {
+      "node": "cmux",
+      "label": "cmux",
+      "count": 3,
+      "pct": 0.7,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378479",
+        "50388928",
+        "50419445"
+      ]
+    },
+    {
+      "node": "conductor",
+      "label": "Conductor",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367546",
+        "50379292"
+      ]
+    },
+    {
+      "node": "muster",
+      "label": "Muster",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373322",
+        "50374498"
+      ]
+    },
+    {
+      "node": "other:openrig",
+      "label": "openrig",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377449",
+        "50385555"
+      ]
+    },
+    {
+      "node": "other:paseo",
+      "label": "paseo",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367326",
+        "50376632"
+      ]
+    },
+    {
+      "node": "other:rex",
+      "label": "rex",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377121",
+        "50407369"
+      ]
+    },
+    {
+      "node": "other:actvox",
+      "label": "actvox",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "node": "other:agent-swarm.dev",
+      "label": "agent-swarm.dev",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378028"
+      ]
+    },
+    {
+      "node": "other:agentcron",
+      "label": "agentcron",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377430"
+      ]
+    },
+    {
+      "node": "other:belfry",
+      "label": "belfry",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368640"
+      ]
+    },
+    {
+      "node": "other:circus-chief",
+      "label": "circus-chief",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374678"
+      ]
+    },
+    {
+      "node": "other:claude-code",
+      "label": "claude-code",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376348"
+      ]
+    },
+    {
+      "node": "other:codealong",
+      "label": "codealong",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374491"
+      ]
+    },
+    {
+      "node": "other:codex-cli",
+      "label": "codex-cli",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376855"
+      ]
+    },
+    {
+      "node": "other:crewplane",
+      "label": "crewplane",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50444232"
+      ]
+    },
+    {
+      "node": "other:ctlflow",
+      "label": "ctlflow",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373324"
+      ]
+    },
+    {
+      "node": "other:devarch",
+      "label": "devarch",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375338"
+      ]
+    },
+    {
+      "node": "other:epiq.sh",
+      "label": "epiq.sh",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380609"
+      ]
+    },
+    {
+      "node": "other:fizzy",
+      "label": "fizzy",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373366"
+      ]
+    },
+    {
+      "node": "other:hangar",
+      "label": "hangar",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377945"
+      ]
+    },
+    {
+      "node": "other:hermes",
+      "label": "hermes",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379104"
+      ]
+    },
+    {
+      "node": "other:hermes-agent",
+      "label": "hermes-agent",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "node": "other:hive",
+      "label": "hive",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50499298"
+      ]
+    },
+    {
+      "node": "other:hivemind",
+      "label": "hivemind",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378016"
+      ]
+    },
+    {
+      "node": "other:humbug",
+      "label": "humbug",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376262"
+      ]
+    },
+    {
+      "node": "other:jiraude",
+      "label": "jiraude",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50384746"
+      ]
+    },
+    {
+      "node": "kan",
+      "label": "Kan",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50374498"
+      ]
+    },
+    {
+      "node": "other:mastra",
+      "label": "mastra",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377455"
+      ]
+    },
+    {
+      "node": "nova-sprint",
+      "label": "Nova Sprint",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375606"
+      ]
+    },
+    {
+      "node": "other:nova-bus",
+      "label": "nova-bus",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375606"
+      ]
+    },
+    {
+      "node": "other:openchamber",
+      "label": "openchamber",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376216"
+      ]
+    },
+    {
+      "node": "other:openclaw",
+      "label": "openclaw",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "node": "paperclip",
+      "label": "Paperclip",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367453"
+      ]
+    },
+    {
+      "node": "other:pi",
+      "label": "pi",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379482"
+      ]
+    },
+    {
+      "node": "other:pi-subagents",
+      "label": "pi-subagents",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50370716"
+      ]
+    },
+    {
+      "node": "other:poteto-mode",
+      "label": "poteto-mode",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378737"
+      ]
+    },
+    {
+      "node": "other:raven",
+      "label": "raven",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50368268"
+      ]
+    },
+    {
+      "node": "other:spurcode",
+      "label": "spurcode",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376746"
+      ]
+    },
+    {
+      "node": "other:superintendent",
+      "label": "superintendent",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50380990"
+      ]
+    },
+    {
+      "node": "other:t3-code",
+      "label": "t3-code",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377597"
+      ]
+    },
+    {
+      "node": "other:termic",
+      "label": "termic",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "node": "other:workforce",
+      "label": "workforce",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379352"
+      ]
+    },
+    {
+      "node": "unstated",
+      "label": "Unstated",
+      "count": 281,
+      "pct": 68.0,
+      "n_denominator": 413,
+      "comment_ids": []
+    }
+  ],
+  "platforms": [
+    {
+      "node": "hermes-agent",
+      "label": "Hermes Agent",
+      "count": 27,
+      "pct": 6.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367676",
+        "50367930",
+        "50368106",
+        "50370886",
+        "50373135",
+        "50373248",
+        "50373357",
+        "50373447",
+        "50373740",
+        "50373974",
+        "50376110",
+        "50376567",
+        "50376810",
+        "50377290",
+        "50377455",
+        "50377697",
+        "50377888",
+        "50378479",
+        "50378776",
+        "50379119",
+        "50379350",
+        "50379596",
+        "50380232",
+        "50380509",
+        "50385812",
+        "50410297",
+        "50445173"
+      ]
+    },
+    {
+      "node": "grok-bot",
+      "label": "Grok Bot",
+      "count": 12,
+      "pct": 2.9,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367523",
+        "50367582",
+        "50367701",
+        "50368119",
+        "50368640",
+        "50376182",
+        "50377290",
+        "50377557",
+        "50378897",
+        "50380200",
+        "50391332",
+        "50410297"
+      ]
+    },
+    {
+      "node": "openclaw",
+      "label": "OpenClaw",
+      "count": 11,
+      "pct": 2.7,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367207",
+        "50373740",
+        "50373974",
+        "50373985",
+        "50374270",
+        "50375575",
+        "50376410",
+        "50376733",
+        "50379119",
+        "50410297",
+        "50457219"
+      ]
+    },
+    {
+      "node": "dots",
+      "label": "Dots",
+      "count": 10,
+      "pct": 2.4,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367272",
+        "50373649",
+        "50373740",
+        "50376760",
+        "50376855",
+        "50376908",
+        "50377705",
+        "50379119",
+        "50410297",
+        "50428201"
+      ]
+    },
+    {
+      "node": "claude-desktop",
+      "label": "Claude Desktop",
+      "count": 5,
+      "pct": 1.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373065",
+        "50375609",
+        "50377282",
+        "50380567",
+        "50407937"
+      ]
+    },
+    {
+      "node": "instinct",
+      "label": "Instinct",
+      "count": 4,
+      "pct": 1.0,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376760",
+        "50377888",
+        "50379119",
+        "50391332"
+      ]
+    },
+    {
+      "node": "muse",
+      "label": "Muse",
+      "count": 4,
+      "pct": 1.0,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367571",
+        "50373698",
+        "50373740",
+        "50378530"
+      ]
+    },
+    {
+      "node": "duet",
+      "label": "Duet",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50367272",
+        "50410297"
+      ]
+    },
+    {
+      "node": "openbot",
+      "label": "OpenBot",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373129",
+        "50377597"
+      ]
+    },
+    {
+      "node": "perplexity",
+      "label": "Perplexity",
+      "count": 2,
+      "pct": 0.5,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376601",
+        "50377364"
+      ]
+    },
+    {
+      "node": "other:chatgpt-dot",
+      "label": "chatgpt-dot",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50398817"
+      ]
+    },
+    {
+      "node": "other:clara",
+      "label": "clara",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379352"
+      ]
+    },
+    {
+      "node": "claude-cowork",
+      "label": "Claude Cowork",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50407937"
+      ]
+    },
+    {
+      "node": "other:comet",
+      "label": "comet",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "node": "other:ctlflow",
+      "label": "ctlflow",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373324"
+      ]
+    },
+    {
+      "node": "other:custom-platform",
+      "label": "custom-platform",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50378434"
+      ]
+    },
+    {
+      "node": "other:duck.ai",
+      "label": "duck.ai",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377364"
+      ]
+    },
+    {
+      "node": "other:miniclaw",
+      "label": "miniclaw",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50373322"
+      ]
+    },
+    {
+      "node": "other:nbclaw",
+      "label": "nbclaw",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "node": "other:open-law",
+      "label": "open-law",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50375134"
+      ]
+    },
+    {
+      "node": "other:pickle",
+      "label": "pickle",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379119"
+      ]
+    },
+    {
+      "node": "other:rubyllm",
+      "label": "rubyllm",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377453"
+      ]
+    },
+    {
+      "node": "other:self-hosted-matrix-agents",
+      "label": "self-hosted-matrix-agents",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50377579"
+      ]
+    },
+    {
+      "node": "other:vectorstep",
+      "label": "vectorstep",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50376733"
+      ]
+    },
+    {
+      "node": "other:workforce",
+      "label": "workforce",
+      "count": 1,
+      "pct": 0.2,
+      "n_denominator": 413,
+      "comment_ids": [
+        "50379352"
+      ]
+    },
+    {
+      "node": "unstated",
+      "label": "Unstated",
+      "count": 342,
+      "pct": 82.8,
+      "n_denominator": 413,
+      "comment_ids": []
+    }
+  ],
+  "platform_use_cases": {
+    "hermes-agent": [
+      "adversarial code review",
+      "agent manager",
+      "appointment scheduling",
+      "automations",
+      "autonomous dev loops",
+      "can't find a lot of use cases right now",
+      "capturing and transcribing media",
+      "custom controller haptics app",
+      "delegating coding on the go",
+      "delegating projects",
+      "dev work",
+      "digest monitors",
+      "free agent platform",
+      "general purpose",
+      "general purpose assistant",
+      "general purpose automation",
+      "godot game development",
+      "gtm",
+      "health issues journaling",
+      "home automation",
+      "homelab monitoring",
+      "hosting personal agents",
+      "integrated into daily life",
+      "light coding",
+      "local pixel art generation",
+      "most routines",
+      "news research reports",
+      "nextcloud file access",
+      "online chatting (disabled due to bugs)",
+      "overnight research and builds",
+      "parsing rss feeds",
+      "personal agentic work",
+      "personal ai agent",
+      "personal assistant",
+      "personal assistant via telegram",
+      "personal chat",
+      "personal coding agent",
+      "personal routine organize",
+      "planned n8n piloting",
+      "planning",
+      "planning and task assignment",
+      "product comparisons",
+      "project follow-up and status via telegram while away",
+      "proofreading docs",
+      "proxmox monitoring",
+      "remote agentic development",
+      "research",
+      "sales",
+      "scanning for projects",
+      "server management",
+      "social media",
+      "storing notes",
+      "subagent debates for stakeholder docs",
+      "support",
+      "website maintenance"
+    ],
+    "grok-bot": [
+      "accounting tools",
+      "agent manager",
+      "calorie tracking",
+      "deciphering documentation",
+      "digest monitors",
+      "email",
+      "email and calendar management",
+      "email reading",
+      "email replies",
+      "email triage",
+      "health tracking",
+      "job applications",
+      "managing tasks",
+      "marketing",
+      "meter readings",
+      "news updates",
+      "non-programming ai life stuff",
+      "one offs",
+      "outreach",
+      "outside coding tasks",
+      "personal assistant",
+      "personal chores",
+      "project status checks",
+      "reports",
+      "scheduling",
+      "shopping research",
+      "slack activity highlights",
+      "social media",
+      "supplement experiments",
+      "trip planning"
+    ],
+    "openclaw": [
+      "adhd check-ins",
+      "agent manager",
+      "agent per channel managing flow and memory",
+      "autonomous development experiments (moved to slack)",
+      "building different projects",
+      "calendar tasks",
+      "computer access and memory",
+      "general agent experimentation",
+      "market research",
+      "most routines",
+      "personal routine organize",
+      "personal stuff",
+      "sales",
+      "support"
+    ],
+    "dots": [
+      "call while driving",
+      "code search",
+      "coordinating work in flight",
+      "email",
+      "monitoring communications",
+      "orchestration for life and projects",
+      "personal routine organize",
+      "pr reviews",
+      "project manager for the side hustle",
+      "raising issues",
+      "research",
+      "todos/deadlines",
+      "trying to use it more",
+      "workload dispatcher"
+    ],
+    "instinct": [
+      "code search",
+      "finding better deals",
+      "finding where to buy a product",
+      "imessage on the go",
+      "pr reviews",
+      "research",
+      "tennis match schedule checks"
+    ],
+    "claude-desktop": [
+      "agent platform",
+      "chat",
+      "chat on desktop and mobile",
+      "chat with opus 5.5",
+      "music editing",
+      "video editing"
+    ],
+    "muse": [
+      "basic research",
+      "marketplace price management",
+      "personal assistant",
+      "personal things",
+      "scraping forums and blogs",
+      "ticket windows"
+    ],
+    "other:self-hosted-matrix-agents": [
+      "finances read-only",
+      "general assistant and email",
+      "podcast management",
+      "project planning",
+      "running websites autonomously"
+    ],
+    "other:miniclaw": [
+      "calorie counting",
+      "phone tasks",
+      "wiki building"
+    ],
+    "perplexity": [
+      "browser-based ai",
+      "general agent tasks",
+      "research"
+    ],
+    "other:rubyllm": [
+      "email communication",
+      "sandboxed development",
+      "task pickup from redmine board"
+    ],
+    "other:comet": [
+      "agentic web browsing",
+      "messaging on instagram",
+      "product comparison"
+    ],
+    "duet": [
+      "monitoring communications",
+      "personal routine organize"
+    ],
+    "openbot": [
+      "captains controlling t3 threads across projects",
+      "open-source grok bot alternative"
+    ],
+    "other:workforce": [
+      "coding",
+      "personal assistant clara"
+    ],
+    "other:nbclaw": [
+      "hn and paper summaries",
+      "remote host fixes"
+    ],
+    "other:ctlflow": [
+      "equity analysis",
+      "swarm research over large data stores"
+    ],
+    "other:custom-platform": [
+      "personal assistant",
+      "turn shorts into one pagers"
+    ],
+    "other:open-law": [
+      "first responder for business whatsapp",
+      "personal calendar, gmail, whatsapp"
+    ],
+    "other:vectorstep": [
+      "trusted and production workflows"
+    ],
+    "other:duck.ai": [
+      "browser-based ai"
+    ],
+    "claude-cowork": [
+      "general tasks"
+    ],
+    "other:clara": [
+      "personal assistant"
+    ],
+    "other:chatgpt-dot": [
+      "general chat"
+    ],
+    "other:pickle": [
+      "call while driving"
+    ]
+  },
+  "orchestration_users": [
+    "0xbadcafebee",
+    "2001zhaozhao",
+    "ActionHank",
+    "Asmod4n",
+    "Bayart",
+    "CBLT",
+    "ChicagoDave",
+    "Conez",
+    "FacelessJim",
+    "FlyingSnake",
+    "Fordec",
+    "MITSardine",
+    "Outermeasure_A",
+    "Reebz",
+    "SftwareRenderer",
+    "WhiteMart",
+    "Xonzo",
+    "Yifeioffloop",
+    "Zambyte",
+    "__alexs",
+    "allen-munsch",
+    "amterp",
+    "anukin",
+    "athrowaway3z",
+    "aykay76",
+    "bantex01",
+    "biggestriverman",
+    "bitforger",
+    "bphish",
+    "brightball",
+    "browningstreet",
+    "ccapndave",
+    "chrisvalleybay",
+    "cpcdoy",
+    "cpobuda",
+    "crisopolis",
+    "ctolsen",
+    "darkamaul",
+    "dcferreira",
+    "deathmonger5000",
+    "dewey",
+    "dgunay",
+    "djeastm",
+    "dmillar",
+    "drbscl",
+    "egrm",
+    "enesalatas",
+    "estetlinus",
+    "faradaycage314",
+    "foopod",
+    "furyofantares",
+    "fzxu22",
+    "gabriel-uribe",
+    "ghempton",
+    "gitgud",
+    "glennfiedler",
+    "gregwebs",
+    "hestefisk",
+    "hridyaagrawal",
+    "itsdavesanders",
+    "itsloopyo",
+    "jauzeyimam",
+    "jawiggins",
+    "jefferfelizardo",
+    "jeswin",
+    "jherdman",
+    "jkkorn",
+    "jlgarhdez",
+    "joshstrange",
+    "keithnz",
+    "kuboble",
+    "l9o",
+    "laserlinus",
+    "lintbrush",
+    "m_w_",
+    "mangasmango",
+    "maxkxd1",
+    "mazone",
+    "metacircu1ar",
+    "mettamage",
+    "mf_kevintruong",
+    "mickeyp",
+    "mnahkies",
+    "mraza007",
+    "mschwarz",
+    "navels",
+    "naxmax",
+    "netsroht",
+    "nkotov",
+    "noahbp",
+    "nunodonato",
+    "option_greek",
+    "paustint",
+    "penberg",
+    "peter1125",
+    "petesergeant",
+    "pglevy",
+    "pmarreck",
+    "poelzi",
+    "quard8",
+    "rcgeorge23",
+    "rihegher",
+    "robgough",
+    "rufugee",
+    "ryanthedev",
+    "samuell",
+    "sebra",
+    "shepherdjerred",
+    "skwee357",
+    "slipwalker",
+    "sparklingmango",
+    "spilist",
+    "steveridout",
+    "sudhirj",
+    "tamimio",
+    "tarasyarema",
+    "tcdent",
+    "teejaypeeps",
+    "temp123477",
+    "tgel0",
+    "tinyhouse",
+    "tomasulo",
+    "tritondev",
+    "ultrasandwich",
+    "vcryan",
+    "vekker",
+    "virpo",
+    "wahnfrieden",
+    "wj",
+    "x3haloed",
+    "zellerhaus",
+    "zmcddn"
+  ]
+}

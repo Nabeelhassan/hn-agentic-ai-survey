@@ -1,0 +1,1723 @@
+{
+  "snapshot_id": "2026-11-15T182416Z",
+  "generated_at": "2026-11-15T19:19:13.253886+00:00",
+  "story_url": "https://news.ycombinator.com/item?id=50366117",
+  "taxonomy": {
+    "version": 1,
+    "nodes": [
+      {
+        "id": "anthropic",
+        "label": "Anthropic (Claude plans)",
+        "categories": [
+          "subscription"
+        ],
+        "aliases": [
+          "claude",
+          "claude pro",
+          "claude max",
+          "claude ultra",
+          "claude team",
+          "anthropic",
+          "claude.ai"
+        ]
+      },
+      {
+        "id": "openai",
+        "label": "OpenAI (ChatGPT plans)",
+        "categories": [
+          "subscription"
+        ],
+        "aliases": [
+          "chatgpt",
+          "chatgpt plus",
+          "chatgpt pro",
+          "openai",
+          "chatgpt team"
+        ]
+      },
+      {
+        "id": "google",
+        "label": "Google (Gemini plans)",
+        "categories": [
+          "subscription"
+        ],
+        "aliases": [
+          "gemini",
+          "google ai",
+          "google one",
+          "gemini advanced",
+          "google ai pro",
+          "google ai ultra"
+        ]
+      },
+      {
+        "id": "xai",
+        "label": "xAI (Grok plans)",
+        "categories": [
+          "subscription"
+        ],
+        "aliases": [
+          "grok",
+          "supergrok",
+          "xai",
+          "x.ai"
+        ]
+      },
+      {
+        "id": "copilot",
+        "label": "GitHub Copilot",
+        "categories": [
+          "subscription",
+          "harness"
+        ],
+        "aliases": [
+          "github copilot",
+          "copilot",
+          "github"
+        ]
+      },
+      {
+        "id": "cursor",
+        "label": "Cursor",
+        "categories": [
+          "subscription",
+          "harness"
+        ],
+        "aliases": [
+          "cursor",
+          "cursor pro",
+          "cursor ultra",
+          "cursor business"
+        ]
+      },
+      {
+        "id": "windsurf",
+        "label": "Windsurf",
+        "categories": [
+          "subscription",
+          "harness"
+        ],
+        "aliases": [
+          "windsurf",
+          "codeium"
+        ]
+      },
+      {
+        "id": "amp",
+        "label": "Amp (Sourcegraph)",
+        "categories": [
+          "subscription",
+          "harness"
+        ],
+        "aliases": [
+          "amp",
+          "sourcegraph amp",
+          "ampcode"
+        ]
+      },
+      {
+        "id": "kiro",
+        "label": "Kiro",
+        "categories": [
+          "subscription",
+          "harness"
+        ],
+        "aliases": [
+          "kiro",
+          "kiro pro"
+        ]
+      },
+      {
+        "id": "devin",
+        "label": "Devin",
+        "categories": [
+          "subscription",
+          "harness"
+        ],
+        "aliases": [
+          "devin",
+          "cognition"
+        ]
+      },
+      {
+        "id": "codebuddy",
+        "label": "CodeBuddy",
+        "categories": [
+          "subscription",
+          "harness"
+        ],
+        "aliases": [
+          "codebuddy"
+        ]
+      },
+      {
+        "id": "warp",
+        "label": "Warp",
+        "categories": [
+          "subscription",
+          "harness"
+        ],
+        "aliases": [
+          "warp",
+          "warp terminal"
+        ]
+      },
+      {
+        "id": "mistral",
+        "label": "Mistral",
+        "categories": [
+          "subscription"
+        ],
+        "aliases": [
+          "mistral",
+          "mistral pro",
+          "le chat"
+        ]
+      },
+      {
+        "id": "zai",
+        "label": "Z.ai (GLM plans)",
+        "categories": [
+          "subscription"
+        ],
+        "aliases": [
+          "z.ai",
+          "zai",
+          "glm coding plan",
+          "zhipu"
+        ]
+      },
+      {
+        "id": "moonshot",
+        "label": "Moonshot (Kimi plans)",
+        "categories": [
+          "subscription"
+        ],
+        "aliases": [
+          "moonshot",
+          "kimi for coding",
+          "kimi code plan"
+        ]
+      },
+      {
+        "id": "minimax",
+        "label": "MiniMax",
+        "categories": [
+          "subscription"
+        ],
+        "aliases": [
+          "minimax"
+        ]
+      },
+      {
+        "id": "perplexity",
+        "label": "Perplexity",
+        "categories": [
+          "subscription",
+          "platform"
+        ],
+        "aliases": [
+          "perplexity",
+          "perplexity pro"
+        ]
+      },
+      {
+        "id": "synthetic",
+        "label": "Synthetic",
+        "categories": [
+          "subscription",
+          "model-source"
+        ],
+        "aliases": [
+          "synthetic",
+          "synthetic.new"
+        ]
+      },
+      {
+        "id": "melious",
+        "label": "Melious",
+        "categories": [
+          "subscription",
+          "model-source"
+        ],
+        "aliases": [
+          "melious",
+          "melious.ai"
+        ]
+      },
+      {
+        "id": "claude-code",
+        "label": "Claude Code",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "claude code",
+          "claude-code",
+          "cc",
+          "claude cli"
+        ]
+      },
+      {
+        "id": "codex-cli",
+        "label": "Codex CLI",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "codex",
+          "codex cli",
+          "openai codex",
+          "codex app"
+        ]
+      },
+      {
+        "id": "opencode",
+        "label": "OpenCode",
+        "categories": [
+          "harness",
+          "subscription"
+        ],
+        "aliases": [
+          "opencode",
+          "open code",
+          "opencode go",
+          "opencode go plus",
+          "opencode pro"
+        ]
+      },
+      {
+        "id": "pi",
+        "label": "Pi",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "pi",
+          "pi coding agent"
+        ]
+      },
+      {
+        "id": "oh-my-pi",
+        "label": "Oh My Pi",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "oh my pi",
+          "oh-my-pi",
+          "omp"
+        ]
+      },
+      {
+        "id": "aider",
+        "label": "Aider",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "aider"
+        ]
+      },
+      {
+        "id": "cline",
+        "label": "Cline",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "cline"
+        ]
+      },
+      {
+        "id": "goose",
+        "label": "Goose",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "goose"
+        ]
+      },
+      {
+        "id": "zed",
+        "label": "Zed",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "zed"
+        ]
+      },
+      {
+        "id": "antigravity",
+        "label": "Antigravity",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "antigravity",
+          "google antigravity"
+        ]
+      },
+      {
+        "id": "kilo-code",
+        "label": "Kilo Code",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "kilo code",
+          "kilocode"
+        ]
+      },
+      {
+        "id": "openhands",
+        "label": "OpenHands",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "openhands"
+        ]
+      },
+      {
+        "id": "kimi-code",
+        "label": "Kimi Code",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "kimi code",
+          "kimi-code"
+        ]
+      },
+      {
+        "id": "t3-code",
+        "label": "T3 Code",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "t3 code",
+          "t3code",
+          "3code"
+        ]
+      },
+      {
+        "id": "claude-desktop",
+        "label": "Claude Desktop",
+        "categories": [
+          "harness",
+          "platform"
+        ],
+        "aliases": [
+          "claude desktop",
+          "claude desktop app"
+        ]
+      },
+      {
+        "id": "claude-ide",
+        "label": "Claude IDE",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "claude ide",
+          "claude ide integration"
+        ]
+      },
+      {
+        "id": "openchamber",
+        "label": "OpenChamber",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "openchamber"
+        ]
+      },
+      {
+        "id": "gptel",
+        "label": "gptel",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "gptel"
+        ]
+      },
+      {
+        "id": "thinkrail",
+        "label": "ThinkRail",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "thinkrail"
+        ]
+      },
+      {
+        "id": "paseo",
+        "label": "Paseo",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "paseo"
+        ]
+      },
+      {
+        "id": "rex",
+        "label": "Rex",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "rex"
+        ]
+      },
+      {
+        "id": "raven",
+        "label": "Raven",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "raven"
+        ]
+      },
+      {
+        "id": "maki",
+        "label": "Maki",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "maki"
+        ]
+      },
+      {
+        "id": "nodecode",
+        "label": "nodecode",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "nodecode"
+        ]
+      },
+      {
+        "id": "vscode",
+        "label": "VS Code",
+        "categories": [
+          "harness"
+        ],
+        "aliases": [
+          "vscode",
+          "vs code",
+          "visual studio code"
+        ]
+      },
+      {
+        "id": "muse-code",
+        "label": "Muse Code",
+        "categories": [
+          "harness",
+          "subscription"
+        ],
+        "aliases": [
+          "muse code"
+        ]
+      },
+      {
+        "id": "herdr",
+        "label": "Herdr",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "herdr"
+        ]
+      },
+      {
+        "id": "orca",
+        "label": "Orca",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "orca"
+        ]
+      },
+      {
+        "id": "gas-town",
+        "label": "Gas Town",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "gas town",
+          "gastown"
+        ]
+      },
+      {
+        "id": "munder-difflin",
+        "label": "Munder Difflin",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "munder difflin"
+        ]
+      },
+      {
+        "id": "ruflo",
+        "label": "Ruflo",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "ruflo"
+        ]
+      },
+      {
+        "id": "conductor",
+        "label": "Conductor",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "conductor"
+        ]
+      },
+      {
+        "id": "cmux",
+        "label": "cmux",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "cmux"
+        ]
+      },
+      {
+        "id": "nova-sprint",
+        "label": "Nova Sprint",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "nova sprint",
+          "nova-sprint"
+        ]
+      },
+      {
+        "id": "paperclip",
+        "label": "Paperclip",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "paperclip"
+        ]
+      },
+      {
+        "id": "kan",
+        "label": "Kan",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "kan"
+        ]
+      },
+      {
+        "id": "muster",
+        "label": "Muster",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "muster"
+        ]
+      },
+      {
+        "id": "agent-orchestrator",
+        "label": "Custom orchestrator",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "agent orchestrator",
+          "custom orchestrator",
+          "my own orchestrator",
+          "custom scripts"
+        ]
+      },
+      {
+        "id": "ultracode",
+        "label": "Ultracode",
+        "categories": [
+          "orchestration"
+        ],
+        "aliases": [
+          "ultracode"
+        ]
+      },
+      {
+        "id": "openclaw",
+        "label": "OpenClaw",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "openclaw"
+        ]
+      },
+      {
+        "id": "hermes-agent",
+        "label": "Hermes Agent",
+        "categories": [
+          "platform",
+          "harness"
+        ],
+        "aliases": [
+          "hermes",
+          "hermes agent"
+        ]
+      },
+      {
+        "id": "grok-bot",
+        "label": "Grok Bot",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "grok bot",
+          "grokbot",
+          "grokbots"
+        ]
+      },
+      {
+        "id": "dots",
+        "label": "Dots",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "dots"
+        ]
+      },
+      {
+        "id": "muse",
+        "label": "Muse",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "muse"
+        ]
+      },
+      {
+        "id": "duet",
+        "label": "Duet",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "duet"
+        ]
+      },
+      {
+        "id": "claude-cowork",
+        "label": "Claude Cowork",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "claude cowork",
+          "cowork"
+        ]
+      },
+      {
+        "id": "openbot",
+        "label": "OpenBot",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "openbot"
+        ]
+      },
+      {
+        "id": "nanoclaw",
+        "label": "NanoClaw",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "nanoclaw"
+        ]
+      },
+      {
+        "id": "instinct",
+        "label": "Instinct",
+        "categories": [
+          "platform"
+        ],
+        "aliases": [
+          "instinct"
+        ]
+      },
+      {
+        "id": "openrouter",
+        "label": "OpenRouter",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "openrouter"
+        ]
+      },
+      {
+        "id": "ollama",
+        "label": "Ollama",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "ollama",
+          "ollama.com"
+        ]
+      },
+      {
+        "id": "lmstudio",
+        "label": "LM Studio",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "lm studio",
+          "lmstudio"
+        ]
+      },
+      {
+        "id": "llama-cpp",
+        "label": "llama.cpp",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "llama.cpp",
+          "llamacpp",
+          "gguf"
+        ]
+      },
+      {
+        "id": "vllm",
+        "label": "vLLM",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "vllm"
+        ]
+      },
+      {
+        "id": "openwebui",
+        "label": "Open WebUI",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "open webui",
+          "openwebui"
+        ]
+      },
+      {
+        "id": "deepinfra",
+        "label": "DeepInfra",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "deepinfra"
+        ]
+      },
+      {
+        "id": "nvidia-nim",
+        "label": "NVIDIA NIM",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "nvidia nim",
+          "nim"
+        ]
+      },
+      {
+        "id": "venice",
+        "label": "Venice",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "venice",
+          "venice.ai"
+        ]
+      },
+      {
+        "id": "opencode-zen",
+        "label": "OpenCode Zen",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "opencode zen",
+          "opencode console"
+        ]
+      },
+      {
+        "id": "anthropic-api",
+        "label": "Anthropic API",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "anthropic api",
+          "claude api",
+          "anthropic console"
+        ]
+      },
+      {
+        "id": "openai-api",
+        "label": "OpenAI API",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "openai api",
+          "chatgpt api"
+        ]
+      },
+      {
+        "id": "google-api",
+        "label": "Google API",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "google api",
+          "gemini api",
+          "vertex",
+          "google cloud"
+        ]
+      },
+      {
+        "id": "xai-api",
+        "label": "xAI API",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "xai api",
+          "grok api"
+        ]
+      },
+      {
+        "id": "deepseek",
+        "label": "DeepSeek",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "deepseek",
+          "deepseek api",
+          "deepseek v4"
+        ]
+      },
+      {
+        "id": "qwen",
+        "label": "Qwen",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "qwen",
+          "qwen coder",
+          "qwen3"
+        ]
+      },
+      {
+        "id": "glm",
+        "label": "GLM",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "glm",
+          "glm-5",
+          "glm api",
+          "z.ai api"
+        ]
+      },
+      {
+        "id": "kimi",
+        "label": "Kimi",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "kimi",
+          "kimi k2",
+          "kimi api"
+        ]
+      },
+      {
+        "id": "mistral-api",
+        "label": "Mistral API",
+        "categories": [
+          "model-source"
+        ],
+        "aliases": [
+          "mistral api"
+        ]
+      },
+      {
+        "id": "opus",
+        "label": "Opus",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "opus",
+          "opus 5"
+        ]
+      },
+      {
+        "id": "sonnet",
+        "label": "Sonnet",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "sonnet",
+          "sonnet 5"
+        ]
+      },
+      {
+        "id": "haiku",
+        "label": "Haiku",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "haiku"
+        ]
+      },
+      {
+        "id": "gpt",
+        "label": "GPT",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "gpt",
+          "gpt-5",
+          "gpt 5"
+        ]
+      },
+      {
+        "id": "gemini-model",
+        "label": "Gemini (model)",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "gemini model",
+          "gemini pro",
+          "gemini flash"
+        ]
+      },
+      {
+        "id": "llama",
+        "label": "Llama",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "llama",
+          "meta llama"
+        ]
+      },
+      {
+        "id": "gemma",
+        "label": "Gemma",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "gemma"
+        ]
+      },
+      {
+        "id": "nemotron",
+        "label": "Nemotron",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "nemotron"
+        ]
+      },
+      {
+        "id": "mimo",
+        "label": "MiMo",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "mimo"
+        ]
+      },
+      {
+        "id": "sol",
+        "label": "Sol",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "sol"
+        ]
+      },
+      {
+        "id": "luna",
+        "label": "Luna",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "luna"
+        ]
+      },
+      {
+        "id": "fable",
+        "label": "Fable",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "fable"
+        ]
+      },
+      {
+        "id": "argon",
+        "label": "Argon",
+        "categories": [
+          "model"
+        ],
+        "aliases": [
+          "argon"
+        ]
+      }
+    ]
+  },
+  "extraction": {
+    "schema_version": 1,
+    "taxonomy_version": 1,
+    "runs": [
+      {
+        "model": "z-ai/glm-5.3-flash",
+        "run_id": "2026-11-15T182416Z:z-ai/glm-5.3-flash:d47e6c6d",
+        "prompt_hash": "d47e6c6df3f2684c3d924db0ec9509ef2920885f3f379bf020784b06fd934ee4",
+        "taxonomy_version": 1,
+        "started_at": "2026-11-15T19:04:09.806984+00:00",
+        "finished_at": "2026-11-15T19:06:28.400886+00:00",
+        "batches": 28,
+        "batch_failures": 0,
+        "records_written": 833,
+        "usage": {
+          "input_tokens": 976586,
+          "output_tokens": 231518,
+          "cache_read_input_tokens": 0
+        },
+        "cost_usd": 0.2622
+      },
+      {
+        "model": "deepseek/deepseek-v4.1-flash",
+        "run_id": "2026-11-15T182416Z:deepseek/deepseek-v4.1-flash:d47e6c6d",
+        "prompt_hash": "d47e6c6df3f2684c3d924db0ec9509ef2920885f3f379bf020784b06fd934ee4",
+        "taxonomy_version": 1,
+        "started_at": "2026-11-15T19:06:28.401545+00:00",
+        "finished_at": "2026-11-15T19:15:08.860147+00:00",
+        "batches": 28,
+        "batch_failures": 0,
+        "records_written": 833,
+        "usage": {
+          "input_tokens": 626955,
+          "output_tokens": 385576,
+          "cache_read_input_tokens": 0
+        },
+        "cost_usd": 0.3254
+      }
+    ],
+    "records": 1666,
+    "comments_extracted": 833,
+    "review_items": 242,
+    "total_cost_usd": 0.5876
+  },
+  "normalize": {
+    "snapshot_id": "2026-11-15T182416Z",
+    "normalized_at": "2026-11-15T18:24:44.725473+00:00",
+    "comments": 856,
+    "top_level": 500,
+    "deleted": 23,
+    "dead": 126,
+    "empty_text": 23,
+    "authors": 659,
+    "max_depth": 9,
+    "source_labels": {
+      "algolia_only": 0,
+      "both": 716,
+      "firebase_only": 140
+    }
+  },
+  "merge": {
+    "merged_at": "2026-11-15T19:19:12.891250+00:00",
+    "respondents": 659,
+    "with_setup": 413,
+    "second_hand_only": 6,
+    "with_conflicts": 1,
+    "commenters": 659
+  },
+  "eval": {
+    "snapshot_id": "2026-11-15T182416Z",
+    "generated_at": "2026-11-15T19:18:26.273595+00:00",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "gold_cases": 40,
+    "evaluated": 40,
+    "answers_questions_accuracy": 0.9,
+    "fields": {
+      "q1_subscriptions": {
+        "label": "subscriptions",
+        "precision": 1.0,
+        "recall": 0.971,
+        "f1": 0.986
+      },
+      "q2_outside": {
+        "label": "outside models",
+        "precision": 0.875,
+        "recall": 0.656,
+        "f1": 0.75
+      },
+      "q3_harnesses": {
+        "label": "harnesses",
+        "precision": 0.778,
+        "recall": 0.778,
+        "f1": 0.778
+      },
+      "q4_orchestration": {
+        "label": "orchestration",
+        "precision": 0.5,
+        "recall": 0.583,
+        "f1": 0.538
+      },
+      "q5_platforms": {
+        "label": "platforms",
+        "precision": 0.923,
+        "recall": 0.857,
+        "f1": 0.889
+      }
+    },
+    "misses": [
+      {
+        "comment_id": "50367557",
+        "field": "q2_outside",
+        "expected": [
+          "deepseek",
+          "glm",
+          "other:entrim"
+        ],
+        "predicted": [
+          "other:entrim"
+        ]
+      },
+      {
+        "comment_id": "50373248",
+        "field": "q2_outside",
+        "expected": [
+          "luna",
+          "openrouter",
+          "openwebui"
+        ],
+        "predicted": [
+          "openrouter",
+          "openwebui"
+        ]
+      },
+      {
+        "comment_id": "50373248",
+        "field": "q3_harnesses",
+        "expected": [
+          "copilot",
+          "opencode",
+          "pi"
+        ],
+        "predicted": [
+          "copilot",
+          "pi"
+        ]
+      },
+      {
+        "comment_id": "50373740",
+        "field": "q3_harnesses",
+        "expected": [
+          "antigravity",
+          "claude-code",
+          "codex-cli",
+          "other:grok-cli",
+          "other:kimi-cli",
+          "other:muse-cli"
+        ],
+        "predicted": [
+          "antigravity",
+          "claude-code",
+          "codex-cli",
+          "kimi-code",
+          "muse-code",
+          "other:grok-cli"
+        ]
+      },
+      {
+        "comment_id": "50373740",
+        "field": "q4_orchestration",
+        "expected": [],
+        "predicted": [
+          "herdr"
+        ]
+      },
+      {
+        "comment_id": "50374261",
+        "field": "q2_outside",
+        "expected": [
+          "deepseek",
+          "other:omlx",
+          "qwen"
+        ],
+        "predicted": [
+          "deepseek",
+          "qwen"
+        ]
+      },
+      {
+        "comment_id": "50374261",
+        "field": "q3_harnesses",
+        "expected": [
+          "antigravity",
+          "other:deepseek-harness"
+        ],
+        "predicted": [
+          "antigravity",
+          "other:dsh"
+        ]
+      },
+      {
+        "comment_id": "50374626",
+        "field": "q2_outside",
+        "expected": [
+          "anthropic-api",
+          "gemma",
+          "qwen"
+        ],
+        "predicted": [
+          "anthropic-api"
+        ]
+      },
+      {
+        "comment_id": "50375606",
+        "field": "q2_outside",
+        "expected": [
+          "deepseek",
+          "other:abliterated",
+          "other:mercury"
+        ],
+        "predicted": [
+          "deepseek",
+          "other:abliterated-large-v2",
+          "other:mercury-3"
+        ]
+      },
+      {
+        "comment_id": "50375606",
+        "field": "q3_harnesses",
+        "expected": [],
+        "predicted": [
+          "antigravity"
+        ]
+      },
+      {
+        "comment_id": "50375606",
+        "field": "q4_orchestration",
+        "expected": [
+          "nova-sprint"
+        ],
+        "predicted": [
+          "nova-sprint",
+          "other:nova-bus"
+        ]
+      },
+      {
+        "comment_id": "50376262",
+        "field": "q2_outside",
+        "expected": [
+          "deepseek",
+          "glm",
+          "ollama",
+          "sonnet"
+        ],
+        "predicted": [
+          "deepseek",
+          "ollama"
+        ]
+      },
+      {
+        "comment_id": "50376601",
+        "field": "q2_outside",
+        "expected": [
+          "glm",
+          "gpt",
+          "other:mlx-serve",
+          "other:ornith",
+          "qwen"
+        ],
+        "predicted": [
+          "glm",
+          "other:clef",
+          "other:mlx-serve",
+          "other:ornith",
+          "qwen"
+        ]
+      },
+      {
+        "comment_id": "50376601",
+        "field": "q3_harnesses",
+        "expected": [
+          "other:swival"
+        ],
+        "predicted": [
+          "other:swival.dev"
+        ]
+      },
+      {
+        "comment_id": "50377455",
+        "field": "q2_outside",
+        "expected": [
+          "openrouter",
+          "other:comfyui",
+          "qwen"
+        ],
+        "predicted": [
+          "openrouter",
+          "qwen"
+        ]
+      },
+      {
+        "comment_id": "50377455",
+        "field": "q4_orchestration",
+        "expected": [
+          "agent-orchestrator",
+          "other:mastra"
+        ],
+        "predicted": [
+          "other:mastra"
+        ]
+      },
+      {
+        "comment_id": "50377715",
+        "field": "q2_outside",
+        "expected": [
+          "openrouter"
+        ],
+        "predicted": [
+          "openrouter",
+          "other:llama.app"
+        ]
+      },
+      {
+        "comment_id": "50377715",
+        "field": "q3_harnesses",
+        "expected": [],
+        "predicted": [
+          "codex-cli",
+          "opencode",
+          "other:open-webui",
+          "zed"
+        ]
+      },
+      {
+        "comment_id": "50378737",
+        "field": "q4_orchestration",
+        "expected": [
+          "agent-orchestrator"
+        ],
+        "predicted": [
+          "other:poteto-mode"
+        ]
+      },
+      {
+        "comment_id": "50379352",
+        "field": "q5_platforms",
+        "expected": [
+          "other:workforce"
+        ],
+        "predicted": [
+          "other:clara"
+        ]
+      },
+      {
+        "comment_id": "50380633",
+        "field": "q2_outside",
+        "expected": [
+          "deepseek",
+          "other:ifm-k2-horizon",
+          "other:mlx"
+        ],
+        "predicted": [
+          "deepseek",
+          "other:ifm-k2-horizon"
+        ]
+      },
+      {
+        "comment_id": "50368106",
+        "field": "q2_outside",
+        "expected": [
+          "ollama",
+          "qwen"
+        ],
+        "predicted": [
+          "anthropic-api",
+          "ollama",
+          "qwen"
+        ]
+      },
+      {
+        "comment_id": "50368106",
+        "field": "q3_harnesses",
+        "expected": [
+          "claude-code",
+          "claude-ide"
+        ],
+        "predicted": [
+          "claude-code",
+          "claude-ide",
+          "hermes-agent"
+        ]
+      },
+      {
+        "comment_id": "50373624",
+        "field": "q2_outside",
+        "expected": [
+          "deepseek",
+          "glm",
+          "openrouter",
+          "qwen"
+        ],
+        "predicted": [
+          "deepseek",
+          "glm",
+          "openrouter"
+        ]
+      },
+      {
+        "comment_id": "50373624",
+        "field": "q3_harnesses",
+        "expected": [
+          "claude-code",
+          "zed"
+        ],
+        "predicted": [
+          "zed"
+        ]
+      },
+      {
+        "comment_id": "50374455",
+        "field": "q2_outside",
+        "expected": [
+          "openrouter",
+          "other:chinese-models"
+        ],
+        "predicted": [
+          "openrouter"
+        ]
+      },
+      {
+        "comment_id": "50376304",
+        "field": "q3_harnesses",
+        "expected": [
+          "claude-code"
+        ],
+        "predicted": []
+      },
+      {
+        "comment_id": "50377091",
+        "field": "q1_subscriptions",
+        "expected": [
+          "copilot"
+        ],
+        "predicted": []
+      },
+      {
+        "comment_id": "50379016",
+        "field": "q2_outside",
+        "expected": [
+          "glm",
+          "openrouter"
+        ],
+        "predicted": [
+          "openrouter"
+        ]
+      },
+      {
+        "comment_id": "50380232",
+        "field": "q2_outside",
+        "expected": [
+          "argon",
+          "deepseek",
+          "other:comfyui",
+          "other:flux",
+          "qwen"
+        ],
+        "predicted": [
+          "argon",
+          "deepseek",
+          "qwen"
+        ]
+      },
+      {
+        "comment_id": "50380232",
+        "field": "q3_harnesses",
+        "expected": [
+          "hermes-agent"
+        ],
+        "predicted": []
+      },
+      {
+        "comment_id": "50380973",
+        "field": "q3_harnesses",
+        "expected": [
+          "claude-code",
+          "claude-desktop"
+        ],
+        "predicted": [
+          "claude-code"
+        ]
+      },
+      {
+        "comment_id": "50385555",
+        "field": "q4_orchestration",
+        "expected": [],
+        "predicted": [
+          "other:openrig"
+        ]
+      },
+      {
+        "comment_id": "50373887",
+        "field": "q2_outside",
+        "expected": [
+          "fable"
+        ],
+        "predicted": []
+      },
+      {
+        "comment_id": "50377761",
+        "field": "q2_outside",
+        "expected": [
+          "other:halogen",
+          "qwen"
+        ],
+        "predicted": [
+          "qwen"
+        ]
+      },
+      {
+        "comment_id": "50379104",
+        "field": "q2_outside",
+        "expected": [
+          "deepseek",
+          "glm"
+        ],
+        "predicted": [
+          "deepseek"
+        ]
+      },
+      {
+        "comment_id": "50379104",
+        "field": "q3_harnesses",
+        "expected": [
+          "claude-code",
+          "oh-my-pi"
+        ],
+        "predicted": [
+          "oh-my-pi"
+        ]
+      },
+      {
+        "comment_id": "50379104",
+        "field": "q4_orchestration",
+        "expected": [
+          "hermes-agent"
+        ],
+        "predicted": [
+          "other:hermes"
+        ]
+      },
+      {
+        "comment_id": "50379104",
+        "field": "q5_platforms",
+        "expected": [
+          "hermes-agent"
+        ],
+        "predicted": []
+      },
+      {
+        "comment_id": "50410297",
+        "field": "q2_outside",
+        "expected": [
+          "anthropic-api",
+          "google-api",
+          "gpt",
+          "kimi",
+          "other:muse-voyage"
+        ],
+        "predicted": [
+          "anthropic-api",
+          "google-api",
+          "kimi",
+          "openai-api",
+          "other:muse-voyage"
+        ]
+      },
+      {
+        "comment_id": "50410297",
+        "field": "q4_orchestration",
+        "expected": [
+          "hermes-agent",
+          "openclaw",
+          "other:actvox"
+        ],
+        "predicted": [
+          "other:actvox",
+          "other:hermes",
+          "other:openclaw"
+        ]
+      }
+    ]
+  },
+  "conventions": [
+    "Counts are unique HN accounts, not comments.",
+    "Second-hand reports are excluded from respondent counts.",
+    "Unstated is always a visible row, never dropped.",
+    "Below n = 10 the dashboard shows counts, not percentages."
+  ]
+}
