@@ -1,0 +1,5643 @@
+{
+  "snapshot_id": "2026-11-15T182416Z",
+  "model": "z-ai/glm-5.3-flash",
+  "generated_at": "2026-11-15T18:40:01.402302+00:00",
+  "prompt_hash": "7633dac57a9563cc41a35253544881c10c05752a5d0b0878f532e4115b2ffd40",
+  "mentions": 1809,
+  "candidates": [
+    {
+      "normalized": "claude",
+      "count": 174,
+      "raw_forms": {
+        "Claude": 69,
+        "claude": 19,
+        "Claude Ultra": 14,
+        "Claude Pro": 10,
+        "Claude Max": 9,
+        "Claude subscription": 8,
+        "Claude ultra": 2,
+        "Claude Max 20x": 2
+      },
+      "categories": {
+        "subscription": 151,
+        "harness": 19,
+        "unknown": 2,
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50367146",
+        "50367207",
+        "50367215",
+        "50367272",
+        "50367326"
+      ]
+    },
+    {
+      "normalized": "claude code",
+      "count": 136,
+      "raw_forms": {
+        "Claude Code": 70,
+        "claude code": 23,
+        "Claude code": 11,
+        "Claude CLI": 3,
+        "Claude Code CLI": 2,
+        "Claude Code Ultra": 2,
+        "Claude Code Desktop": 2,
+        "claude code cli": 2
+      },
+      "categories": {
+        "harness": 132,
+        "subscription": 4
+      },
+      "example_comment_ids": [
+        "50367215",
+        "50367272",
+        "50367453",
+        "50367466",
+        "50367484"
+      ]
+    },
+    {
+      "normalized": "codex",
+      "count": 110,
+      "raw_forms": {
+        "Codex": 67,
+        "codex": 23,
+        "Codex Plus": 3,
+        "Codex Pro": 2,
+        "codex and claude subs": 1,
+        "Codex (Pro x 1)": 1,
+        "OpenAI codex $100 mo plan": 1,
+        "codex pro": 1
+      },
+      "categories": {
+        "harness": 80,
+        "subscription": 30
+      },
+      "example_comment_ids": [
+        "50367037",
+        "50367207",
+        "50367272",
+        "50367466",
+        "50367571"
+      ]
+    },
+    {
+      "normalized": "opencode",
+      "count": 75,
+      "raw_forms": {
+        "OpenCode": 24,
+        "opencode": 14,
+        "Opencode": 10,
+        "OpenCode Go": 8,
+        "Opencode Go": 4,
+        "opencode go": 4,
+        "Opencode Go Plus": 1,
+        "OpenCode Go subscription": 1
+      },
+      "categories": {
+        "harness": 67,
+        "subscription": 8
+      },
+      "example_comment_ids": [
+        "50367272",
+        "50367326",
+        "50367582",
+        "50367589",
+        "50367701"
+      ]
+    },
+    {
+      "normalized": "opus",
+      "count": 68,
+      "raw_forms": {
+        "Opus 5.5": 41,
+        "Opus": 9,
+        "opus": 7,
+        "opus 5.5": 4,
+        "Claude Opus 5.5": 2,
+        "Opus xhigh": 1,
+        "Opus 5.5 medium": 1,
+        "opus-5.5": 1
+      },
+      "categories": {
+        "model-source": 42,
+        "unknown": 19,
+        "subscription": 7
+      },
+      "example_comment_ids": [
+        "50367037",
+        "50367399",
+        "50367484",
+        "50367569",
+        "50367582"
+      ]
+    },
+    {
+      "normalized": "deepseek",
+      "count": 65,
+      "raw_forms": {
+        "DeepSeek": 9,
+        "deepseek": 9,
+        "Deepseek": 4,
+        "DeepSeek 4.1 Flash": 3,
+        "DeepSeek Flash": 3,
+        "DeepSeek V4.1 Flash 1017": 3,
+        "Deepseek flash": 2,
+        "Deepseek-v4.1-flash": 2
+      },
+      "categories": {
+        "model-source": 50,
+        "unknown": 13,
+        "subscription": 2
+      },
+      "example_comment_ids": [
+        "50367215",
+        "50367272",
+        "50367326",
+        "50367557",
+        "50367582"
+      ]
+    },
+    {
+      "normalized": "pi",
+      "count": 60,
+      "raw_forms": {
+        "Pi": 28,
+        "pi": 22,
+        "pi.dev": 3,
+        "pi agent": 2,
+        "pi durable": 1,
+        "PI": 1,
+        "Vanilla Pi cli": 1,
+        "pi agents": 1
+      },
+      "categories": {
+        "harness": 60
+      },
+      "example_comment_ids": [
+        "50367192",
+        "50367272",
+        "50367326",
+        "50367338",
+        "50367587"
+      ]
+    },
+    {
+      "normalized": "openrouter",
+      "count": 51,
+      "raw_forms": {
+        "OpenRouter": 24,
+        "openrouter": 12,
+        "Openrouter": 9,
+        "Open Router": 2,
+        "Openrouter credits": 1,
+        "OpenRouter PAYG": 1,
+        "open router": 1,
+        "Free OpenRouter models": 1
+      },
+      "categories": {
+        "model-source": 51
+      },
+      "example_comment_ids": [
+        "50367146",
+        "50367272",
+        "50367326",
+        "50367338",
+        "50367582"
+      ]
+    },
+    {
+      "normalized": "chatgpt",
+      "count": 50,
+      "raw_forms": {
+        "ChatGPT": 23,
+        "ChatGPT Pro": 5,
+        "ChatGPT Plus": 3,
+        "chatgpt": 2,
+        "ChatGPT plus": 2,
+        "chatgpt desktop": 2,
+        "GPT Plus": 1,
+        "GPT plus": 1
+      },
+      "categories": {
+        "subscription": 49,
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50367326",
+        "50367434",
+        "50367571",
+        "50367582",
+        "50367970"
+      ]
+    },
+    {
+      "normalized": "qwen",
+      "count": 44,
+      "raw_forms": {
+        "Qwen": 11,
+        "qwen": 4,
+        "Qwen 3.8 Flash Next": 2,
+        "Qwen3.8-27b": 2,
+        "Qwen3.8-27B": 2,
+        "qwen 3.6 35b-a3b": 1,
+        "Qwen 3.6 35B a3B q4": 1,
+        "qwen 3.8 flash next": 1
+      },
+      "categories": {
+        "model-source": 33,
+        "unknown": 8,
+        "subscription": 3
+      },
+      "example_comment_ids": [
+        "50368043",
+        "50368106",
+        "50369791",
+        "50373065",
+        "50373357"
+      ]
+    },
+    {
+      "normalized": "glm",
+      "count": 37,
+      "raw_forms": {
+        "GLM": 6,
+        "GLM-5.3": 5,
+        "GLM 5.3": 5,
+        "glm": 5,
+        "GLM 5.3 Flash": 3,
+        "GLM5.3": 2,
+        "GLM Flash": 2,
+        "glm 5.3 flash": 2
+      },
+      "categories": {
+        "model-source": 23,
+        "unknown": 10,
+        "subscription": 4
+      },
+      "example_comment_ids": [
+        "50367326",
+        "50367557",
+        "50367582",
+        "50367587",
+        "50367690"
+      ]
+    },
+    {
+      "normalized": "gemini",
+      "count": 35,
+      "raw_forms": {
+        "Gemini": 15,
+        "gemini": 5,
+        "Gemini Pro": 4,
+        "Gemini Argon": 2,
+        "Gemini PAYG": 1,
+        "Gemini through credits": 1,
+        "Gemini Flash 3.8": 1,
+        "Gemini Enterprise": 1
+      },
+      "categories": {
+        "subscription": 18,
+        "model-source": 12,
+        "unknown": 3,
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50367399",
+        "50367970",
+        "50367976",
+        "50368119",
+        "50368362"
+      ]
+    },
+    {
+      "normalized": "openclaw",
+      "count": 33,
+      "raw_forms": {
+        "OpenClaw": 21,
+        "openclaw": 7,
+        "openClaw": 2,
+        "Open law": 1,
+        "clawshits": 1,
+        "Openclaw": 1
+      },
+      "categories": {
+        "platform": 33
+      },
+      "example_comment_ids": [
+        "50367207",
+        "50367272",
+        "50367423",
+        "50367571",
+        "50368019"
+      ]
+    },
+    {
+      "normalized": "openai",
+      "count": 28,
+      "raw_forms": {
+        "OpenAI": 14,
+        "OpenAI API": 2,
+        "openai": 2,
+        "OpenAI sub": 2,
+        "OpenAI (PAYG at work)": 1,
+        "OpenAI Business Premium": 1,
+        "openAI models": 1,
+        "OpenAI models": 1
+      },
+      "categories": {
+        "subscription": 21,
+        "model-source": 7
+      },
+      "example_comment_ids": [
+        "50367453",
+        "50367589",
+        "50367970",
+        "50368043",
+        "50369791"
+      ]
+    },
+    {
+      "normalized": "anthropic",
+      "count": 27,
+      "raw_forms": {
+        "Anthropic": 24,
+        "anthropic": 2,
+        "anthropic ultra": 1
+      },
+      "categories": {
+        "subscription": 27
+      },
+      "example_comment_ids": [
+        "50367146",
+        "50367399",
+        "50367701",
+        "50368019",
+        "50373248"
+      ]
+    },
+    {
+      "normalized": "hermes",
+      "count": 27,
+      "raw_forms": {
+        "Hermes": 19,
+        "hermes": 6,
+        "Hermes Agent": 1,
+        "hermes web setup": 1
+      },
+      "categories": {
+        "platform": 27
+      },
+      "example_comment_ids": [
+        "50367272",
+        "50367571",
+        "50367582",
+        "50367676",
+        "50373135"
+      ]
+    },
+    {
+      "normalized": "cursor",
+      "count": 24,
+      "raw_forms": {
+        "Cursor": 17,
+        "cursor": 4,
+        "Cursor $20/month": 1,
+        "cursor subscription": 1,
+        "cursor's cloud agents": 1
+      },
+      "categories": {
+        "harness": 13,
+        "subscription": 11
+      },
+      "example_comment_ids": [
+        "50367037",
+        "50367523",
+        "50373357",
+        "50373432",
+        "50373433"
+      ]
+    },
+    {
+      "normalized": "grok",
+      "count": 23,
+      "raw_forms": {
+        "Grok": 10,
+        "grok": 4,
+        "Grok Bot": 3,
+        "grok bot": 3,
+        "auto (grok)": 1,
+        "Grok 4.7": 1,
+        "Grok bot": 1
+      },
+      "categories": {
+        "subscription": 9,
+        "model-source": 6,
+        "platform": 5,
+        "unknown": 2,
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50367523",
+        "50367582",
+        "50367976",
+        "50368119",
+        "50370886"
+      ]
+    },
+    {
+      "normalized": "herdr",
+      "count": 21,
+      "raw_forms": {
+        "herdr": 15,
+        "Herdr": 4,
+        "herdr-app": 1,
+        "Hedr": 1
+      },
+      "categories": {
+        "orchestration": 18,
+        "harness": 2,
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50367338",
+        "50367484",
+        "50367523",
+        "50368640",
+        "50370716"
+      ]
+    },
+    {
+      "normalized": "muse",
+      "count": 19,
+      "raw_forms": {
+        "Muse": 13,
+        "muse": 1,
+        "Muse Spark": 1,
+        "Muse Glimmer": 1,
+        "Muse Code": 1,
+        "Facebook muse": 1,
+        "Muse Voyage": 1
+      },
+      "categories": {
+        "platform": 19
+      },
+      "example_comment_ids": [
+        "50367571",
+        "50367744",
+        "50367965",
+        "50368119",
+        "50373248"
+      ]
+    },
+    {
+      "normalized": "hermes agent",
+      "count": 15,
+      "raw_forms": {
+        "Hermes": 5,
+        "Hermes Agent": 5,
+        "hermes": 2,
+        "HermesAgent": 1,
+        "hermes agent": 1,
+        "hermes-agent": 1
+      },
+      "categories": {
+        "platform": 15
+      },
+      "example_comment_ids": [
+        "50367930",
+        "50368019",
+        "50368106",
+        "50368325",
+        "50370886"
+      ]
+    },
+    {
+      "normalized": "sonnet",
+      "count": 14,
+      "raw_forms": {
+        "sonnet": 6,
+        "Sonnet": 4,
+        "Sonnet 5.5": 3,
+        "Claude Sonnet": 1
+      },
+      "categories": {
+        "model-source": 10,
+        "unknown": 4
+      },
+      "example_comment_ids": [
+        "50367589",
+        "50373357",
+        "50374502",
+        "50374549",
+        "50374679"
+      ]
+    },
+    {
+      "normalized": "antigravity",
+      "count": 12,
+      "raw_forms": {
+        "Antigravity": 5,
+        "antigravity": 2,
+        "Google Antigravity CLI": 1,
+        "agy": 1,
+        "Antigravity IDE": 1,
+        "anti gravity": 1,
+        "antygravity": 1
+      },
+      "categories": {
+        "harness": 11,
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50368362",
+        "50370886",
+        "50373135",
+        "50374261",
+        "50374491"
+      ]
+    },
+    {
+      "normalized": "sol",
+      "count": 12,
+      "raw_forms": {
+        "Sol": 3,
+        "GPT 6.1 Sol": 2,
+        "Sol 6.1": 1,
+        "5.6-Sol": 1,
+        "sol": 1,
+        "Sol/Astra": 1,
+        "6.1 sol": 1,
+        "Sol 5.6": 1
+      },
+      "categories": {
+        "model-source": 8,
+        "unknown": 4
+      },
+      "example_comment_ids": [
+        "50367434",
+        "50367589",
+        "50367866",
+        "50374679",
+        "50375205"
+      ]
+    },
+    {
+      "normalized": "zed",
+      "count": 12,
+      "raw_forms": {
+        "Zed": 8,
+        "zed": 3,
+        "Zed IDE": 1
+      },
+      "categories": {
+        "harness": 12
+      },
+      "example_comment_ids": [
+        "50368526",
+        "50373357",
+        "50377512",
+        "50377715",
+        "50377888"
+      ]
+    },
+    {
+      "normalized": "argon",
+      "count": 11,
+      "raw_forms": {
+        "Argon": 7,
+        "Gemini Argon": 1,
+        "Google Argon 4": 1,
+        "argon": 1,
+        "Argon-tokens": 1
+      },
+      "categories": {
+        "model-source": 6,
+        "unknown": 3,
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50367399",
+        "50373135",
+        "50376087",
+        "50376279",
+        "50376352"
+      ]
+    },
+    {
+      "normalized": "dots",
+      "count": 11,
+      "raw_forms": {
+        "Dots": 7,
+        "dots": 2,
+        "Dot": 1,
+        "OpenAI's dot": 1
+      },
+      "categories": {
+        "platform": 11
+      },
+      "example_comment_ids": [
+        "50367272",
+        "50374498",
+        "50376110",
+        "50376760",
+        "50376855"
+      ]
+    },
+    {
+      "normalized": "fable",
+      "count": 11,
+      "raw_forms": {
+        "Fable": 6,
+        "Fable 5.1": 3,
+        "Fable-level inference": 1,
+        "fable": 1
+      },
+      "categories": {
+        "model-source": 6,
+        "unknown": 3,
+        "subscription": 2
+      },
+      "example_comment_ids": [
+        "50373208",
+        "50374502",
+        "50375326",
+        "50378086",
+        "50378106"
+      ]
+    },
+    {
+      "normalized": "kimi",
+      "count": 11,
+      "raw_forms": {
+        "Kimi": 5,
+        "kimi": 2,
+        "Kimi K3.1": 1,
+        "kimi2.6": 1,
+        "Kimi K3.1 Pro": 1,
+        "Kimi 3.1 Pro": 1
+      },
+      "categories": {
+        "model-source": 7,
+        "subscription": 4
+      },
+      "example_comment_ids": [
+        "50367326",
+        "50367326",
+        "50367849",
+        "50375134",
+        "50376182"
+      ]
+    },
+    {
+      "normalized": "paseo",
+      "count": 11,
+      "raw_forms": {
+        "Paseo": 8,
+        "paseo": 3
+      },
+      "categories": {
+        "harness": 5,
+        "orchestration": 4,
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50367326",
+        "50373485",
+        "50374298",
+        "50376087",
+        "50376167"
+      ]
+    },
+    {
+      "normalized": "copilot",
+      "count": 10,
+      "raw_forms": {
+        "Copilot": 6,
+        "copilot": 1,
+        "Github Copilot": 1,
+        "copilot in MS365": 1,
+        "GitHub copilot": 1
+      },
+      "categories": {
+        "harness": 5,
+        "subscription": 5
+      },
+      "example_comment_ids": [
+        "50371770",
+        "50373248",
+        "50376352",
+        "50377746",
+        "50379350"
+      ]
+    },
+    {
+      "normalized": "gemma",
+      "count": 10,
+      "raw_forms": {
+        "Gemma": 2,
+        "gemma models": 1,
+        "Gemma 4 12B QAT": 1,
+        "gemma": 1,
+        "gemma-4-12B-it-Q8_0.gguf": 1,
+        "Gemma 4": 1,
+        "qwen/gemma": 1,
+        "Gemma-4-26b": 1
+      },
+      "categories": {
+        "model-source": 8,
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50374270",
+        "50374298",
+        "50374626",
+        "50374705",
+        "50374774"
+      ]
+    },
+    {
+      "normalized": "orca",
+      "count": 10,
+      "raw_forms": {
+        "Orca": 7,
+        "orca": 2,
+        "Orca IDE": 1
+      },
+      "categories": {
+        "orchestration": 7,
+        "harness": 2,
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50367676",
+        "50367744",
+        "50373433",
+        "50373447",
+        "50377512"
+      ]
+    },
+    {
+      "normalized": "github copilot",
+      "count": 9,
+      "raw_forms": {
+        "Github Copilot": 3,
+        "github copilot": 2,
+        "GitHub Copilot Enterprise": 1,
+        "GitHub copilot max plan": 1,
+        "GitHub Copilot": 1,
+        "Github CoPilot": 1
+      },
+      "categories": {
+        "subscription": 5,
+        "harness": 4
+      },
+      "example_comment_ids": [
+        "50367589",
+        "50368526",
+        "50376720",
+        "50378067",
+        "50378086"
+      ]
+    },
+    {
+      "normalized": "gpt",
+      "count": 9,
+      "raw_forms": {
+        "GPT": 5,
+        "GPT 5.6": 1,
+        "gpt": 1,
+        "GPT models": 1,
+        "gpt5.4": 1
+      },
+      "categories": {
+        "unknown": 5,
+        "model-source": 3,
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50367192",
+        "50367589",
+        "50367744",
+        "50374626",
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "grok bot",
+      "count": 9,
+      "raw_forms": {
+        "Grok Bot": 4,
+        "grok bot": 2,
+        "grokbots": 1,
+        "GrokBot": 1,
+        "Grok bot": 1
+      },
+      "categories": {
+        "platform": 9
+      },
+      "example_comment_ids": [
+        "50367207",
+        "50367523",
+        "50367582",
+        "50367701",
+        "50367970"
+      ]
+    },
+    {
+      "normalized": "luna",
+      "count": 9,
+      "raw_forms": {
+        "Luna": 3,
+        "GPT-6-luna": 1,
+        "GPT-6 Luna": 1,
+        "GPT Luna 6": 1,
+        "gpt-luna": 1,
+        "GPT 6 Luna max": 1,
+        "Sol/Luna": 1
+      },
+      "categories": {
+        "model-source": 6,
+        "unknown": 3
+      },
+      "example_comment_ids": [
+        "50367272",
+        "50367744",
+        "50373248",
+        "50373357",
+        "50375134"
+      ]
+    },
+    {
+      "normalized": "mistral",
+      "count": 9,
+      "raw_forms": {
+        "Mistral": 4,
+        "Mistral Pro": 1,
+        "Mistral Large 4": 1,
+        "mistral": 1,
+        "Mistral Team subscription": 1,
+        "mistral pro": 1
+      },
+      "categories": {
+        "subscription": 6,
+        "model-source": 3
+      },
+      "example_comment_ids": [
+        "50367326",
+        "50367326",
+        "50367557",
+        "50367965",
+        "50374450"
+      ]
+    },
+    {
+      "normalized": "ollama",
+      "count": 9,
+      "raw_forms": {
+        "ollama": 3,
+        "ollama.com": 1,
+        "ollama pro": 1,
+        "Ollama Cloud": 1,
+        "ollama.cpp": 1,
+        "Ollama (Max)": 1,
+        "Ollama": 1
+      },
+      "categories": {
+        "model-source": 8,
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50368106",
+        "50376262",
+        "50376733",
+        "50376782",
+        "50380057"
+      ]
+    },
+    {
+      "normalized": "claude desktop",
+      "count": 7,
+      "raw_forms": {
+        "Claude Desktop": 4,
+        "Claude desktop app": 1,
+        "Claude desktop": 1,
+        "claude desktop": 1
+      },
+      "categories": {
+        "harness": 6,
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50367569",
+        "50367926",
+        "50368325",
+        "50373063",
+        "50373065"
+      ]
+    },
+    {
+      "normalized": "deepseek harness",
+      "count": 7,
+      "raw_forms": {
+        "Deepseek Harness": 3,
+        "Deepseek harness": 1,
+        "DeepSeekHarness (DSH)": 1,
+        "DSH": 1,
+        "DeepSeek Harness": 1
+      },
+      "categories": {
+        "harness": 7
+      },
+      "example_comment_ids": [
+        "50367569",
+        "50367744",
+        "50374261",
+        "50374306",
+        "50374680"
+      ]
+    },
+    {
+      "normalized": "kiro",
+      "count": 7,
+      "raw_forms": {
+        "Kiro": 5,
+        "Kiro Pro+": 1,
+        "Kiro IDE": 1
+      },
+      "categories": {
+        "harness": 6,
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50367930",
+        "50370716",
+        "50373135",
+        "50373366",
+        "50378376"
+      ]
+    },
+    {
+      "normalized": "oh-my-pi",
+      "count": 7,
+      "raw_forms": {
+        "oh-my-pi": 5,
+        "oh my pi": 1,
+        "oh-my-pie": 1
+      },
+      "categories": {
+        "harness": 7
+      },
+      "example_comment_ids": [
+        "50367676",
+        "50376357",
+        "50376454",
+        "50377888",
+        "50379944"
+      ]
+    },
+    {
+      "normalized": "t3 code",
+      "count": 7,
+      "raw_forms": {
+        "T3 Code": 4,
+        "T3 code": 2,
+        "t3 code": 1
+      },
+      "categories": {
+        "harness": 5,
+        "orchestration": 2
+      },
+      "example_comment_ids": [
+        "50367589",
+        "50367701",
+        "50368179",
+        "50375041",
+        "50377597"
+      ]
+    },
+    {
+      "normalized": "aider",
+      "count": 5,
+      "raw_forms": {
+        "Aider": 3,
+        "aider": 2
+      },
+      "categories": {
+        "harness": 5
+      },
+      "example_comment_ids": [
+        "50367423",
+        "50374626",
+        "50379819",
+        "50387654",
+        "50402364"
+      ]
+    },
+    {
+      "normalized": "cmux",
+      "count": 5,
+      "raw_forms": {
+        "CMUX": 3,
+        "cmux": 2
+      },
+      "categories": {
+        "harness": 3,
+        "orchestration": 2
+      },
+      "example_comment_ids": [
+        "50378103",
+        "50378115",
+        "50378479",
+        "50388928",
+        "50419445"
+      ]
+    },
+    {
+      "normalized": "gas town",
+      "count": 5,
+      "raw_forms": {
+        "gas towns": 2,
+        "Gas Town": 1,
+        "gas town": 1,
+        "Gas City": 1
+      },
+      "categories": {
+        "orchestration": 5
+      },
+      "example_comment_ids": [
+        "50379514",
+        "50379819",
+        "50379944",
+        "50381382",
+        "50411009"
+      ]
+    },
+    {
+      "normalized": "goose",
+      "count": 5,
+      "raw_forms": {
+        "goose": 3,
+        "Goose": 2
+      },
+      "categories": {
+        "harness": 5
+      },
+      "example_comment_ids": [
+        "50368526",
+        "50374261",
+        "50374637",
+        "50376056",
+        "50376746"
+      ]
+    },
+    {
+      "normalized": "perplexity",
+      "count": 5,
+      "raw_forms": {
+        "Perplexity Pro": 5
+      },
+      "categories": {
+        "subscription": 4,
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50374449",
+        "50374502",
+        "50376601",
+        "50380640",
+        "50385840"
+      ]
+    },
+    {
+      "normalized": "rex",
+      "count": 5,
+      "raw_forms": {
+        "Rex": 5
+      },
+      "categories": {
+        "harness": 3,
+        "orchestration": 2
+      },
+      "example_comment_ids": [
+        "50367970",
+        "50373001",
+        "50375407",
+        "50378115",
+        "50407369"
+      ]
+    },
+    {
+      "normalized": "amp",
+      "count": 4,
+      "raw_forms": {
+        "https://ampcode.com/": 1,
+        "amp": 1,
+        "Amp": 1,
+        "ampcode": 1
+      },
+      "categories": {
+        "harness": 4
+      },
+      "example_comment_ids": [
+        "50367546",
+        "50380583",
+        "50381382",
+        "50384905"
+      ]
+    },
+    {
+      "normalized": "astra",
+      "count": 4,
+      "raw_forms": {
+        "Astra": 3,
+        "Sol/Astra": 1
+      },
+      "categories": {
+        "model-source": 2,
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50376410",
+        "50378415",
+        "50379292",
+        "50392971"
+      ]
+    },
+    {
+      "normalized": "google ai",
+      "count": 4,
+      "raw_forms": {
+        "Google AI": 1,
+        "Google AI Premium": 1,
+        "Google AI Ultra": 1,
+        "Google AI Pro subs": 1
+      },
+      "categories": {
+        "subscription": 4
+      },
+      "example_comment_ids": [
+        "50376352",
+        "50376463",
+        "50376538",
+        "50380473"
+      ]
+    },
+    {
+      "normalized": "kilo code",
+      "count": 4,
+      "raw_forms": {
+        "Kilo Code": 3,
+        "Kilo": 1
+      },
+      "categories": {
+        "harness": 4
+      },
+      "example_comment_ids": [
+        "50374637",
+        "50377903",
+        "50385108",
+        "50388891"
+      ]
+    },
+    {
+      "normalized": "z.ai",
+      "count": 4,
+      "raw_forms": {
+        "z.ai": 2,
+        "Z.ai": 1,
+        "z.ai 1 year subscription": 1
+      },
+      "categories": {
+        "subscription": 4
+      },
+      "example_comment_ids": [
+        "50373447",
+        "50374678",
+        "50376056",
+        "50385925"
+      ]
+    },
+    {
+      "normalized": "cline",
+      "count": 3,
+      "raw_forms": {
+        "Cline": 2,
+        "cline": 1
+      },
+      "categories": {
+        "harness": 3
+      },
+      "example_comment_ids": [
+        "50374679",
+        "50374774",
+        "50388891"
+      ]
+    },
+    {
+      "normalized": "conductor",
+      "count": 3,
+      "raw_forms": {
+        "https://www.conductor.build/": 1,
+        "Conductor.build": 1,
+        "Conductor": 1
+      },
+      "categories": {
+        "orchestration": 3
+      },
+      "example_comment_ids": [
+        "50367546",
+        "50379292",
+        "50390611"
+      ]
+    },
+    {
+      "normalized": "devin",
+      "count": 3,
+      "raw_forms": {
+        "Devin": 2,
+        "devin.ai cloud": 1
+      },
+      "categories": {
+        "harness": 3
+      },
+      "example_comment_ids": [
+        "50383966",
+        "50384905",
+        "50385108"
+      ]
+    },
+    {
+      "normalized": "droneship",
+      "count": 3,
+      "raw_forms": {
+        "https://www.droneship.run": 3
+      },
+      "categories": {
+        "unknown": 3
+      },
+      "example_comment_ids": [
+        "50371043",
+        "50371049",
+        "50372231"
+      ]
+    },
+    {
+      "normalized": "llama.cpp",
+      "count": 3,
+      "raw_forms": {
+        "llama.cpp": 2,
+        "Llama.cpp": 1
+      },
+      "categories": {
+        "model-source": 3
+      },
+      "example_comment_ids": [
+        "50374298",
+        "50374705",
+        "50385840"
+      ]
+    },
+    {
+      "normalized": "maki",
+      "count": 3,
+      "raw_forms": {
+        "Maki": 2,
+        "maki": 1
+      },
+      "categories": {
+        "harness": 3
+      },
+      "example_comment_ids": [
+        "50367557",
+        "50373485",
+        "50382719"
+      ]
+    },
+    {
+      "normalized": "melious.ai",
+      "count": 3,
+      "raw_forms": {
+        "melious.ai": 2,
+        "Melious": 1
+      },
+      "categories": {
+        "model-source": 3
+      },
+      "example_comment_ids": [
+        "50376087",
+        "50376261",
+        "50376370"
+      ]
+    },
+    {
+      "normalized": "mimo",
+      "count": 3,
+      "raw_forms": {
+        "Mimo v2.6 Pro": 1,
+        "Xiaomi Mimo Pro": 1,
+        "mimo 2.6 flash": 1
+      },
+      "categories": {
+        "unknown": 1,
+        "subscription": 1,
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50367326",
+        "50374722",
+        "50384114"
+      ]
+    },
+    {
+      "normalized": "munder difflin",
+      "count": 3,
+      "raw_forms": {
+        "Munder Difflin": 2,
+        "munder difflin": 1
+      },
+      "categories": {
+        "orchestration": 3
+      },
+      "example_comment_ids": [
+        "50370886",
+        "50379819",
+        "50381382"
+      ]
+    },
+    {
+      "normalized": "muse code",
+      "count": 3,
+      "raw_forms": {
+        "Muse Code": 3
+      },
+      "categories": {
+        "harness": 3
+      },
+      "example_comment_ids": [
+        "50373256",
+        "50376760",
+        "50379819"
+      ]
+    },
+    {
+      "normalized": "nemotron",
+      "count": 3,
+      "raw_forms": {
+        "Nemotron": 1,
+        "nemotron": 1,
+        "Nemotron Bolt 74B-9B": 1
+      },
+      "categories": {
+        "model-source": 3
+      },
+      "example_comment_ids": [
+        "50373357",
+        "50374270",
+        "50374298"
+      ]
+    },
+    {
+      "normalized": "nova-sprint",
+      "count": 3,
+      "raw_forms": {
+        "nova-sprint": 2,
+        "sprint system": 1
+      },
+      "categories": {
+        "orchestration": 3
+      },
+      "example_comment_ids": [
+        "50393739",
+        "50393807",
+        "50398915"
+      ]
+    },
+    {
+      "normalized": "obsidian",
+      "count": 3,
+      "raw_forms": {
+        "Obsidian": 2,
+        "Obsidian vault": 1
+      },
+      "categories": {
+        "unknown": 2,
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50379612",
+        "50379944",
+        "50380005"
+      ]
+    },
+    {
+      "normalized": "oh my pi",
+      "count": 3,
+      "raw_forms": {
+        "oh-my-pi": 1,
+        "Oh my Pi": 1,
+        "Oh my pi": 1
+      },
+      "categories": {
+        "harness": 3
+      },
+      "example_comment_ids": [
+        "50375145",
+        "50375312",
+        "50379530"
+      ]
+    },
+    {
+      "normalized": "omp",
+      "count": 3,
+      "raw_forms": {
+        "omp": 2,
+        "OMP": 1
+      },
+      "categories": {
+        "harness": 2,
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50373248",
+        "50374458",
+        "50374679"
+      ]
+    },
+    {
+      "normalized": "openwebui",
+      "count": 3,
+      "raw_forms": {
+        "OpenWebUI": 3
+      },
+      "categories": {
+        "unknown": 2,
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50373248",
+        "50376782",
+        "50376810"
+      ]
+    },
+    {
+      "normalized": "parakeet",
+      "count": 3,
+      "raw_forms": {
+        "Parakeet Unified EN 0.6B": 1,
+        "parakeet": 1,
+        "parakeet-ulta": 1
+      },
+      "categories": {
+        "model-source": 3
+      },
+      "example_comment_ids": [
+        "50374502",
+        "50380334",
+        "50381098"
+      ]
+    },
+    {
+      "normalized": "raven",
+      "count": 3,
+      "raw_forms": {
+        "Raven": 2,
+        "raven": 1
+      },
+      "categories": {
+        "harness": 2,
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50367434",
+        "50367901",
+        "50368268"
+      ]
+    },
+    {
+      "normalized": "strata",
+      "count": 3,
+      "raw_forms": {
+        "Strata": 3
+      },
+      "categories": {
+        "unknown": 2,
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376810",
+        "50378530",
+        "50380358"
+      ]
+    },
+    {
+      "normalized": "3code",
+      "count": 2,
+      "raw_forms": {
+        "https://github.com/capocasa/3code": 1,
+        "3code": 1
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50370419",
+        "50370525"
+      ]
+    },
+    {
+      "normalized": "agent orchestrator",
+      "count": 2,
+      "raw_forms": {
+        "agent orchestrator": 2
+      },
+      "categories": {
+        "orchestration": 2
+      },
+      "example_comment_ids": [
+        "50376286",
+        "50376304"
+      ]
+    },
+    {
+      "normalized": "agy",
+      "count": 2,
+      "raw_forms": {
+        "agy": 1,
+        "AGY": 1
+      },
+      "categories": {
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50367399",
+        "50393280"
+      ]
+    },
+    {
+      "normalized": "artificial analysis",
+      "count": 2,
+      "raw_forms": {
+        "artificialanalysis.ai": 1,
+        "Artificial Analysis": 1
+      },
+      "categories": {
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50374344",
+        "50379420"
+      ]
+    },
+    {
+      "normalized": "claude cowork",
+      "count": 2,
+      "raw_forms": {
+        "Claude Cowork": 1,
+        "Claude's cowork thingy": 1
+      },
+      "categories": {
+        "platform": 2
+      },
+      "example_comment_ids": [
+        "50377705",
+        "50407937"
+      ]
+    },
+    {
+      "normalized": "claude ide",
+      "count": 2,
+      "raw_forms": {
+        "Claude IDE": 2
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50367037",
+        "50367548"
+      ]
+    },
+    {
+      "normalized": "codebuddy",
+      "count": 2,
+      "raw_forms": {
+        "CodeBuddy": 1,
+        "Codebuddy pro": 1
+      },
+      "categories": {
+        "harness": 1,
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50385108",
+        "50391332"
+      ]
+    },
+    {
+      "normalized": "comfyui",
+      "count": 2,
+      "raw_forms": {
+        "ComfyUi": 1,
+        "ComfyUI": 1
+      },
+      "categories": {
+        "harness": 1,
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50375265",
+        "50380232"
+      ]
+    },
+    {
+      "normalized": "deepinfra",
+      "count": 2,
+      "raw_forms": {
+        "deepinfra.com": 1,
+        "DeepInfra": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50375145",
+        "50380281"
+      ]
+    },
+    {
+      "normalized": "docker sandboxes",
+      "count": 2,
+      "raw_forms": {
+        "Docker Sandboxes": 2
+      },
+      "categories": {
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50370525",
+        "50389999"
+      ]
+    },
+    {
+      "normalized": "duck.ai",
+      "count": 2,
+      "raw_forms": {
+        "duck.ai": 2
+      },
+      "categories": {
+        "unknown": 1,
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374626",
+        "50377746"
+      ]
+    },
+    {
+      "normalized": "duet",
+      "count": 2,
+      "raw_forms": {
+        "Duet": 2
+      },
+      "categories": {
+        "platform": 1,
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50367272",
+        "50410297"
+      ]
+    },
+    {
+      "normalized": "flash-next",
+      "count": 2,
+      "raw_forms": {
+        "Flash-Next": 1,
+        "Qwen-flash-next": 1
+      },
+      "categories": {
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50376778",
+        "50376810"
+      ]
+    },
+    {
+      "normalized": "github",
+      "count": 2,
+      "raw_forms": {
+        "GitHub": 1,
+        "github": 1
+      },
+      "categories": {
+        "subscription": 2
+      },
+      "example_comment_ids": [
+        "50383038",
+        "50397122"
+      ]
+    },
+    {
+      "normalized": "google",
+      "count": 2,
+      "raw_forms": {
+        "google free models": 1,
+        "Google": 1
+      },
+      "categories": {
+        "model-source": 1,
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50376145",
+        "50379822"
+      ]
+    },
+    {
+      "normalized": "gptel",
+      "count": 2,
+      "raw_forms": {
+        "gptel": 2
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50373503",
+        "50377633"
+      ]
+    },
+    {
+      "normalized": "haiku",
+      "count": 2,
+      "raw_forms": {
+        "Haiku 5": 1,
+        "Haiku": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50376352",
+        "50389538"
+      ]
+    },
+    {
+      "normalized": "handy",
+      "count": 2,
+      "raw_forms": {
+        "Handy": 2
+      },
+      "categories": {
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50374502",
+        "50383038"
+      ]
+    },
+    {
+      "normalized": "instinct",
+      "count": 2,
+      "raw_forms": {
+        "Instinct": 1,
+        "instinct bot": 1
+      },
+      "categories": {
+        "platform": 2
+      },
+      "example_comment_ids": [
+        "50376760",
+        "50391332"
+      ]
+    },
+    {
+      "normalized": "jev",
+      "count": 2,
+      "raw_forms": {
+        "JEV": 1,
+        "jev classifier": 1
+      },
+      "categories": {
+        "model-source": 1,
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50380310",
+        "50389805"
+      ]
+    },
+    {
+      "normalized": "kan",
+      "count": 2,
+      "raw_forms": {
+        "Kan": 1,
+        "https://github.com/amterp/kan": 1
+      },
+      "categories": {
+        "orchestration": 1,
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50374498",
+        "50374919"
+      ]
+    },
+    {
+      "normalized": "kimi code",
+      "count": 2,
+      "raw_forms": {
+        "Kimi Code": 2
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50377579",
+        "50377945"
+      ]
+    },
+    {
+      "normalized": "kokoro",
+      "count": 2,
+      "raw_forms": {
+        "Kokoro": 1,
+        "kokoro": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50376410",
+        "50381098"
+      ]
+    },
+    {
+      "normalized": "lm studio",
+      "count": 2,
+      "raw_forms": {
+        "LM Studio": 1,
+        "lm-studio": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50374298",
+        "50377697"
+      ]
+    },
+    {
+      "normalized": "melious",
+      "count": 2,
+      "raw_forms": {
+        "Melious": 1,
+        "melious": 1
+      },
+      "categories": {
+        "subscription": 1,
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50367557",
+        "50376642"
+      ]
+    },
+    {
+      "normalized": "mercury",
+      "count": 2,
+      "raw_forms": {
+        "Inception Mercury 3": 1,
+        "Mercury 3": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50373432",
+        "50374417"
+      ]
+    },
+    {
+      "normalized": "muster",
+      "count": 2,
+      "raw_forms": {
+        "https://muster.town/": 1,
+        "Muster": 1
+      },
+      "categories": {
+        "orchestration": 2
+      },
+      "example_comment_ids": [
+        "50373322",
+        "50374498"
+      ]
+    },
+    {
+      "normalized": "nanoclaw",
+      "count": 2,
+      "raw_forms": {
+        "NanoClaw": 1,
+        "nanoclaw": 1
+      },
+      "categories": {
+        "platform": 1,
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50379312",
+        "50385925"
+      ]
+    },
+    {
+      "normalized": "nodecode",
+      "count": 2,
+      "raw_forms": {
+        "NodeCode": 1,
+        "nodecode": 1
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50376722",
+        "50387654"
+      ]
+    },
+    {
+      "normalized": "nono",
+      "count": 2,
+      "raw_forms": {
+        "nono": 2
+      },
+      "categories": {
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50379505",
+        "50380164"
+      ]
+    },
+    {
+      "normalized": "nono.sh",
+      "count": 2,
+      "raw_forms": {
+        "nono.sh": 2
+      },
+      "categories": {
+        "unknown": 2
+      },
+      "example_comment_ids": [
+        "50367803",
+        "50370525"
+      ]
+    },
+    {
+      "normalized": "nvidia nim",
+      "count": 2,
+      "raw_forms": {
+        "Nvivia NIM": 1,
+        "nvidia nim": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50373357",
+        "50376145"
+      ]
+    },
+    {
+      "normalized": "omlx",
+      "count": 2,
+      "raw_forms": {
+        "oMLX": 2
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50376810",
+        "50379350"
+      ]
+    },
+    {
+      "normalized": "open webui",
+      "count": 2,
+      "raw_forms": {
+        "Open WebUI": 2
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50377715",
+        "50385251"
+      ]
+    },
+    {
+      "normalized": "openbot",
+      "count": 2,
+      "raw_forms": {
+        "https://github.com/regnull/openbot": 1,
+        "OpenBot": 1
+      },
+      "categories": {
+        "platform": 1,
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50373129",
+        "50377597"
+      ]
+    },
+    {
+      "normalized": "openchamber",
+      "count": 2,
+      "raw_forms": {
+        "OpenChamber": 1,
+        "Openchamber": 1
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50378530",
+        "50385812"
+      ]
+    },
+    {
+      "normalized": "opencode console",
+      "count": 2,
+      "raw_forms": {
+        "OpenCode Console": 1,
+        "Zen/Console": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50378067",
+        "50378279"
+      ]
+    },
+    {
+      "normalized": "opencode zen",
+      "count": 2,
+      "raw_forms": {
+        "opencode zen": 1,
+        "Opencode Zen": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50376145",
+        "50376632"
+      ]
+    },
+    {
+      "normalized": "openhands",
+      "count": 2,
+      "raw_forms": {
+        "openhands": 1,
+        "OpenHands": 1
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50376538",
+        "50380849"
+      ]
+    },
+    {
+      "normalized": "paperclip",
+      "count": 2,
+      "raw_forms": {
+        "Paperclip": 2
+      },
+      "categories": {
+        "orchestration": 2
+      },
+      "example_comment_ids": [
+        "50367453",
+        "50370886"
+      ]
+    },
+    {
+      "normalized": "synthetic",
+      "count": 2,
+      "raw_forms": {
+        "Synthetic": 2
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50383038",
+        "50409929"
+      ]
+    },
+    {
+      "normalized": "t3code",
+      "count": 2,
+      "raw_forms": {
+        "t3code": 2
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50376652",
+        "50376683"
+      ]
+    },
+    {
+      "normalized": "thinkrail",
+      "count": 2,
+      "raw_forms": {
+        "JetBrains Thinkrail": 1,
+        "ThinkRail": 1
+      },
+      "categories": {
+        "harness": 2
+      },
+      "example_comment_ids": [
+        "50374680",
+        "50376352"
+      ]
+    },
+    {
+      "normalized": "ultracode",
+      "count": 2,
+      "raw_forms": {
+        "Ultracode": 1,
+        "ultracode": 1
+      },
+      "categories": {
+        "unknown": 1,
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50373432",
+        "50384207"
+      ]
+    },
+    {
+      "normalized": "venice",
+      "count": 2,
+      "raw_forms": {
+        "Venice": 1,
+        "Venice.ai": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50367582",
+        "50385740"
+      ]
+    },
+    {
+      "normalized": "warp",
+      "count": 2,
+      "raw_forms": {
+        "warp.dev": 1,
+        "warp": 1
+      },
+      "categories": {
+        "orchestration": 1,
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50379686",
+        "50384963"
+      ]
+    },
+    {
+      "normalized": "whisper",
+      "count": 2,
+      "raw_forms": {
+        "Whisper": 1,
+        "whisper": 1
+      },
+      "categories": {
+        "model-source": 2
+      },
+      "example_comment_ids": [
+        "50379352",
+        "50380334"
+      ]
+    },
+    {
+      "normalized": "1stcontact.ai",
+      "count": 1,
+      "raw_forms": {
+        "1stContact.ai": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50414679"
+      ]
+    },
+    {
+      "normalized": "3xspark",
+      "count": 1,
+      "raw_forms": {
+        "3xSpark": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376430"
+      ]
+    },
+    {
+      "normalized": "actvox",
+      "count": 1,
+      "raw_forms": {
+        "Actvox": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "normalized": "adb",
+      "count": 1,
+      "raw_forms": {
+        "adb": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50391288"
+      ]
+    },
+    {
+      "normalized": "agent-browser",
+      "count": 1,
+      "raw_forms": {
+        "Vercel's agent-browser": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50385555"
+      ]
+    },
+    {
+      "normalized": "agent-shell",
+      "count": 1,
+      "raw_forms": {
+        "Agent-Shell": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50378293"
+      ]
+    },
+    {
+      "normalized": "agent-swarm.dev",
+      "count": 1,
+      "raw_forms": {
+        "agent-swarm.dev": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50378028"
+      ]
+    },
+    {
+      "normalized": "agent-vault",
+      "count": 1,
+      "raw_forms": {
+        "agent-vault": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50391245"
+      ]
+    },
+    {
+      "normalized": "ai studio",
+      "count": 1,
+      "raw_forms": {
+        "ai atudio": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50414679"
+      ]
+    },
+    {
+      "normalized": "anthropic sandbox runtime",
+      "count": 1,
+      "raw_forms": {
+        "Anthropic Sandbox Runtime": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50379505"
+      ]
+    },
+    {
+      "normalized": "atlas",
+      "count": 1,
+      "raw_forms": {
+        "Atlas": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50377579"
+      ]
+    },
+    {
+      "normalized": "atlassian",
+      "count": 1,
+      "raw_forms": {
+        "Atlassian": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "normalized": "autofab",
+      "count": 1,
+      "raw_forms": {
+        "autofab": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374261"
+      ]
+    },
+    {
+      "normalized": "baseten",
+      "count": 1,
+      "raw_forms": {
+        "baseten": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374774"
+      ]
+    },
+    {
+      "normalized": "bedrock",
+      "count": 1,
+      "raw_forms": {
+        "AWS Bedrock": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50368106"
+      ]
+    },
+    {
+      "normalized": "belfry",
+      "count": 1,
+      "raw_forms": {
+        "https://belfry.robgough.net": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50368640"
+      ]
+    },
+    {
+      "normalized": "bifrost",
+      "count": 1,
+      "raw_forms": {
+        "bifrost": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376357"
+      ]
+    },
+    {
+      "normalized": "bubblewrap",
+      "count": 1,
+      "raw_forms": {
+        "bubblewrap": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376030"
+      ]
+    },
+    {
+      "normalized": "buzzpot",
+      "count": 1,
+      "raw_forms": {
+        "Buzzpot.app": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50367619"
+      ]
+    },
+    {
+      "normalized": "byre",
+      "count": 1,
+      "raw_forms": {
+        "byre sandbox": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380522"
+      ]
+    },
+    {
+      "normalized": "canva",
+      "count": 1,
+      "raw_forms": {
+        "Canva": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50411184"
+      ]
+    },
+    {
+      "normalized": "cclsp",
+      "count": 1,
+      "raw_forms": {
+        "cclsp": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50407937"
+      ]
+    },
+    {
+      "normalized": "ccode",
+      "count": 1,
+      "raw_forms": {
+        "ccode": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50379808"
+      ]
+    },
+    {
+      "normalized": "charm hyper",
+      "count": 1,
+      "raw_forms": {
+        "Charm Hyper": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "normalized": "chatgpt image",
+      "count": 1,
+      "raw_forms": {
+        "ChatGPT Image": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376279"
+      ]
+    },
+    {
+      "normalized": "chatterbox",
+      "count": 1,
+      "raw_forms": {
+        "Chatterbox": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50379352"
+      ]
+    },
+    {
+      "normalized": "chrome mcp",
+      "count": 1,
+      "raw_forms": {
+        "Chrome MCP server": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "cinnamon",
+      "count": 1,
+      "raw_forms": {
+        "getcinnamon.ai": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50373135"
+      ]
+    },
+    {
+      "normalized": "circus chief",
+      "count": 1,
+      "raw_forms": {
+        "Circus Chief": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374678"
+      ]
+    },
+    {
+      "normalized": "clara",
+      "count": 1,
+      "raw_forms": {
+        "Clara": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50379352"
+      ]
+    },
+    {
+      "normalized": "claude code desktop",
+      "count": 1,
+      "raw_forms": {
+        "Claude Code Desktop": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50368880"
+      ]
+    },
+    {
+      "normalized": "claude code web",
+      "count": 1,
+      "raw_forms": {
+        "Claude Code Web": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376807"
+      ]
+    },
+    {
+      "normalized": "claude design",
+      "count": 1,
+      "raw_forms": {
+        "Claude Design": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50367571"
+      ]
+    },
+    {
+      "normalized": "claude duet",
+      "count": 1,
+      "raw_forms": {
+        "Claude Duet": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50379312"
+      ]
+    },
+    {
+      "normalized": "claude fable",
+      "count": 1,
+      "raw_forms": {
+        "Claude Fable": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376720"
+      ]
+    },
+    {
+      "normalized": "claude routines",
+      "count": 1,
+      "raw_forms": {
+        "claude routines": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50376567"
+      ]
+    },
+    {
+      "normalized": "claudeflow",
+      "count": 1,
+      "raw_forms": {
+        "claudeflow": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374380"
+      ]
+    },
+    {
+      "normalized": "clawdbot",
+      "count": 1,
+      "raw_forms": {
+        "ClawdBot": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50402364"
+      ]
+    },
+    {
+      "normalized": "clawpatrol",
+      "count": 1,
+      "raw_forms": {
+        "clawpatrol": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50380252"
+      ]
+    },
+    {
+      "normalized": "clef",
+      "count": 1,
+      "raw_forms": {
+        "Clef": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "codealong",
+      "count": 1,
+      "raw_forms": {
+        "codealong": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374491"
+      ]
+    },
+    {
+      "normalized": "coder",
+      "count": 1,
+      "raw_forms": {
+        "Coder": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50379997"
+      ]
+    },
+    {
+      "normalized": "coderabbit",
+      "count": 1,
+      "raw_forms": {
+        "CodeRabbit": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50374626"
+      ]
+    },
+    {
+      "normalized": "codex desktop",
+      "count": 1,
+      "raw_forms": {
+        "codex desktop": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50380213"
+      ]
+    },
+    {
+      "normalized": "comet",
+      "count": 1,
+      "raw_forms": {
+        "Comet": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "command center",
+      "count": 1,
+      "raw_forms": {
+        "Command Center": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50390611"
+      ]
+    },
+    {
+      "normalized": "command code",
+      "count": 1,
+      "raw_forms": {
+        "Command Code GOAT": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50385108"
+      ]
+    },
+    {
+      "normalized": "composer",
+      "count": 1,
+      "raw_forms": {
+        "Composer 2": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50373357"
+      ]
+    },
+    {
+      "normalized": "compound engineering",
+      "count": 1,
+      "raw_forms": {
+        "Compound Engineering plugin": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50389282"
+      ]
+    },
+    {
+      "normalized": "contextify",
+      "count": 1,
+      "raw_forms": {
+        "contextify": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374243"
+      ]
+    },
+    {
+      "normalized": "coolwalk",
+      "count": 1,
+      "raw_forms": {
+        "cool walk": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376565"
+      ]
+    },
+    {
+      "normalized": "coop",
+      "count": 1,
+      "raw_forms": {
+        "coop vm": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380583"
+      ]
+    },
+    {
+      "normalized": "corgi",
+      "count": 1,
+      "raw_forms": {
+        "corgi": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376149"
+      ]
+    },
+    {
+      "normalized": "coterie",
+      "count": 1,
+      "raw_forms": {
+        "Coterie": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50376872"
+      ]
+    },
+    {
+      "normalized": "creator studio",
+      "count": 1,
+      "raw_forms": {
+        "creator studio": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50414679"
+      ]
+    },
+    {
+      "normalized": "ctlflow",
+      "count": 1,
+      "raw_forms": {
+        "https://www.ctlflow.com": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50373324"
+      ]
+    },
+    {
+      "normalized": "custom code-review wrapper",
+      "count": 1,
+      "raw_forms": {
+        "self-built code-review wrapper": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50380522"
+      ]
+    },
+    {
+      "normalized": "custom daemon",
+      "count": 1,
+      "raw_forms": {
+        "custom Daemon": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50367423"
+      ]
+    },
+    {
+      "normalized": "custom orchestrator",
+      "count": 1,
+      "raw_forms": {
+        "Custom build orchestrator": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50380057"
+      ]
+    },
+    {
+      "normalized": "desert ant",
+      "count": 1,
+      "raw_forms": {
+        "Desert Ant": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50380509"
+      ]
+    },
+    {
+      "normalized": "devarch",
+      "count": 1,
+      "raw_forms": {
+        "https://devarch.ai/": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50375338"
+      ]
+    },
+    {
+      "normalized": "devtools mcp",
+      "count": 1,
+      "raw_forms": {
+        "browser DevTools MCP": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380647"
+      ]
+    },
+    {
+      "normalized": "dingles",
+      "count": 1,
+      "raw_forms": {
+        "Dingles": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "normalized": "dirge",
+      "count": 1,
+      "raw_forms": {
+        "dirge": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50387654"
+      ]
+    },
+    {
+      "normalized": "docker",
+      "count": 1,
+      "raw_forms": {
+        "Docker containers": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50379505"
+      ]
+    },
+    {
+      "normalized": "docker sandbox",
+      "count": 1,
+      "raw_forms": {
+        "Docker Sandbox": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380849"
+      ]
+    },
+    {
+      "normalized": "drop",
+      "count": 1,
+      "raw_forms": {
+        "drop": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50382618"
+      ]
+    },
+    {
+      "normalized": "dsh",
+      "count": 1,
+      "raw_forms": {
+        "DSH": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376430"
+      ]
+    },
+    {
+      "normalized": "dwim",
+      "count": 1,
+      "raw_forms": {
+        "dwim": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50407369"
+      ]
+    },
+    {
+      "normalized": "eca",
+      "count": 1,
+      "raw_forms": {
+        "Editor Code Assistant": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50378067"
+      ]
+    },
+    {
+      "normalized": "egzo",
+      "count": 1,
+      "raw_forms": {
+        "Egzo": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374549"
+      ]
+    },
+    {
+      "normalized": "emacs",
+      "count": 1,
+      "raw_forms": {
+        "Emacs": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50378067"
+      ]
+    },
+    {
+      "normalized": "emergents",
+      "count": 1,
+      "raw_forms": {
+        "emergents": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50375020"
+      ]
+    },
+    {
+      "normalized": "entrim",
+      "count": 1,
+      "raw_forms": {
+        "Entrim": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50367557"
+      ]
+    },
+    {
+      "normalized": "epiq",
+      "count": 1,
+      "raw_forms": {
+        "epiq.sh": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380609"
+      ]
+    },
+    {
+      "normalized": "exa",
+      "count": 1,
+      "raw_forms": {
+        "exa": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50367423"
+      ]
+    },
+    {
+      "normalized": "exe.dev",
+      "count": 1,
+      "raw_forms": {
+        "exe.dev": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50376381"
+      ]
+    },
+    {
+      "normalized": "fdrive",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/mickael-kerjean/fdrive": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50373293"
+      ]
+    },
+    {
+      "normalized": "filestash",
+      "count": 1,
+      "raw_forms": {
+        "https://www.filestash.app/agents/": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50373293"
+      ]
+    },
+    {
+      "normalized": "fizzy",
+      "count": 1,
+      "raw_forms": {
+        "Fizzy": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50373366"
+      ]
+    },
+    {
+      "normalized": "fluidvoice",
+      "count": 1,
+      "raw_forms": {
+        "FluidVoice": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "normalized": "flux",
+      "count": 1,
+      "raw_forms": {
+        "Flux": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50380232"
+      ]
+    },
+    {
+      "normalized": "fluximp",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/fluxmoot/fluximp": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50375145"
+      ]
+    },
+    {
+      "normalized": "freebuff",
+      "count": 1,
+      "raw_forms": {
+        "FreeBuff": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50385108"
+      ]
+    },
+    {
+      "normalized": "freellmapi",
+      "count": 1,
+      "raw_forms": {
+        "freellmapi": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50379530"
+      ]
+    },
+    {
+      "normalized": "friendli",
+      "count": 1,
+      "raw_forms": {
+        "friendli.ai": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50375145"
+      ]
+    },
+    {
+      "normalized": "gastown",
+      "count": 1,
+      "raw_forms": {
+        "GasTown": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50375134"
+      ]
+    },
+    {
+      "normalized": "gemini astra",
+      "count": 1,
+      "raw_forms": {
+        "Gemini Astra": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374261"
+      ]
+    },
+    {
+      "normalized": "gemini cli",
+      "count": 1,
+      "raw_forms": {
+        "the Google and Anthropic CLI ones": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50388891"
+      ]
+    },
+    {
+      "normalized": "gemini image",
+      "count": 1,
+      "raw_forms": {
+        "Gemini Image": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376279"
+      ]
+    },
+    {
+      "normalized": "ghidra mcp",
+      "count": 1,
+      "raw_forms": {
+        "ghidra-mcp": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50375124"
+      ]
+    },
+    {
+      "normalized": "ghostty",
+      "count": 1,
+      "raw_forms": {
+        "Ghostty": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50367970"
+      ]
+    },
+    {
+      "normalized": "gin",
+      "count": 1,
+      "raw_forms": {
+        "GIN": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376692"
+      ]
+    },
+    {
+      "normalized": "glimmer",
+      "count": 1,
+      "raw_forms": {
+        "Muse Glimmer": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50379840"
+      ]
+    },
+    {
+      "normalized": "gnosh",
+      "count": 1,
+      "raw_forms": {
+        "gnosh.ai": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50375257"
+      ]
+    },
+    {
+      "normalized": "google one",
+      "count": 1,
+      "raw_forms": {
+        "Google One": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50373357"
+      ]
+    },
+    {
+      "normalized": "google search console",
+      "count": 1,
+      "raw_forms": {
+        "google search console": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50391245"
+      ]
+    },
+    {
+      "normalized": "google ultra",
+      "count": 1,
+      "raw_forms": {
+        "Google Ultra": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50374261"
+      ]
+    },
+    {
+      "normalized": "gpt sol",
+      "count": 1,
+      "raw_forms": {
+        "GPT Sol 6.1": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50385740"
+      ]
+    },
+    {
+      "normalized": "gptel-agent",
+      "count": 1,
+      "raw_forms": {
+        "gptel-agent": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50373503"
+      ]
+    },
+    {
+      "normalized": "grill",
+      "count": 1,
+      "raw_forms": {
+        "Grill": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50377528"
+      ]
+    },
+    {
+      "normalized": "halogen",
+      "count": 1,
+      "raw_forms": {
+        "Halogen inference server": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50377761"
+      ]
+    },
+    {
+      "normalized": "hangar",
+      "count": 1,
+      "raw_forms": {
+        "Hangar": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50377945"
+      ]
+    },
+    {
+      "normalized": "happier",
+      "count": 1,
+      "raw_forms": {
+        "happier": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380522"
+      ]
+    },
+    {
+      "normalized": "hax",
+      "count": 1,
+      "raw_forms": {
+        "Hax": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50380281"
+      ]
+    },
+    {
+      "normalized": "hedr",
+      "count": 1,
+      "raw_forms": {
+        "Hedr": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376357"
+      ]
+    },
+    {
+      "normalized": "helmcode",
+      "count": 1,
+      "raw_forms": {
+        "Helmcode": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50378028"
+      ]
+    },
+    {
+      "normalized": "helyn implement",
+      "count": 1,
+      "raw_forms": {
+        "Helyn Implement": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50380633"
+      ]
+    },
+    {
+      "normalized": "herdr core",
+      "count": 1,
+      "raw_forms": {
+        "herdr-core": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50375407"
+      ]
+    },
+    {
+      "normalized": "herdr tui",
+      "count": 1,
+      "raw_forms": {
+        "herdr-tui": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50375407"
+      ]
+    },
+    {
+      "normalized": "hivemind",
+      "count": 1,
+      "raw_forms": {
+        "Hivemind": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50378016"
+      ]
+    },
+    {
+      "normalized": "honcho",
+      "count": 1,
+      "raw_forms": {
+        "honcho": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50373357"
+      ]
+    },
+    {
+      "normalized": "hoplite",
+      "count": 1,
+      "raw_forms": {
+        "hoplite.sh": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50384905"
+      ]
+    },
+    {
+      "normalized": "huggingface",
+      "count": 1,
+      "raw_forms": {
+        "HuggingFace API": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50378077"
+      ]
+    },
+    {
+      "normalized": "humbug",
+      "count": 1,
+      "raw_forms": {
+        "Humbug": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376262"
+      ]
+    },
+    {
+      "normalized": "iceghost",
+      "count": 1,
+      "raw_forms": {
+        "iceghost": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50378518"
+      ]
+    },
+    {
+      "normalized": "impeccable",
+      "count": 1,
+      "raw_forms": {
+        "impeccable": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50381456"
+      ]
+    },
+    {
+      "normalized": "incus",
+      "count": 1,
+      "raw_forms": {
+        "Incus": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380156"
+      ]
+    },
+    {
+      "normalized": "iron proxy",
+      "count": 1,
+      "raw_forms": {
+        "iron proxy": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376357"
+      ]
+    },
+    {
+      "normalized": "jagt",
+      "count": 1,
+      "raw_forms": {
+        "jagt": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50389538"
+      ]
+    },
+    {
+      "normalized": "jail",
+      "count": 1,
+      "raw_forms": {
+        "jail": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376030"
+      ]
+    },
+    {
+      "normalized": "jiraude",
+      "count": 1,
+      "raw_forms": {
+        "jiraude": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50384746"
+      ]
+    },
+    {
+      "normalized": "juggler",
+      "count": 1,
+      "raw_forms": {
+        "juggler": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376056"
+      ]
+    },
+    {
+      "normalized": "k2 horizon",
+      "count": 1,
+      "raw_forms": {
+        "IFM K2 Horizon 7B": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50380633"
+      ]
+    },
+    {
+      "normalized": "kagi",
+      "count": 1,
+      "raw_forms": {
+        "Kagi Ultimate": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50374449"
+      ]
+    },
+    {
+      "normalized": "kapitsa",
+      "count": 1,
+      "raw_forms": {
+        "kapitsa": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50373065"
+      ]
+    },
+    {
+      "normalized": "karajan",
+      "count": 1,
+      "raw_forms": {
+        "Karajan": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50379643"
+      ]
+    },
+    {
+      "normalized": "kepler",
+      "count": 1,
+      "raw_forms": {
+        "Kepler": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50379808"
+      ]
+    },
+    {
+      "normalized": "key",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/resolveworks/key": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50367849"
+      ]
+    },
+    {
+      "normalized": "kilo",
+      "count": 1,
+      "raw_forms": {
+        "Kilo": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50383792"
+      ]
+    },
+    {
+      "normalized": "kotkit",
+      "count": 1,
+      "raw_forms": {
+        "Kotkit": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50373432"
+      ]
+    },
+    {
+      "normalized": "lab",
+      "count": 1,
+      "raw_forms": {
+        "Lab": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50378016"
+      ]
+    },
+    {
+      "normalized": "laya",
+      "count": 1,
+      "raw_forms": {
+        "Laya": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50380509"
+      ]
+    },
+    {
+      "normalized": "lechonk",
+      "count": 1,
+      "raw_forms": {
+        "Lechonk": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50380252"
+      ]
+    },
+    {
+      "normalized": "letta",
+      "count": 1,
+      "raw_forms": {
+        "Letta": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50367423"
+      ]
+    },
+    {
+      "normalized": "lfm",
+      "count": 1,
+      "raw_forms": {
+        "LFM MoE": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374298"
+      ]
+    },
+    {
+      "normalized": "limavm",
+      "count": 1,
+      "raw_forms": {
+        "LimaVM": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50391245"
+      ]
+    },
+    {
+      "normalized": "linear",
+      "count": 1,
+      "raw_forms": {
+        "Linear": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "normalized": "litellm",
+      "count": 1,
+      "raw_forms": {
+        "litellm": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50368111"
+      ]
+    },
+    {
+      "normalized": "llama",
+      "count": 1,
+      "raw_forms": {
+        "llama": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50380946"
+      ]
+    },
+    {
+      "normalized": "llama.app",
+      "count": 1,
+      "raw_forms": {
+        "llama.app": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50377715"
+      ]
+    },
+    {
+      "normalized": "llm-desktop-electron",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/mkornreich/llm-desktop-electron": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50367146"
+      ]
+    },
+    {
+      "normalized": "loa",
+      "count": 1,
+      "raw_forms": {
+        "loa": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376538"
+      ]
+    },
+    {
+      "normalized": "local",
+      "count": 1,
+      "raw_forms": {
+        "Local harness": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50378415"
+      ]
+    },
+    {
+      "normalized": "locallm",
+      "count": 1,
+      "raw_forms": {
+        "LocalLM": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50367453"
+      ]
+    },
+    {
+      "normalized": "lovable",
+      "count": 1,
+      "raw_forms": {
+        "lovable clone": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50375265"
+      ]
+    },
+    {
+      "normalized": "mai",
+      "count": 1,
+      "raw_forms": {
+        "MAI Translate 2": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50377888"
+      ]
+    },
+    {
+      "normalized": "mai-transcribe",
+      "count": 1,
+      "raw_forms": {
+        "MAI-Transcribe 2": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50367326"
+      ]
+    },
+    {
+      "normalized": "mattpocock/skills",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/mattpocock/skills": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50374679"
+      ]
+    },
+    {
+      "normalized": "maximizepm",
+      "count": 1,
+      "raw_forms": {
+        "maximizepm": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50376567"
+      ]
+    },
+    {
+      "normalized": "meta ai",
+      "count": 1,
+      "raw_forms": {
+        "meta ai pro subscription": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50380473"
+      ]
+    },
+    {
+      "normalized": "metagpt",
+      "count": 1,
+      "raw_forms": {
+        "MetaGPT": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50387654"
+      ]
+    },
+    {
+      "normalized": "mimocode",
+      "count": 1,
+      "raw_forms": {
+        "MiMocode": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50374722"
+      ]
+    },
+    {
+      "normalized": "miniclaw",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/mitchellgordon95/miniclaw": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50373322"
+      ]
+    },
+    {
+      "normalized": "mistral vibe",
+      "count": 1,
+      "raw_forms": {
+        "mistral vibe": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50380252"
+      ]
+    },
+    {
+      "normalized": "mlx",
+      "count": 1,
+      "raw_forms": {
+        "oMLX": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374261"
+      ]
+    },
+    {
+      "normalized": "mlx-serve",
+      "count": 1,
+      "raw_forms": {
+        "MLX-Serve": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "mod",
+      "count": 1,
+      "raw_forms": {
+        "Mod": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376760"
+      ]
+    },
+    {
+      "normalized": "mtplx",
+      "count": 1,
+      "raw_forms": {
+        "MTPLX": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50385925"
+      ]
+    },
+    {
+      "normalized": "n8n",
+      "count": 1,
+      "raw_forms": {
+        "n8n": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50373357"
+      ]
+    },
+    {
+      "normalized": "nbclaw",
+      "count": 1,
+      "raw_forms": {
+        "NBClaw": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "neal",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/navels/neal": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50373463"
+      ]
+    },
+    {
+      "normalized": "near",
+      "count": 1,
+      "raw_forms": {
+        "NEAR": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50367582"
+      ]
+    },
+    {
+      "normalized": "nous",
+      "count": 1,
+      "raw_forms": {
+        "Nous": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50380232"
+      ]
+    },
+    {
+      "normalized": "nova-roadmap",
+      "count": 1,
+      "raw_forms": {
+        "nova-roadmap": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50414204"
+      ]
+    },
+    {
+      "normalized": "novita",
+      "count": 1,
+      "raw_forms": {
+        "novita": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374774"
+      ]
+    },
+    {
+      "normalized": "obeya",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/sadilek/obeya": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50370886"
+      ]
+    },
+    {
+      "normalized": "odysseus",
+      "count": 1,
+      "raw_forms": {
+        "odysseus": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50402364"
+      ]
+    },
+    {
+      "normalized": "open chamber",
+      "count": 1,
+      "raw_forms": {
+        "open chamber ui": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376216"
+      ]
+    },
+    {
+      "normalized": "open-webui",
+      "count": 1,
+      "raw_forms": {
+        "open-webui": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376357"
+      ]
+    },
+    {
+      "normalized": "openai desktop",
+      "count": 1,
+      "raw_forms": {
+        "OpenAI Desktop app": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50368043"
+      ]
+    },
+    {
+      "normalized": "openrig",
+      "count": 1,
+      "raw_forms": {
+        "OpenRig": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50385555"
+      ]
+    },
+    {
+      "normalized": "openshell",
+      "count": 1,
+      "raw_forms": {
+        "OpenShell": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50367215"
+      ]
+    },
+    {
+      "normalized": "openspec",
+      "count": 1,
+      "raw_forms": {
+        "openspec": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50374449"
+      ]
+    },
+    {
+      "normalized": "openswe",
+      "count": 1,
+      "raw_forms": {
+        "OpenSWE agent": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50376348"
+      ]
+    },
+    {
+      "normalized": "optio",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/jonwiggins/optio": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374982"
+      ]
+    },
+    {
+      "normalized": "ori",
+      "count": 1,
+      "raw_forms": {
+        "openrouter's ori coding agent": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50367965"
+      ]
+    },
+    {
+      "normalized": "ornith",
+      "count": 1,
+      "raw_forms": {
+        "Ornith-1.5-35B": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "osaurus",
+      "count": 1,
+      "raw_forms": {
+        "Osaurus": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374298"
+      ]
+    },
+    {
+      "normalized": "osmani agent skills",
+      "count": 1,
+      "raw_forms": {
+        "Osmani's agent skills": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380310"
+      ]
+    },
+    {
+      "normalized": "paperniuk splash",
+      "count": 1,
+      "raw_forms": {
+        "paperniuk splash": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376145"
+      ]
+    },
+    {
+      "normalized": "pasta",
+      "count": 1,
+      "raw_forms": {
+        "pasta": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376030"
+      ]
+    },
+    {
+      "normalized": "pendant",
+      "count": 1,
+      "raw_forms": {
+        "Pendant": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50374298"
+      ]
+    },
+    {
+      "normalized": "perplexity computer",
+      "count": 1,
+      "raw_forms": {
+        "Perplexity Computer": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "pi-deck",
+      "count": 1,
+      "raw_forms": {
+        "pi-deck": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50376505"
+      ]
+    },
+    {
+      "normalized": "pi-subagents",
+      "count": 1,
+      "raw_forms": {
+        "pi-subagents": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50370716"
+      ]
+    },
+    {
+      "normalized": "pi-web-ui",
+      "count": 1,
+      "raw_forms": {
+        "pi-web-ui": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "normalized": "pillish",
+      "count": 1,
+      "raw_forms": {
+        "Pillish": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376505"
+      ]
+    },
+    {
+      "normalized": "pise",
+      "count": 1,
+      "raw_forms": {
+        "pise": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50383344"
+      ]
+    },
+    {
+      "normalized": "playwright",
+      "count": 1,
+      "raw_forms": {
+        "playwright": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50407937"
+      ]
+    },
+    {
+      "normalized": "poolside",
+      "count": 1,
+      "raw_forms": {
+        "poolside": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50375378"
+      ]
+    },
+    {
+      "normalized": "pyannote",
+      "count": 1,
+      "raw_forms": {
+        "pyannote speaker-diarization-community-1": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50373463"
+      ]
+    },
+    {
+      "normalized": "qfn",
+      "count": 1,
+      "raw_forms": {
+        "QFN": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376145"
+      ]
+    },
+    {
+      "normalized": "quarterdeck",
+      "count": 1,
+      "raw_forms": {
+        "https://github.com/oscscull/quarterdeck": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50375046"
+      ]
+    },
+    {
+      "normalized": "qwentts",
+      "count": 1,
+      "raw_forms": {
+        "QwenTTS": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376410"
+      ]
+    },
+    {
+      "normalized": "radiance",
+      "count": 1,
+      "raw_forms": {
+        "Radiance engine": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50375265"
+      ]
+    },
+    {
+      "normalized": "railvio",
+      "count": 1,
+      "raw_forms": {
+        "railvio.com": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50375265"
+      ]
+    },
+    {
+      "normalized": "rakazo",
+      "count": 1,
+      "raw_forms": {
+        "Rakazo": 1
+      },
+      "categories": {
+        "platform": 1
+      },
+      "example_comment_ids": [
+        "50367582"
+      ]
+    },
+    {
+      "normalized": "rea",
+      "count": 1,
+      "raw_forms": {
+        "rea": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50375124"
+      ]
+    },
+    {
+      "normalized": "reason",
+      "count": 1,
+      "raw_forms": {
+        "Reason": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50388928"
+      ]
+    },
+    {
+      "normalized": "remotion",
+      "count": 1,
+      "raw_forms": {
+        "remotion": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50407937"
+      ]
+    },
+    {
+      "normalized": "remuda",
+      "count": 1,
+      "raw_forms": {
+        "Remuda": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50375407"
+      ]
+    },
+    {
+      "normalized": "requesty",
+      "count": 1,
+      "raw_forms": {
+        "Requesty": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376352"
+      ]
+    },
+    {
+      "normalized": "rev0",
+      "count": 1,
+      "raw_forms": {
+        "rev0.codes": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50399014"
+      ]
+    },
+    {
+      "normalized": "rocm",
+      "count": 1,
+      "raw_forms": {
+        "ROCm": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50385840"
+      ]
+    },
+    {
+      "normalized": "ruflo",
+      "count": 1,
+      "raw_forms": {
+        "Ruflo": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50379819"
+      ]
+    },
+    {
+      "normalized": "sbx",
+      "count": 1,
+      "raw_forms": {
+        "sbx": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380164"
+      ]
+    },
+    {
+      "normalized": "scion",
+      "count": 1,
+      "raw_forms": {
+        "Scion": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374549"
+      ]
+    },
+    {
+      "normalized": "searxng",
+      "count": 1,
+      "raw_forms": {
+        "SearXNG": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50373248"
+      ]
+    },
+    {
+      "normalized": "sentry",
+      "count": 1,
+      "raw_forms": {
+        "sentry": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50391245"
+      ]
+    },
+    {
+      "normalized": "silero vad",
+      "count": 1,
+      "raw_forms": {
+        "Silero VAD": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50373463"
+      ]
+    },
+    {
+      "normalized": "simplelogin",
+      "count": 1,
+      "raw_forms": {
+        "SimpleLogin": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50386164"
+      ]
+    },
+    {
+      "normalized": "skills.sh",
+      "count": 1,
+      "raw_forms": {
+        "skills.sh": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50407937"
+      ]
+    },
+    {
+      "normalized": "skillstore",
+      "count": 1,
+      "raw_forms": {
+        "Skillstore": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50379292"
+      ]
+    },
+    {
+      "normalized": "slack",
+      "count": 1,
+      "raw_forms": {
+        "slack": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50374270"
+      ]
+    },
+    {
+      "normalized": "slopsearx",
+      "count": 1,
+      "raw_forms": {
+        "SlopSearX": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50373248"
+      ]
+    },
+    {
+      "normalized": "smolvm",
+      "count": 1,
+      "raw_forms": {
+        "smolvm": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50379505"
+      ]
+    },
+    {
+      "normalized": "software factory",
+      "count": 1,
+      "raw_forms": {
+        "software factory": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50367699"
+      ]
+    },
+    {
+      "normalized": "splay",
+      "count": 1,
+      "raw_forms": {
+        "splay": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50407369"
+      ]
+    },
+    {
+      "normalized": "spool",
+      "count": 1,
+      "raw_forms": {
+        "Spool": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50376390"
+      ]
+    },
+    {
+      "normalized": "spurcode",
+      "count": 1,
+      "raw_forms": {
+        "Spurcode": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50376746"
+      ]
+    },
+    {
+      "normalized": "spurlab",
+      "count": 1,
+      "raw_forms": {
+        "spurlab": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50376746"
+      ]
+    },
+    {
+      "normalized": "stealthbox",
+      "count": 1,
+      "raw_forms": {
+        "Stealthbox": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50378189"
+      ]
+    },
+    {
+      "normalized": "suno",
+      "count": 1,
+      "raw_forms": {
+        "suno": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50428201"
+      ]
+    },
+    {
+      "normalized": "supergrok",
+      "count": 1,
+      "raw_forms": {
+        "SuperGrok": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50370886"
+      ]
+    },
+    {
+      "normalized": "superintendent",
+      "count": 1,
+      "raw_forms": {
+        "Superintendent": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50380990"
+      ]
+    },
+    {
+      "normalized": "superpowers",
+      "count": 1,
+      "raw_forms": {
+        "Superpowers": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50377528"
+      ]
+    },
+    {
+      "normalized": "superset",
+      "count": 1,
+      "raw_forms": {
+        "Superset": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50377512"
+      ]
+    },
+    {
+      "normalized": "svall.dev",
+      "count": 1,
+      "raw_forms": {
+        "https://svall.dev/": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50367976"
+      ]
+    },
+    {
+      "normalized": "swarm",
+      "count": 1,
+      "raw_forms": {
+        "Swarm": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50375205"
+      ]
+    },
+    {
+      "normalized": "swival",
+      "count": 1,
+      "raw_forms": {
+        "Swival.dev": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50376601"
+      ]
+    },
+    {
+      "normalized": "t3",
+      "count": 1,
+      "raw_forms": {
+        "T3": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50379466"
+      ]
+    },
+    {
+      "normalized": "t3.codes",
+      "count": 1,
+      "raw_forms": {
+        "T3.codes": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50378013"
+      ]
+    },
+    {
+      "normalized": "tailscale",
+      "count": 1,
+      "raw_forms": {
+        "tailscale": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50391288"
+      ]
+    },
+    {
+      "normalized": "tailscale aperture",
+      "count": 1,
+      "raw_forms": {
+        "Tailscale Aperture": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374722"
+      ]
+    },
+    {
+      "normalized": "tart",
+      "count": 1,
+      "raw_forms": {
+        "tart": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50379505"
+      ]
+    },
+    {
+      "normalized": "tensorx",
+      "count": 1,
+      "raw_forms": {
+        "tensorx.ai": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50376642"
+      ]
+    },
+    {
+      "normalized": "termic",
+      "count": 1,
+      "raw_forms": {
+        "Termic": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50383038"
+      ]
+    },
+    {
+      "normalized": "tix.im",
+      "count": 1,
+      "raw_forms": {
+        "https://tix.im/": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50378157"
+      ]
+    },
+    {
+      "normalized": "tmux",
+      "count": 1,
+      "raw_forms": {
+        "tmux": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50379944"
+      ]
+    },
+    {
+      "normalized": "tuicr",
+      "count": 1,
+      "raw_forms": {
+        "tuicr": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50391245"
+      ]
+    },
+    {
+      "normalized": "ub-mode",
+      "count": 1,
+      "raw_forms": {
+        "ub-mode": 1
+      },
+      "categories": {
+        "unknown": 1
+      },
+      "example_comment_ids": [
+        "50380310"
+      ]
+    },
+    {
+      "normalized": "unsloth",
+      "count": 1,
+      "raw_forms": {
+        "Unsloth": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50374298"
+      ]
+    },
+    {
+      "normalized": "varyz",
+      "count": 1,
+      "raw_forms": {
+        "Varyz AI": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50384963"
+      ]
+    },
+    {
+      "normalized": "vectorstep",
+      "count": 1,
+      "raw_forms": {
+        "VectorStep": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50376733"
+      ]
+    },
+    {
+      "normalized": "vercel ai gateway",
+      "count": 1,
+      "raw_forms": {
+        "Vercel AI Gateway": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50367976"
+      ]
+    },
+    {
+      "normalized": "vibe",
+      "count": 1,
+      "raw_forms": {
+        "Vibe": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50385108"
+      ]
+    },
+    {
+      "normalized": "voiceio",
+      "count": 1,
+      "raw_forms": {
+        "voiceio.dev": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50380334"
+      ]
+    },
+    {
+      "normalized": "volt",
+      "count": 1,
+      "raw_forms": {
+        "Volt": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50374680"
+      ]
+    },
+    {
+      "normalized": "vscode",
+      "count": 1,
+      "raw_forms": {
+        "VSCode": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50380057"
+      ]
+    },
+    {
+      "normalized": "vx-maintainer",
+      "count": 1,
+      "raw_forms": {
+        "vx-maintainer": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50378157"
+      ]
+    },
+    {
+      "normalized": "wangp",
+      "count": 1,
+      "raw_forms": {
+        "WanGP": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50368043"
+      ]
+    },
+    {
+      "normalized": "wispr flow",
+      "count": 1,
+      "raw_forms": {
+        "Wispr Flow": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50382792"
+      ]
+    },
+    {
+      "normalized": "wonder",
+      "count": 1,
+      "raw_forms": {
+        "wonder model": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50373256"
+      ]
+    },
+    {
+      "normalized": "workforce",
+      "count": 1,
+      "raw_forms": {
+        "Workforce": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50379352"
+      ]
+    },
+    {
+      "normalized": "workspace",
+      "count": 1,
+      "raw_forms": {
+        "Workspace": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50395602"
+      ]
+    },
+    {
+      "normalized": "wraith-skills",
+      "count": 1,
+      "raw_forms": {
+        "wraith-skills": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50402364"
+      ]
+    },
+    {
+      "normalized": "x",
+      "count": 1,
+      "raw_forms": {
+        "X": 1
+      },
+      "categories": {
+        "subscription": 1
+      },
+      "example_comment_ids": [
+        "50410297"
+      ]
+    },
+    {
+      "normalized": "yaac",
+      "count": 1,
+      "raw_forms": {
+        "yaac": 1
+      },
+      "categories": {
+        "orchestration": 1
+      },
+      "example_comment_ids": [
+        "50376836"
+      ]
+    },
+    {
+      "normalized": "yoloai",
+      "count": 1,
+      "raw_forms": {
+        "yoloai": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50381875"
+      ]
+    },
+    {
+      "normalized": "zcode",
+      "count": 1,
+      "raw_forms": {
+        "zcode": 1
+      },
+      "categories": {
+        "harness": 1
+      },
+      "example_comment_ids": [
+        "50380818"
+      ]
+    },
+    {
+      "normalized": "zen",
+      "count": 1,
+      "raw_forms": {
+        "Zen": 1
+      },
+      "categories": {
+        "model-source": 1
+      },
+      "example_comment_ids": [
+        "50373357"
+      ]
+    }
+  ]
+}
