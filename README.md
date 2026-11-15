@@ -4,6 +4,8 @@ A tracked snapshot of the Ask HN thread ["What's your current AI agentic setup?"
 
 **Dashboard:** https://nabeelhassan.github.io/hn-agentic-ai-survey/
 
+Docs: [architecture](docs/ARCHITECTURE.md) · [methodology](docs/METHODOLOGY.md) · [current status](docs/STATUS.md) · [glossary](CONTEXT.md)
+
 ## What makes this different from a thread summary
 
 - **Counted per respondent, not per comment.** One author often spreads a setup across several comments and replies often describe a colleague's setup. Comments are extracted individually, merged per HN account, and second-hand reports are excluded from setup counts.
