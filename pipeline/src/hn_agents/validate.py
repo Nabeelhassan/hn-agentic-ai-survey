@@ -33,7 +33,7 @@ def _prf(true_positive: int, predicted: int, actual: int) -> dict:
     }
 
 
-def evaluate_snapshot(snapshot_id: str, gold_path: Path | None = None, model: str = "z-ai/glm-5.3-flash") -> None:
+def evaluate_snapshot(snapshot_id: str, gold_path: Path | None = None, model: str = "deepseek/deepseek-v4.1-flash") -> None:
     gold_path = gold_path or EVAL_DIR / "gold_v1.jsonl"
     gold = read_jsonl(gold_path)
     if not gold:
