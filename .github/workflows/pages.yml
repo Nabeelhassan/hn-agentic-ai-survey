@@ -33,6 +33,8 @@ jobs:
         working-directory: dashboard
       - run: npm run build
         working-directory: dashboard
+        env:
+          VITE_BASE: /hn-agentic-ai-survey/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
