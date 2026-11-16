@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 
 import { Callout } from "@/components/primitives";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
+import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/ui/icons";
 import { ViewTabs } from "@/components/ui/tabs";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { loadDataset } from "@/lib/data";
 import { formatNumber } from "@/lib/format";
+import { SITE } from "@/lib/site";
 import { useTheme } from "@/lib/theme";
 import type { Dataset } from "@/lib/types";
 import { Explorer } from "@/views/Explorer";
@@ -62,6 +64,38 @@ export function App() {
             Ask HN · November 2026 · snapshot {overview.snapshot_id}
           </span>
           <div className="flex items-center gap-3">
+            <nav aria-label="Source and author links" className="flex items-center gap-3 text-muted">
+              <a
+                href={SITE.repo}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-1.5 font-mono text-[11px] transition-colors hover:text-accent"
+              >
+                <GitHubIcon className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">Source</span>
+              </a>
+              <a
+                href={SITE.x}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Nabeel Hassan on X"
+                title="@c0dekill3r on X"
+                className="transition-colors hover:text-accent"
+              >
+                <XIcon className="h-3.5 w-3.5" />
+              </a>
+              <a
+                href={SITE.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Nabeel Hassan on LinkedIn"
+                title="Nabeel Hassan on LinkedIn"
+                className="transition-colors hover:text-accent"
+              >
+                <LinkedInIcon className="h-3.5 w-3.5" />
+              </a>
+            </nav>
+            <span aria-hidden="true" className="h-4 w-px bg-line" />
             <ThemeToggle />
           </div>
         </div>
@@ -80,7 +114,7 @@ export function App() {
           <div className="card flex max-w-xs flex-col gap-2 p-4 text-xs">
             <span className="kicker">Thread</span>
             <a
-              href="https://news.ycombinator.com/item?id=50366117"
+              href={SITE.thread}
               target="_blank"
               rel="noreferrer"
               className="text-sm text-sky-300 underline decoration-line underline-offset-2 hover:text-accent"
@@ -139,7 +173,29 @@ export function App() {
           Data from the HN Firebase and Algolia APIs, frozen as snapshot{" "}
           <span className="font-mono">{overview.snapshot_id}</span>.
         </span>
-        <span className="font-mono">Every number links to the comments behind it.</span>
+        <span className="flex flex-wrap items-center gap-2">
+          <span>
+            Built by{" "}
+            <a
+              href={SITE.linkedin}
+              target="_blank"
+              rel="noreferrer"
+              className="text-fg-soft underline decoration-line underline-offset-2 hover:text-accent"
+            >
+              Nabeel Hassan
+            </a>
+            {" · "}
+            <a
+              href={SITE.repo}
+              target="_blank"
+              rel="noreferrer"
+              className="text-fg-soft underline decoration-line underline-offset-2 hover:text-accent"
+            >
+              source
+            </a>
+          </span>
+          <span className="font-mono">Every number links to the comments behind it.</span>
+        </span>
       </footer>
     </div>
   );
