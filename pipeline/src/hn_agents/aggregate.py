@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 
+from .catalog import load_catalog, match_plan
+from .pricing import aggregate_plans
 from .taxonomy import load_taxonomy
 from .util import read_json, read_jsonl, snapshot_paths, utc_now, write_json
 
@@ -83,6 +85,7 @@ def _collect(
 def aggregate_snapshot(snapshot_id: str) -> None:
     paths = snapshot_paths(snapshot_id)
     taxonomy = load_taxonomy()
+    catalog = load_catalog()
     labels = _labels(taxonomy)
     respondents = [r for r in read_jsonl(paths["respondents"]) if r["has_setup"]]
     comments = read_jsonl(paths["comments"])
@@ -139,6 +142,7 @@ def aggregate_snapshot(snapshot_id: str) -> None:
 
     subs_authors, subs_comments = _collect(respondents, "subscriptions", lambda item: item["node"])
     with_subs = len({a for authors in subs_authors.values() for a in authors})
+    plan_section = aggregate_plans(respondents, catalog, taxonomy, denominator)
     write_json(
         aggregates / "subscriptions.json",
         {
@@ -146,6 +150,9 @@ def aggregate_snapshot(snapshot_id: str) -> None:
             "n_with_subscription": with_subs,
             "providers": _breakdown(subs_authors, subs_comments, denominator, labels),
             "tiers": _tier_breakdown(respondents, labels),
+            "catalog": plan_section["providers"],
+            "unmatched_tiers": plan_section["unmatched_tiers"],
+            "matching": plan_section["matching"],
             "multi_subscription": _multi_breakdown(respondents, denominator),
             "spend": _spend_breakdown(respondents),
         },
@@ -304,6 +311,7 @@ def aggregate_snapshot(snapshot_id: str) -> None:
                         "node": item["node"],
                         "label": labels.get(item["node"], item["node"].replace("other:", "")),
                         "tier_raw": item.get("tier_raw"),
+                        "plan_label": _plan_label(item, taxonomy, catalog),
                         "comment_ids": item.get("comment_ids", []),
                     }
                     for item in respondent.get("subscriptions") or []
@@ -340,6 +348,14 @@ def aggregate_snapshot(snapshot_id: str) -> None:
             "generated_at": utc_now().isoformat(),
             "story_url": "https://news.ycombinator.com/item?id=50366117",
             "taxonomy": {"version": taxonomy.get("version"), "nodes": taxonomy.get("nodes", [])},
+            "catalog": {
+                "version": plan_section["catalog_version"],
+                "retrieved_at": plan_section["retrieved_at"],
+                "providers": len(plan_section["providers"]),
+                "plans": plan_section["matching"]["plans_in_catalog"],
+                "plans_with_price": plan_section["matching"]["plans_with_price"],
+                "matching": plan_section["matching"],
+            },
             "extraction": meta.get("extraction"),
             "normalize": meta.get("normalize"),
             "merge": meta.get("merge"),
@@ -353,6 +369,20 @@ def aggregate_snapshot(snapshot_id: str) -> None:
         },
     )
     print(f"aggregated {denominator} respondents into {len(list(aggregates.glob('*.json')))} files")
+
+
+def _plan_label(item: dict, taxonomy: dict, catalog: dict) -> str | None:
+    from .pricing import resolve_provider
+
+    provider_id = resolve_provider(item["node"], taxonomy, catalog)
+    if provider_id is None:
+        return None
+    match = match_plan(provider_id, str(item.get("tier_raw") or ""), catalog)
+    if match.plan_id is None:
+        return None
+    provider = next(p for p in catalog["providers"] if p["id"] == provider_id)
+    plan = next(p for p in provider["plans"] if p["id"] == match.plan_id)
+    return plan["label"]
 
 
 def _migration_edges(migrations: list[dict], labels: dict) -> tuple[list[dict], int]:
