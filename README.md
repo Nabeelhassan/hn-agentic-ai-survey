@@ -4,7 +4,7 @@ A tracked snapshot of the Ask HN thread ["What's your current AI agentic setup?"
 
 **Dashboard:** https://nabeelhassan.github.io/hn-agentic-ai-survey/
 
-Docs: [architecture](docs/ARCHITECTURE.md) · [methodology](docs/METHODOLOGY.md) · [current status](docs/STATUS.md) · [glossary](CONTEXT.md)
+Docs: [architecture](docs/ARCHITECTURE.md) · [methodology](docs/METHODOLOGY.md) · [subscription catalog](docs/CATALOG.md) · [current status](docs/STATUS.md) · [glossary](CONTEXT.md)
 
 ## What makes this different from a thread summary
 
