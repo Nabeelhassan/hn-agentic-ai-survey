@@ -409,13 +409,13 @@ First snapshot: **0.90** classification, F1 0.99 subscriptions, 0.75 models, 0.7
 ```mermaid
 flowchart LR
   subgraph Build["Vite build"]
-    MAIN["main.tsx<br/>fonts + UI SDK CSS"]
-    APP["App.tsx<br/>load dataset, tabs"]
+    MAIN["main.tsx<br/>fonts, theme provider, UI SDK CSS"]
+    APP["App.tsx<br/>load dataset, tabs, links"]
     VIEWS["views/*<br/>7 views"]
     PRIM["components/primitives<br/>tables, stats, evidence"]
     UI["components/ui<br/>UI SDK adapters"]
     CH["components/charts<br/>ECharts wrapper + options"]
-    LIB["lib/<br/>types, fetch, format"]
+    LIB["lib/<br/>types, fetch, format, theme, site"]
   end
   MAIN --> APP
   APP --> VIEWS
@@ -430,11 +430,12 @@ flowchart LR
 | Concern | Choice | Why |
 | --- | --- | --- |
 | Framework | Vite 7 + React 19 + TypeScript | UI SDK requires React 19; Vite gives a static artifact |
-| Styling | Tailwind 4 + CSS variables, dark only | matches the Shajra stack, no runtime CSS-in-JS |
+| Styling | Tailwind 4 + CSS variables, dark and light | matches the Shajra stack, no runtime CSS-in-JS; tokens switch without a rebuild |
 | Interaction | `@ui-sdk/react` 0.1.0-beta.5 | accessible tabs, dialogs, segmented controls, inputs, switches — unstyled |
 | Charts | ECharts 6 via `charts/Chart.tsx` | only library with first-class Sankey and heatmap |
 | Data | runtime `fetch(BASE_URL + "data/*.json")` | the build has no data dependency; aggregates can change without a rebuild |
 | Errors | `ErrorBoundary` around the tab surface | a failing chart previously blanked the page; now it shows the message and a retry |
+| Theme | `data-theme` on `<html>`, set pre-paint and persisted in localStorage | follows the OS preference on first visit and never flashes the wrong theme |
 
 **UI SDK isolation.** Every library part sits behind an adapter in `components/ui/`:
 
@@ -448,12 +449,14 @@ flowchart LR
 
 If the beta breaks a part, one adapter file changes and no view does.
 
+**Theme and links.** The header toggle flips `data-theme` on `<html>`, writes the choice to `localStorage`, and defaults to the OS preference through an inline pre-paint script. Chrome colors and the ECharts palette are both CSS custom properties, so a theme change re-renders every chart from tokens rather than hardcoded hex values. Header and footer carry the source repository and the author's GitHub, X, and LinkedIn profiles; `lib/site.ts` is the single place those URLs live.
+
 **Views**
 
 | View | What it shows | Interaction |
 | --- | --- | --- |
 | Overview | respondents vs commenters, answer-class coverage, snapshot provenance, gaps | — |
-| Subscriptions | providers, tiers, multi-sub split, spend | segmented control |
+| Subscriptions | providers, plans with list prices and match methods, unmatched tier strings, multi-sub split, spend | segmented control |
 | Models | routes, named models, access, local share | — |
 | Harnesses | adoption, primary, net Sankey, every migration pair, switch reasons | search in captions |
 | Platforms | orchestration, platforms, use cases, themes | filter chips |

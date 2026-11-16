@@ -17,7 +17,7 @@ First snapshot of the thread is built, verified in a browser, and deployed from 
 | Merge | 413 respondents with a stated setup out of 659 commenters |
 | Aggregates | 9 files, every row carrying `n_denominator` and `comment_ids` |
 | Pricing catalog | v1: 21 providers, 62 plans, 55 with a price, 249 of 385 tier strings resolved |
-| Dashboard | 7 views, all render; explorer virtualized with keyboard-focusable rows and a detail dialog |
+| Dashboard | 7 views, dark and light themes, all render; explorer virtualized with keyboard-focusable rows and a detail dialog |
 | Accuracy | 40-comment gold set: 0.90 classification; F1 0.99 / 0.75 / 0.78 / 0.54 / 0.89 |
 | Deploy | GitHub Actions → Pages, `base` set to `/hn-agentic-ai-survey/` |
 
