@@ -1,0 +1,490 @@
+version: 1
+retrieved_at: "2026-11-15"
+notes: >
+  List prices as each vendor displayed them on the retrieval date, for the plans a
+  respondent could plausibly mean. No currency conversion: EUR and GBP prices stay in
+  their own currency. Free and team plans are included so a tier string can be resolved,
+  but only individual paid plans belong in spend comparisons. A null price means the
+  vendor page did not expose it; it is a gap, not a zero.
+providers:
+  - id: anthropic
+    label: Anthropic (Claude plans)
+    source_url: https://claude.com/pricing
+    verification: verified
+    currency: USD
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+        aliases: [free]
+      - id: pro
+        label: Pro
+        audience: individual
+        price_monthly: 20
+        price_annual: 200
+        annual_monthly: 17
+        aliases: [pro, claude pro, $20, $20/mo, $20/month, 20$, $20usd]
+      - id: max
+        label: Max
+        audience: individual
+        price_monthly: 100
+        aliases: [max, max 5x, max plan, 5x, $100, $100/mo, $100/m, $100 plan, max $100]
+      - id: ultra
+        label: Ultra
+        audience: individual
+        price_monthly: 200
+        aliases: [ultra, ultra plan, max 20x, 20x, max 200, $200, $200/mo, $200/ea]
+        note: "The thread mostly says Ultra where the vendor now says Ultra (formerly Max 20x)."
+      - id: team-standard
+        label: Team (standard seat)
+        audience: team
+        price_monthly: 25
+        price_annual: 240
+        annual_monthly: 20
+        aliases: [team, team plan, team standard]
+      - id: enterprise
+        label: Enterprise
+        audience: enterprise
+        price_monthly: null
+        note: "Seat price plus API usage; not comparable to individual plans."
+
+  - id: openai
+    label: OpenAI (ChatGPT plans)
+    source_url: https://chatgpt.com/pricing/
+    verification: partial
+    currency: USD
+    notes: "Plan names are verified; the page renders prices client-side and exposed no amounts, so prices are null."
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+        aliases: [free]
+      - id: go
+        label: Go
+        audience: individual
+        price_monthly: null
+        aliases: [go]
+      - id: plus
+        label: Plus
+        audience: individual
+        price_monthly: null
+        aliases: [plus, chatgpt plus, $20, $20/mo, $20/month]
+      - id: pro
+        label: Pro
+        audience: individual
+        price_monthly: null
+        aliases: [pro, chatgpt pro, $200, $200/mo]
+      - id: business
+        label: Business
+        audience: team
+        price_monthly: null
+        aliases: [business, chatgpt business]
+
+  - id: google
+    label: Google (Gemini plans)
+    source_url: https://gemini.google/subscriptions/
+    verification: verified
+    currency: USD
+    notes: >
+      AI Plus is the Gemini-only plan at $4.99; the Google One bundle called AI Plus is
+      $9.99 and is not modelled separately. Ultra is billed monthly only.
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+        aliases: [free]
+      - id: ai-plus
+        label: Google AI Plus
+        audience: individual
+        price_monthly: 4.99
+        aliases: [ai plus, google ai plus, plus, $5, $4.99]
+      - id: ai-pro
+        label: Google AI Pro
+        audience: individual
+        price_monthly: 19.99
+        price_annual: 199.99
+        annual_monthly: 16.67
+        aliases: [ai pro, google ai pro, pro, gemini pro, $20, $19.99, $20/mo]
+      - id: ai-ultra
+        label: Google AI Ultra
+        audience: individual
+        price_monthly: 99.99
+        aliases: [ai ultra, google ai ultra, ultra, $100, $99.99]
+        note: "Billed monthly only."
+
+  - id: xai
+    label: xAI (Grok plans)
+    source_url: https://x.ai/pricing
+    verification: partial
+    currency: USD
+    notes: "Plan ladder and prices match the page as fetched, but the page also described Cursor integrations; cross-check before quoting."
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+      - id: plus
+        label: Plus
+        audience: individual
+        price_monthly: 8
+        aliases: [plus, $8]
+      - id: premium
+        label: Premium
+        audience: individual
+        price_monthly: 30
+        aliases: [premium, x premium, $30]
+      - id: super
+        label: Super
+        audience: individual
+        price_monthly: 100
+        aliases: [super, supergrok, $100]
+      - id: ultra
+        label: Ultra
+        audience: individual
+        price_monthly: 200
+        aliases: [ultra, $200]
+
+  - id: copilot
+    label: GitHub Copilot
+    source_url: https://github.com/features/copilot/plans
+    verification: verified
+    currency: USD
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+      - id: pro
+        label: Pro
+        audience: individual
+        price_monthly: 10
+        aliases: [pro, copilot pro, $10, $10/mo]
+      - id: pro-plus
+        label: Pro+
+        audience: individual
+        price_monthly: 39
+        aliases: [pro+, pro plus, $39]
+      - id: max
+        label: Max
+        audience: individual
+        price_monthly: 100
+        aliases: [max, $100]
+
+  - id: cursor
+    label: Cursor
+    source_url: https://cursor.com/pricing
+    verification: verified
+    currency: USD
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+      - id: plus
+        label: Plus
+        audience: individual
+        price_monthly: 8
+        aliases: [plus, cursor plus, $8]
+      - id: premium
+        label: Premium
+        audience: individual
+        price_monthly: 30
+        aliases: [premium, $30]
+      - id: super
+        label: Super
+        audience: individual
+        price_monthly: 100
+        aliases: [super, $100]
+      - id: ultra
+        label: Ultra
+        audience: individual
+        price_monthly: 200
+        aliases: [ultra, $200]
+
+  - id: windsurf
+    label: Windsurf
+    source_url: https://windsurf.com/pricing
+    verification: verified
+    currency: USD
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+      - id: pro
+        label: Pro
+        audience: individual
+        price_monthly: 20
+        aliases: [pro, $20, $20/mo, $20/month]
+      - id: max
+        label: Max
+        audience: individual
+        price_monthly: 200
+        aliases: [max, $200]
+      - id: team
+        label: Team
+        audience: team
+        price_monthly: 80
+        aliases: [team, $80]
+
+  - id: amp
+    label: Amp (Sourcegraph)
+    source_url: https://ampcode.com/pricing
+    verification: partial
+    currency: USD
+    notes: "Hobby is free; the paid tier price ($20/mo, $10 for education) is on the page but the tier name was not in the extracted text."
+    plans:
+      - id: hobby
+        label: Hobby
+        audience: individual
+        price_monthly: 0
+        aliases: [hobby, free]
+      - id: paid
+        label: Paid tier
+        audience: individual
+        price_monthly: 20
+        aliases: [$20, $20/mo, megawatt]
+        note: "Education price $10/mo."
+
+  - id: kiro
+    label: Kiro
+    source_url: https://kiro.dev/pricing
+    verification: verified
+    currency: USD
+    plans:
+      - id: free
+        label: Kiro Free
+        audience: individual
+        price_monthly: 0
+      - id: pro
+        label: Kiro Pro
+        audience: individual
+        price_monthly: 20
+        aliases: [pro, kiro pro]
+        note: "$20 is ambiguous with the Teams seat price, so it is not aliased."
+
+      - id: pro-plus
+        label: Kiro Pro+
+        audience: individual
+        price_monthly: 40
+        aliases: [pro+, pro plus, $40]
+      - id: pro-max
+        label: Kiro Pro Max
+        audience: individual
+        price_monthly: 100
+        aliases: [pro max, max, $100]
+      - id: power
+        label: Kiro Power
+        audience: individual
+        price_monthly: 200
+        aliases: [power, $200]
+      - id: teams
+        label: Teams
+        audience: team
+        price_monthly: 20
+        note: "Per seat, credit pooling."
+
+  - id: devin
+    label: Devin
+    source_url: https://devin.ai/pricing
+    verification: verified
+    currency: USD
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+      - id: pro
+        label: Pro
+        audience: individual
+        price_monthly: 20
+        aliases: [pro, $20]
+      - id: max
+        label: Max
+        audience: individual
+        price_monthly: 200
+        aliases: [max, $200]
+      - id: teams
+        label: Teams
+        audience: team
+        price_monthly: 80
+        note: "$80 team plan plus $40 per full seat per month."
+
+  - id: codebuddy
+    label: CodeBuddy
+    source_url: null
+    verification: unverified
+    currency: USD
+    notes: "No public pricing page captured on the retrieval date."
+    plans: []
+
+  - id: warp
+    label: Warp
+    source_url: https://www.warp.dev/pricing
+    verification: verified
+    currency: USD
+    plans:
+      - id: free
+        label: Free
+        audience: individual
+        price_monthly: 0
+      - id: build
+        label: Build
+        audience: individual
+        price_monthly: 20
+        price_annual: 216
+        annual_monthly: 18
+        aliases: [build, $20, $20/month]
+      - id: max
+        label: Max
+        audience: individual
+        price_monthly: 200
+        price_annual: 2160
+        annual_monthly: 180
+        aliases: [max, $200, $200/month]
+      - id: business
+        label: Business
+        audience: team
+        price_monthly: 50
+        price_annual: 540
+        annual_monthly: 45
+        aliases: [business, $50]
+
+  - id: mistral
+    label: Mistral
+    source_url: https://mistral.ai/pricing
+    verification: partial
+    currency: USD
+    notes: "Pro and Team prices are on the page; plan labels for higher tiers were not extractable."
+    plans:
+      - id: pro
+        label: Pro
+        audience: individual
+        price_monthly: 14.99
+        aliases: [pro, mistral pro, $14.99, $14.99/mo]
+        note: "Education price $5.99/mo."
+      - id: team
+        label: Team
+        audience: team
+        price_monthly: 24.99
+        note: "Per user."
+      - id: enterprise
+        label: Enterprise
+        audience: enterprise
+        price_monthly: null
+
+  - id: zai
+    label: Z.ai (GLM plans)
+    source_url: https://z.ai/subscribe
+    verification: unverified
+    currency: USD
+    notes: "Subscription page returned navigation only; thread references a Lite monthly plan."
+    plans: []
+
+  - id: moonshot
+    label: Moonshot (Kimi plans)
+    source_url: https://www.kimi.com/pricing
+    verification: unverified
+    currency: USD
+    notes: "Pricing is served client-side and was not captured; thread references Kimi Pro."
+    plans: []
+
+  - id: minimax
+    label: MiniMax
+    source_url: https://www.minimax.io/plans
+    verification: unverified
+    currency: USD
+    plans: []
+
+  - id: perplexity
+    label: Perplexity
+    source_url: https://www.perplexity.ai/pro
+    verification: unverified
+    currency: USD
+    notes: "Pro page returned an image-only shell."
+    plans:
+      - id: pro
+        label: Pro
+        audience: individual
+        price_monthly: null
+        aliases: [pro, perplexity pro]
+
+  - id: synthetic
+    label: Synthetic
+    source_url: https://synthetic.new/pricing
+    verification: partial
+    currency: USD
+    notes: "Go is verified; Standard and Big prices are ordered on the page but their labels were not extracted with the amounts."
+    plans:
+      - id: go
+        label: Go
+        audience: individual
+        price_monthly: 9
+        aliases: [go, $9]
+      - id: standard
+        label: Standard
+        audience: individual
+        price_monthly: 30
+        aliases: [standard, $30]
+      - id: big
+        label: Big
+        audience: individual
+        price_monthly: 90
+        aliases: [big, $90]
+
+  - id: melious
+    label: Melious
+    source_url: https://melious.ai/pricing
+    verification: verified
+    currency: EUR
+    notes: "Prices in EUR, discounted from struck-through list prices; no conversion applied."
+    plans:
+      - id: basic
+        label: Basic
+        audience: individual
+        price_monthly: 49
+        list_price_monthly: 99
+        aliases: [basic, €49, 49 €]
+      - id: pro
+        label: Pro
+        audience: individual
+        price_monthly: 149
+        list_price_monthly: 199
+        aliases: [pro, €149, 149 €]
+      - id: unlimited-3x
+        label: Unlimited 3x
+        audience: individual
+        price_monthly: 499
+        aliases: [unlimited 3x, unlimited]
+      - id: unlimited-6x
+        label: Unlimited 6x
+        audience: individual
+        price_monthly: 999
+
+  - id: opencode
+    label: OpenCode
+    source_url: https://opencode.ai/pricing
+    verification: verified
+    currency: USD
+    plans:
+      - id: go
+        label: Go
+        audience: individual
+        price_monthly: 10
+        aliases: [go, opencode go, $10, $10/month]
+      - id: go-plus
+        label: Go Plus
+        audience: individual
+        price_monthly: 40
+        aliases: [go plus, opencode go plus, $40]
+
+  - id: muse-code
+    label: Muse Code
+    source_url: null
+    verification: unverified
+    currency: USD
+    notes: "Thread references High Usage and $5–$50 plans; no vendor pricing page captured."
+    plans: []

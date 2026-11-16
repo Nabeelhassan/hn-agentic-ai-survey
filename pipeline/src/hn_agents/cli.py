@@ -42,6 +42,9 @@ def main(argv: list[str] | None = None) -> None:
     evaluate = sub.add_parser("eval", help="score extraction against the gold set")
     evaluate.add_argument("--snapshot")
 
+    catalog = sub.add_parser("catalog", help="render the subscription catalog to docs/CATALOG.md")
+    catalog.add_argument("--version", default="v1")
+
     dashboard = sub.add_parser("dashboard-data", help="copy the latest aggregates into the dashboard")
     dashboard.add_argument("--snapshot")
 
@@ -101,6 +104,12 @@ def main(argv: list[str] | None = None) -> None:
         from .validate import evaluate_snapshot
 
         evaluate_snapshot(resolve_snapshot(args.snapshot))
+        return
+
+    if args.command == "catalog":
+        from .catalog import load_catalog, write_docs
+
+        print(f"wrote {write_docs(load_catalog(args.version))}")
         return
 
     if args.command == "dashboard-data":

@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 PY := cd pipeline && uv run python -m hn_agents.cli
 
-.PHONY: fetch normalize taxonomy extract themes merge aggregate eval snapshot dashboard-data dev build test clean
+.PHONY: fetch normalize taxonomy extract themes merge aggregate eval catalog snapshot dashboard-data dev build test clean
 
 fetch:
 	$(PY) fetch
@@ -26,6 +26,9 @@ aggregate:
 
 eval:
 	$(PY) eval
+
+catalog:
+	$(PY) catalog
 
 snapshot: fetch normalize merge aggregate
 
