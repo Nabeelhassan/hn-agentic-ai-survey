@@ -42,6 +42,16 @@ The canonical vocabulary is grown from the thread, not guessed:
 
 Nodes may belong to more than one category: Cursor, Kiro, Amp, Warp, Devin, and CodeBuddy are both a harness and a paid plan.
 
+## Prices and tiers
+
+`pipeline/catalog/v1.yml` holds list prices captured from vendor pages on 2026-11-15: 21 providers and 62 plans, each with currency, annual equivalent where offered, audience, source URL, aliases, and a verification flag.
+
+`tier_raw` is never rewritten; the catalog resolves it to a `plan_id` at aggregation time. The order is deterministic: exact alias or plan id, then the longest contained alias, then a unique monthly price in the provider's currency, otherwise unmatched. Ambiguous prices (`Kiro $20` could be Pro or a Teams seat) and unknown names are reported rather than guessed.
+
+Because resolution happens after extraction, revising a price or alias needs only `make aggregate`, not another model run. Every match keeps both the raw string and the plan id, and `methodology.json` records the catalog version and retrieval date.
+
+Free plans are included in the tables so "free" has somewhere to land; spend comparisons use paid individual plans only. Six providers have no usable pricing page and carry `verification: unverified` with empty prices; five more are only partially verified.
+
 ## Aggregation rules
 
 - Counts are unique respondents, not mentions.

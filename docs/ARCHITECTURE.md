@@ -5,7 +5,7 @@ How a Hacker News thread becomes a traceable dataset and a static dashboard, end
 - Live dashboard: https://nabeelhassan.github.io/hn-agentic-ai-survey/
 - Repository: https://github.com/Nabeelhassan/hn-agentic-ai-survey
 - Current snapshot: `2026-11-15T182416Z`
-- Glossary: [`CONTEXT.md`](../CONTEXT.md) · Method: [`METHODOLOGY.md`](./METHODOLOGY.md) · State: [`STATUS.md`](./STATUS.md)
+- Glossary: [`CONTEXT.md`](../CONTEXT.md) · Method: [`METHODOLOGY.md`](./METHODOLOGY.md) · Catalog: [`CATALOG.md`](./CATALOG.md) · State: [`STATUS.md`](./STATUS.md)
 
 ---
 
@@ -73,6 +73,7 @@ flowchart TD
 ├── docs/
 │   ├── ARCHITECTURE.md        this document
 │   ├── METHODOLOGY.md         how the numbers are made
+│   ├── CATALOG.md             generated plan and price tables
 │   ├── STATUS.md              state of the current snapshot
 │   └── adr/0001…0005          decisions and their alternatives
 ├── pipeline/
@@ -85,8 +86,9 @@ flowchart TD
 │   ├── taxonomy/
 │   │   ├── v1.yml             canonical vocabulary (100 nodes)
 │   │   └── candidates.json    raw harvest output (383 candidates)
+│   ├── catalog/v1.yml         list prices, plans, aliases, verification
 │   ├── src/hn_agents/         the pipeline modules (see §6)
-│   └── tests/test_pipeline.py 5 tests over the rules that matter
+│   └── tests/                 15 tests over normalization, matching, rules
 ├── data/
 │   ├── raw/<snapshot>/        frozen Algolia, Firebase, story, fetch metadata
 │   ├── snapshots/<snapshot>/  comments, extractions, respondents, review,
@@ -356,7 +358,7 @@ def _row(node, authors, comment_ids, denominator, labels):
 | File | Contents | Denominator |
 | --- | --- | --- |
 | `overview.json` | comments, commenters, respondents, answer-class distribution with ids, caveats | all comments with text |
-| `subscriptions.json` | providers, tiers, multi-subscription split, stated spend buckets and values | respondents |
+| `subscriptions.json` | providers, tiers, canonical plans with list prices and match methods, unmatched tier strings, multi-subscription split, stated spend | respondents |
 | `models.json` | routes, named model families, access mode, local share | respondents |
 | `harnesses.json` | adoption, primary harness, migrations, migration pairs, switch reasons | respondents |
 | `orchestration.json` | orchestration tools, platforms, use cases, orchestration users | respondents |
@@ -364,6 +366,22 @@ def _row(node, authors, comment_ids, denominator, labels):
 | `cooccurrence.json` | top 40 nodes and pairwise co-mentions (≥2) | respondents |
 | `explorer.json` | one row per respondent for the table and dialog | respondents |
 | `methodology.json` | taxonomy, extraction runs, normalization/merge stats, accuracy, conventions | n/a |
+
+**Tier resolution.** `tier_raw` is what the author wrote; `plan_id` is what the catalog says it means. Resolution is deterministic and runs at aggregation time, so a catalog fix never requires re-extraction:
+
+```mermaid
+flowchart LR
+  RAW["tier_raw<br/>'$20/mo'"] --> NORM["normalize case,<br/>spacing, symbols"]
+  NORM --> EXACT{"exact alias<br/>or plan id?"}
+  EXACT -- yes --> PLAN["plan_id<br/>pro"]
+  EXACT -- no --> CONTAINED{"longest contained<br/>alias?"}
+  CONTAINED -- yes --> PLAN
+  CONTAINED -- no --> PRICE{"unique monthly price<br/>in provider currency?"}
+  PRICE -- yes --> PLAN
+  PRICE -- no --> UNMATCHED["unmatched<br/>reported, never guessed"]
+```
+
+Every catalog plan is emitted for its provider, including free tiers and plans nobody named, so a table shows the full ladder rather than only observed rows. `unmatched_tiers` keeps whatever did not resolve, plus the method that failed, and the dashboard lists those strings separately.
 
 **Migration DAG.** Sankey requires a directed acyclic graph, but people moved both ways between the same harnesses. Aggregation therefore:
 
@@ -547,4 +565,5 @@ Further trade-offs worth knowing:
 - Themes and organization names in the long tail land in `other:<slug>`; that is deliberate, but it means rare tools are visible rather than consolidated.
 - The thread is live; the snapshot is a moment, and later comments are absent until a second snapshot exists.
 - `dashboard/public/data/` is generated and gitignored; a fresh clone needs `make dashboard-data` before `npm run dev`.
+- Catalog prices are list prices captured on one date; six providers had no usable pricing page (CodeBuddy, Z.ai, Kimi, MiniMax, Perplexity, Muse Code) and five more are only partially verified. They are not what any respondent actually paid.
 - `validate.py` defaults to the deepseek model while `merge.py` and `aggregate.py` each name it separately. The three agree today; a single shared constant would be better.
