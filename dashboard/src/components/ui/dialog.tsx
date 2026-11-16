@@ -32,7 +32,7 @@ export function PanelDialog({
               <DialogDescription className="text-sm text-muted">{description}</DialogDescription>
             ) : null}
           </div>
-          <DialogClose className="rounded-md border border-line px-2 py-1 font-mono text-[11px] text-muted hover:text-zinc-100">
+          <DialogClose className="rounded-md border border-line px-2 py-1 font-mono text-[11px] text-muted hover:text-fg">
             Close
           </DialogClose>
         </div>

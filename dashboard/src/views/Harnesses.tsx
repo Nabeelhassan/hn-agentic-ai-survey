@@ -127,8 +127,8 @@ export function Harnesses({ data }: { data: HarnessesData }) {
             <tbody>
               {reasons.map((reason, index) => (
                 <tr key={`${reason.author}-${index}`} className="border-b border-line/60 align-top">
-                  <td className="py-2 pr-4 font-mono text-xs text-zinc-300">{reason.node}</td>
-                  <td className="max-w-xl py-2 pr-4 text-zinc-200">{reason.reason}</td>
+                  <td className="py-2 pr-4 font-mono text-xs text-fg-soft">{reason.node}</td>
+                  <td className="max-w-xl py-2 pr-4 text-fg">{reason.reason}</td>
                   <td className="py-2 pr-4 text-xs text-muted">{reason.author}</td>
                   <td className="py-2">
                     <Evidence ids={reason.comment_ids} />

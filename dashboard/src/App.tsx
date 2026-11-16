@@ -3,8 +3,10 @@ import { useEffect, useState } from "react";
 import { Callout } from "@/components/primitives";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { ViewTabs } from "@/components/ui/tabs";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { loadDataset } from "@/lib/data";
 import { formatNumber } from "@/lib/format";
+import { useTheme } from "@/lib/theme";
 import type { Dataset } from "@/lib/types";
 import { Explorer } from "@/views/Explorer";
 import { Harnesses } from "@/views/Harnesses";
@@ -15,6 +17,7 @@ import { Platforms } from "@/views/Platforms";
 import { Subscriptions } from "@/views/Subscriptions";
 
 export function App() {
+  const { theme } = useTheme();
   const [dataset, setDataset] = useState<Dataset | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -31,7 +34,7 @@ export function App() {
         <h1 className="text-2xl font-medium">The aggregate data is missing.</h1>
         <Callout tone="warn">{error}</Callout>
         <p className="text-sm text-muted">
-          Run <code className="font-mono text-zinc-200">make aggregate &amp;&amp; make dashboard-data</code> from
+          Run <code className="font-mono text-fg">make aggregate &amp;&amp; make dashboard-data</code> from
           the repository root, then reload.
         </p>
       </main>
@@ -49,12 +52,23 @@ export function App() {
   const { overview } = dataset;
 
   return (
-    <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-5 py-8 lg:px-8">
+    <div
+      data-theme-view={theme}
+      className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-8 px-5 py-8 lg:px-8"
+    >
       <header className="flex flex-col gap-6">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line pb-4">
+          <span className="kicker">
+            Ask HN · November 2026 · snapshot {overview.snapshot_id}
+          </span>
+          <div className="flex items-center gap-3">
+            <ThemeToggle />
+          </div>
+        </div>
+
         <div className="flex flex-wrap items-start justify-between gap-6">
           <div className="flex flex-col gap-2">
-            <span className="kicker">Ask HN · November 2026 · snapshot {overview.snapshot_id}</span>
-            <h1 className="max-w-2xl text-3xl font-medium tracking-tight text-zinc-50">
+            <h1 className="max-w-2xl text-3xl font-medium tracking-tight text-fg">
               What Hacker News actually runs for AI agents
             </h1>
             <p className="max-w-2xl text-sm leading-relaxed text-muted">
@@ -125,9 +139,7 @@ export function App() {
           Data from the HN Firebase and Algolia APIs, frozen as snapshot{" "}
           <span className="font-mono">{overview.snapshot_id}</span>.
         </span>
-        <span className="font-mono">
-          Every number links to the comments behind it.
-        </span>
+        <span className="font-mono">Every number links to the comments behind it.</span>
       </footer>
     </div>
   );

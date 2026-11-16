@@ -17,7 +17,7 @@ export function SwitchRow({
         onCheckedChange={(next) => onChange(next)}
         className="relative h-5 w-9 rounded-full border border-line bg-panel2 data-[checked]:border-accent-dim data-[checked]:bg-accent/20"
       >
-        <SwitchThumb className="block h-4 w-4 translate-x-0.5 rounded-full bg-zinc-400 transition-transform data-[checked]:translate-x-[1.15rem] data-[checked]:bg-accent" />
+        <SwitchThumb className="block h-4 w-4 translate-x-0.5 rounded-full bg-muted transition-transform data-[checked]:translate-x-[1.15rem] data-[checked]:bg-accent" />
       </Switch>
     </label>
   );

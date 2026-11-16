@@ -24,13 +24,13 @@ export class ErrorBoundary extends Component<Props, State> {
       return (
         <div className="card m-6 flex flex-col gap-2 border-amber-500/40 bg-amber-500/5 p-5">
           <span className="kicker">Render failed</span>
-          <p className="text-sm text-zinc-100">{this.state.error.message}</p>
+          <p className="text-sm text-fg">{this.state.error.message}</p>
           <pre className="overflow-x-auto rounded bg-ink p-3 font-mono text-[11px] text-muted">
             {this.state.error.stack?.split("\n").slice(0, 6).join("\n")}
           </pre>
           <button
             type="button"
-            className="w-fit rounded-md border border-line px-3 py-1 font-mono text-[11px] text-zinc-200"
+            className="w-fit rounded-md border border-line px-3 py-1 font-mono text-[11px] text-fg"
             onClick={() => this.setState({ error: null })}
           >
             Retry

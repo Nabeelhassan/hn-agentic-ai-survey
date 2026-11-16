@@ -102,7 +102,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
                       ) : null}
                     </span>
                     <span className="num text-xs text-muted">{row.n_comments}</span>
-                    <span className="truncate text-xs text-zinc-300">
+                    <span className="truncate text-xs text-fg-soft">
                       {row.subscriptions.length
                         ? row.subscriptions
                             .map(
@@ -112,7 +112,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
                             .join(" · ")
                         : "—"}
                     </span>
-                    <span className="truncate text-xs text-zinc-300">
+                    <span className="truncate text-xs text-fg-soft">
                       {row.harnesses.length ? row.harnesses.map((item) => item.label).join(" · ") : "—"}
                     </span>
                     <span className="num text-xs text-accent">
@@ -147,7 +147,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
             <DetailGroup label="Subscriptions">
               {selected.subscriptions.length ? (
                 selected.subscriptions.map((item) => (
-                  <span key={item.node} className="text-zinc-200">
+                  <span key={item.node} className="text-fg">
                     {item.label}
                     {item.plan_label ? <span className="text-accent"> · {item.plan_label}</span> : null}
                     {item.tier_raw ? <span className="text-muted"> · “{item.tier_raw}”</span> : null}
@@ -160,7 +160,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
             <DetailGroup label="Harnesses">
               {selected.harnesses.length ? (
                 selected.harnesses.map((item) => (
-                  <span key={item.node} className="text-zinc-200">
+                  <span key={item.node} className="text-fg">
                     {item.label} <span className="font-mono text-[11px] text-muted">{item.role}</span>
                   </span>
                 ))
@@ -171,7 +171,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
             <DetailGroup label="Outside models">
               {selected.outside.length ? (
                 selected.outside.map((item) => (
-                  <span key={item.node} className="text-zinc-200">
+                  <span key={item.node} className="text-fg">
                     {item.label} <span className="font-mono text-[11px] text-muted">{item.access}</span>
                   </span>
                 ))
@@ -182,7 +182,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
             <DetailGroup label="Orchestration">
               {selected.orchestration.length ? (
                 selected.orchestration.map((item) => (
-                  <span key={item.node} className="text-zinc-200">
+                  <span key={item.node} className="text-fg">
                     {item.label}
                   </span>
                 ))
@@ -193,7 +193,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
             <DetailGroup label="Platforms">
               {selected.platforms.length ? (
                 selected.platforms.map((item) => (
-                  <span key={item.node} className="text-zinc-200">
+                  <span key={item.node} className="text-fg">
                     {item.label}
                   </span>
                 ))
@@ -202,7 +202,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
               )}
             </DetailGroup>
             <DetailGroup label="Stated monthly spend">
-              <span className="text-zinc-200">
+              <span className="text-fg">
                 {selected.spend_monthly_usd !== null ? formatUsd(selected.spend_monthly_usd) : "not stated"}
               </span>
             </DetailGroup>

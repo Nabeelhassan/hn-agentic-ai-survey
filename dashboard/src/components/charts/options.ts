@@ -2,7 +2,9 @@ import type { EChartsCoreOption } from "echarts/core";
 
 import type { BreakdownRow, CooccurrenceData, MigrationEdge } from "@/lib/types";
 
-export const PALETTE = [
+const FONT = "ui-monospace, SFMono-Regular, Menlo, monospace";
+
+const DARK_PALETTE = [
   "#d6f36a",
   "#7dd3fc",
   "#f9a8d4",
@@ -15,11 +17,63 @@ export const PALETTE = [
   "#fdba74",
 ];
 
-const FONT = "ui-monospace, SFMono-Regular, Menlo, monospace";
-const MUTED = "#8b93a1";
-const LINE = "#262b33";
+interface ChartTokens {
+  palette: string[];
+  axis: string;
+  line: string;
+  strong: string;
+  soft: string;
+  tipBg: string;
+  tipText: string;
+  unstated: string;
+  heat: [string, string, string];
+  nodeBorder: string;
+  accent: string;
+}
+
+function chartTokens(): ChartTokens {
+  if (typeof document === "undefined") {
+    return {
+      palette: DARK_PALETTE,
+      axis: "#8b93a1",
+      line: "#262b33",
+      strong: "#e4e4e7",
+      soft: "#d4d4d8",
+      tipBg: "#181b20",
+      tipText: "#f4f4f5",
+      unstated: "#3f4652",
+      heat: ["#1b1f26", "#4d5a2a", "#d6f36a"],
+      nodeBorder: "#0a0b0d",
+      accent: "#d6f36a",
+    };
+  }
+  const style = getComputedStyle(document.documentElement);
+  const read = (name: string, fallback: string) => style.getPropertyValue(name).trim() || fallback;
+  const palette = read("--chart-palette", DARK_PALETTE.join(", "))
+    .split(",")
+    .map((color) => color.trim())
+    .filter(Boolean);
+  return {
+    palette: palette.length ? palette : DARK_PALETTE,
+    axis: read("--chart-axis", "#8b93a1"),
+    line: read("--chart-line", "#262b33"),
+    strong: read("--chart-strong", "#e4e4e7"),
+    soft: read("--chart-soft", "#d4d4d8"),
+    tipBg: read("--chart-tip-bg", "#181b20"),
+    tipText: read("--chart-tip-text", "#f4f4f5"),
+    unstated: read("--chart-unstated", "#3f4652"),
+    heat: [
+      read("--chart-heat-1", "#1b1f26"),
+      read("--chart-heat-2", "#4d5a2a"),
+      read("--chart-heat-3", "#d6f36a"),
+    ],
+    nodeBorder: read("--chart-node-border", "#0a0b0d"),
+    accent: read("--chart-accent", "#d6f36a"),
+  };
+}
 
 export function barOption(rows: BreakdownRow[], { unit = "respondents" } = {}): EChartsCoreOption {
+  const tokens = chartTokens();
   const filtered = rows.filter((row) => row.count > 0);
   const ordered = [...filtered].sort((a, b) => a.count - b.count);
   return {
@@ -27,20 +81,20 @@ export function barOption(rows: BreakdownRow[], { unit = "respondents" } = {}): 
     grid: { left: 8, right: 40, top: 8, bottom: 8, containLabel: true },
     xAxis: {
       type: "value",
-      splitLine: { lineStyle: { color: LINE } },
-      axisLabel: { color: MUTED, fontFamily: FONT, fontSize: 10 },
+      splitLine: { lineStyle: { color: tokens.line } },
+      axisLabel: { color: tokens.axis, fontFamily: FONT, fontSize: 10 },
     },
     yAxis: {
       type: "category",
       data: ordered.map((row) => row.label),
       axisLine: { show: false },
       axisTick: { show: false },
-      axisLabel: { color: "#e4e4e7", fontFamily: FONT, fontSize: 11 },
+      axisLabel: { color: tokens.strong, fontFamily: FONT, fontSize: 11 },
     },
     tooltip: {
-      backgroundColor: "#181b20",
-      borderColor: LINE,
-      textStyle: { color: "#f4f4f5", fontFamily: FONT, fontSize: 12 },
+      backgroundColor: tokens.tipBg,
+      borderColor: tokens.line,
+      textStyle: { color: tokens.tipText, fontFamily: FONT, fontSize: 12 },
       formatter: (params: { dataIndex: number }) => {
         const row = ordered[params.dataIndex];
         return `<strong>${row.label}</strong><br/>${row.count} ${unit} of ${row.n_denominator}`;
@@ -51,13 +105,18 @@ export function barOption(rows: BreakdownRow[], { unit = "respondents" } = {}): 
         type: "bar",
         data: ordered.map((row, index) => ({
           value: row.count,
-          itemStyle: { color: row.node === "unstated" ? "#3f4652" : PALETTE[index % PALETTE.length] },
+          itemStyle: {
+            color:
+              row.node === "unstated"
+                ? tokens.unstated
+                : tokens.palette[index % tokens.palette.length],
+          },
         })),
         barMaxWidth: 14,
         label: {
           show: true,
           position: "right",
-          color: "#d4d4d8",
+          color: tokens.soft,
           fontFamily: FONT,
           fontSize: 10,
         },
@@ -67,6 +126,7 @@ export function barOption(rows: BreakdownRow[], { unit = "respondents" } = {}): 
 }
 
 export function sankeyOption(edges: MigrationEdge[]): EChartsCoreOption {
+  const tokens = chartTokens();
   const names = new Set<string>();
   for (const edge of edges) {
     names.add(edge.from_label);
@@ -76,9 +136,9 @@ export function sankeyOption(edges: MigrationEdge[]): EChartsCoreOption {
   return {
     backgroundColor: "transparent",
     tooltip: {
-      backgroundColor: "#181b20",
-      borderColor: LINE,
-      textStyle: { color: "#f4f4f5", fontFamily: FONT, fontSize: 12 },
+      backgroundColor: tokens.tipBg,
+      borderColor: tokens.line,
+      textStyle: { color: tokens.tipText, fontFamily: FONT, fontSize: 12 },
     },
     series: [
       {
@@ -90,12 +150,12 @@ export function sankeyOption(edges: MigrationEdge[]): EChartsCoreOption {
         nodeGap: 12,
         nodeWidth: 10,
         emphasis: { focus: "adjacency" },
-        label: { color: "#d4d4d8", fontFamily: FONT, fontSize: 11 },
+        label: { color: tokens.soft, fontFamily: FONT, fontSize: 11 },
         lineStyle: { color: "gradient", opacity: 0.28, curveness: 0.5 },
         itemStyle: { borderWidth: 0 },
         data: ordered.map((name) => ({
           name,
-          itemStyle: { color: PALETTE[ordered.indexOf(name) % PALETTE.length] },
+          itemStyle: { color: tokens.palette[ordered.indexOf(name) % tokens.palette.length] },
         })),
         links: edges.map((edge) => ({
           source: edge.from_label,
@@ -108,6 +168,7 @@ export function sankeyOption(edges: MigrationEdge[]): EChartsCoreOption {
 }
 
 export function heatmapOption(cooccurrence: CooccurrenceData, limit = 12): EChartsCoreOption {
+  const tokens = chartTokens();
   const nodes = cooccurrence.nodes.slice(0, limit);
   const index = new Map(nodes.map((node, position) => [node.node, position]));
   const pairs = cooccurrence.edges.filter((edge) => index.has(edge.a) && index.has(edge.b));
@@ -122,20 +183,20 @@ export function heatmapOption(cooccurrence: CooccurrenceData, limit = 12): EChar
     xAxis: {
       type: "category",
       data: nodes.map((node) => node.label),
-      axisLabel: { color: MUTED, fontFamily: FONT, fontSize: 10, rotate: 35 },
+      axisLabel: { color: tokens.axis, fontFamily: FONT, fontSize: 10, rotate: 35 },
       splitArea: { show: false },
-      axisLine: { lineStyle: { color: LINE } },
+      axisLine: { lineStyle: { color: tokens.line } },
     },
     yAxis: {
       type: "category",
       data: nodes.map((node) => node.label),
-      axisLabel: { color: MUTED, fontFamily: FONT, fontSize: 10 },
-      axisLine: { lineStyle: { color: LINE } },
+      axisLabel: { color: tokens.axis, fontFamily: FONT, fontSize: 10 },
+      axisLine: { lineStyle: { color: tokens.line } },
     },
     tooltip: {
-      backgroundColor: "#181b20",
-      borderColor: LINE,
-      textStyle: { color: "#f4f4f5", fontFamily: FONT, fontSize: 12 },
+      backgroundColor: tokens.tipBg,
+      borderColor: tokens.line,
+      textStyle: { color: tokens.tipText, fontFamily: FONT, fontSize: 12 },
       formatter: (params: { data: [number, number, number] }) => {
         const [x, y, value] = params.data;
         return `${nodes[y].label} + ${nodes[x].label}: ${value} respondents`;
@@ -145,14 +206,14 @@ export function heatmapOption(cooccurrence: CooccurrenceData, limit = 12): EChar
       min: 0,
       max: Math.max(2, ...data.map(([, , value]) => value)),
       show: false,
-      inRange: { color: ["#1b1f26", "#4d5a2a", "#d6f36a"] },
+      inRange: { color: tokens.heat },
     },
     series: [
       {
         type: "heatmap",
         data,
-        itemStyle: { borderColor: "#0a0b0d", borderWidth: 2, borderRadius: 2 },
-        emphasis: { itemStyle: { borderColor: "#d6f36a" } },
+        itemStyle: { borderColor: tokens.nodeBorder, borderWidth: 2, borderRadius: 2 },
+        emphasis: { itemStyle: { borderColor: tokens.accent } },
       },
     ],
   };

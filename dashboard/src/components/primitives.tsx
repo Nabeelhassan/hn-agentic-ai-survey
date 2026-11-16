@@ -44,7 +44,7 @@ export function Stat({
   return (
     <div className="card flex flex-col gap-1 p-4">
       <span className="kicker">{label}</span>
-      <span className="num text-2xl text-zinc-50">{value}</span>
+      <span className="num text-2xl text-fg-strong">{value}</span>
       {detail ? <span className="text-xs text-muted">{detail}</span> : null}
     </div>
   );

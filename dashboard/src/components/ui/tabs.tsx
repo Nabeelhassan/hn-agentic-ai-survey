@@ -24,7 +24,7 @@ export function ViewTabs({
           <TabsTab
             key={item.value}
             value={item.value}
-            className="rounded-md px-2.5 py-1.5 font-mono text-[11px] uppercase tracking-[0.1em] text-muted transition-colors hover:text-zinc-200 data-[selected]:bg-panel2 data-[selected]:text-accent"
+            className="rounded-md px-2.5 py-1.5 font-mono text-[11px] uppercase tracking-[0.1em] text-muted transition-colors hover:text-fg data-[selected]:bg-panel2 data-[selected]:text-accent"
           >
             {item.label}
           </TabsTab>

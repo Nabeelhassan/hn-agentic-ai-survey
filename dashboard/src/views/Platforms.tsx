@@ -85,7 +85,7 @@ export function Platforms({
                 {useCases.map((useCase) => (
                   <li
                     key={useCase}
-                    className="rounded-full border border-line px-2 py-0.5 font-mono text-[11px] text-zinc-300"
+                    className="rounded-full border border-line px-2 py-0.5 font-mono text-[11px] text-fg-soft"
                   >
                     {useCase}
                   </li>

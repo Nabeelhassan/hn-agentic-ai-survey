@@ -121,7 +121,7 @@ function ProviderCard({ provider }: { provider: ProviderCatalog }) {
                 ) : null}
                 {plan.note ? <p className="text-[10px] text-muted">{plan.note}</p> : null}
               </td>
-              <td className="num whitespace-nowrap py-1.5 pr-3 text-xs text-zinc-300">{planPrice(plan)}</td>
+              <td className="num whitespace-nowrap py-1.5 pr-3 text-xs text-fg-soft">{planPrice(plan)}</td>
               <td className="py-1.5 pr-3">
                 <span className="num text-sm">{formatNumber(plan.count)}</span>
                 {plan.n_provider_denominator >= 10 && plan.pct_of_provider !== null ? (
@@ -138,7 +138,7 @@ function ProviderCard({ provider }: { provider: ProviderCatalog }) {
                     </summary>
                     <ul className="mt-1 flex flex-wrap gap-x-2 gap-y-0.5">
                       {plan.raw_variants.map((variant) => (
-                        <li key={variant.tier_raw} className="font-mono text-[10px] text-zinc-400">
+                        <li key={variant.tier_raw} className="font-mono text-[10px] text-muted">
                           {variant.tier_raw}
                           {variant.count > 1 ? ` ×${variant.count}` : ""}
                         </li>
@@ -271,7 +271,7 @@ export function Subscriptions({ data }: { data: SubscriptionsData }) {
                         {unresolved.map((row) => (
                           <tr key={`${row.provider_label}-${row.tier_raw}`} className="border-b border-line/60">
                             <td className="py-2 pr-4">{row.provider_label}</td>
-                            <td className="py-2 pr-4 font-mono text-xs text-zinc-300">{row.tier_raw}</td>
+                            <td className="py-2 pr-4 font-mono text-xs text-fg-soft">{row.tier_raw}</td>
                             <td className="num py-2 pr-4">{row.count}</td>
                             <td className="py-2 pr-4 text-xs text-muted">
                               {METHOD_LABEL[row.method] ?? row.method}

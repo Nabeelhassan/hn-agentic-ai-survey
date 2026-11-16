@@ -11,10 +11,60 @@
   --color-muted: #8b93a1;
   --color-accent: #d6f36a;
   --color-accent-dim: #9fb84a;
+  --color-fg: #f4f4f5;
+  --color-fg-strong: #fafafa;
+  --color-fg-soft: #d4d4d8;
+  --color-backdrop: rgb(0 0 0 / 0.7);
 }
 
 :root {
   color-scheme: dark;
+
+  --chart-palette: #d6f36a, #7dd3fc, #f9a8d4, #c4b5fd, #fcd34d, #5eead4, #fca5a5, #a3e635,
+    #93c5fd, #fdba74;
+  --chart-axis: #8b93a1;
+  --chart-line: #262b33;
+  --chart-strong: #e4e4e7;
+  --chart-soft: #d4d4d8;
+  --chart-tip-bg: #181b20;
+  --chart-tip-text: #f4f4f5;
+  --chart-unstated: #3f4652;
+  --chart-heat-1: #1b1f26;
+  --chart-heat-2: #4d5a2a;
+  --chart-heat-3: #d6f36a;
+  --chart-node-border: #0a0b0d;
+  --chart-accent: #d6f36a;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --color-ink: #f5f5ef;
+  --color-panel: #ffffff;
+  --color-panel2: #eef0e7;
+  --color-line: #dcdfd4;
+  --color-muted: #5f6672;
+  --color-accent: #55700a;
+  --color-accent-dim: #7a9418;
+  --color-fg: #1a1d21;
+  --color-fg-strong: #090a0c;
+  --color-fg-soft: #3d434b;
+  --color-backdrop: rgb(20 22 24 / 0.45);
+
+  --chart-palette: #5c7a00, #0369a1, #be185d, #6d28d9, #a16207, #0f766e, #b91c1c, #4d7c0f,
+    #1d4ed8, #c2410c;
+  --chart-axis: #5f6672;
+  --chart-line: #dcdfd4;
+  --chart-strong: #24272c;
+  --chart-soft: #3d434b;
+  --chart-tip-bg: #ffffff;
+  --chart-tip-text: #16181c;
+  --chart-unstated: #b9bec6;
+  --chart-heat-1: #f1f3e9;
+  --chart-heat-2: #c9d99b;
+  --chart-heat-3: #6d8c0c;
+  --chart-node-border: #ffffff;
+  --chart-accent: #6d8c0c;
 }
 
 html,
@@ -25,7 +75,7 @@ body,
 
 body {
   margin: 0;
-  @apply bg-ink font-sans text-zinc-100 antialiased;
+  @apply bg-ink font-sans text-fg antialiased;
 }
 
 ::selection {
@@ -58,13 +108,13 @@ button,
 }
 
 [data-slot="dialog-content"] {
-  @apply fixed inset-0 m-auto max-h-[85vh] w-[min(46rem,92vw)] overflow-y-auto rounded-xl border border-line bg-panel p-6 text-zinc-100 shadow-2xl;
+  @apply fixed inset-0 m-auto max-h-[85vh] w-[min(46rem,92vw)] overflow-y-auto rounded-xl border border-line bg-panel p-6 text-fg shadow-2xl;
 }
 
 [data-slot="dialog-backdrop"] {
-  @apply fixed inset-0 bg-black/70 backdrop-blur-sm;
+  @apply fixed inset-0 bg-backdrop backdrop-blur-sm;
 }
 
 [data-slot="tooltip-content"] {
-  @apply z-50 rounded-md border border-line bg-panel2 px-2 py-1 font-mono text-[11px] text-zinc-200 shadow-lg;
+  @apply z-50 rounded-md border border-line bg-panel2 px-2 py-1 font-mono text-[11px] text-fg-soft shadow-lg;
 }

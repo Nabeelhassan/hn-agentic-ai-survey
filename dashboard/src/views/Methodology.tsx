@@ -181,8 +181,8 @@ export function Methodology({ data }: { data: MethodologyData }) {
               ))}
             </div>
             <Callout>
-              Prices live in <span className="font-mono text-zinc-200">pipeline/catalog/v1.yml</span> and are
-              rendered as tables in <span className="font-mono text-zinc-200">docs/CATALOG.md</span>. A plan with
+              Prices live in <span className="font-mono text-fg">pipeline/catalog/v1.yml</span> and are
+              rendered as tables in <span className="font-mono text-fg">docs/CATALOG.md</span>. A plan with
               no captured price stays blank; nothing is estimated.
             </Callout>
           </div>
