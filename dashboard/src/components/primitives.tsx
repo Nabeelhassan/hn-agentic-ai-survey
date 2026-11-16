@@ -54,10 +54,11 @@ export function Evidence({ ids, label = "comments" }: { ids: string[]; label?: s
   if (ids.length === 0) {
     return <span className="text-xs text-muted">no evidence ids</span>;
   }
+  const singular = label.endsWith("s") ? label.slice(0, -1) : label;
   return (
     <details className="group">
       <summary className="cursor-pointer font-mono text-[11px] text-muted hover:text-accent">
-        {ids.length} {label}
+        {ids.length} {ids.length === 1 ? singular : label}
       </summary>
       <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1">
         {ids.slice(0, 40).map((id) => (

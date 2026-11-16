@@ -105,7 +105,10 @@ export function Explorer({ data }: { data: ExplorerData }) {
                     <span className="truncate text-xs text-zinc-300">
                       {row.subscriptions.length
                         ? row.subscriptions
-                            .map((item) => `${item.label}${item.tier_raw ? ` ${item.tier_raw}` : ""}`)
+                            .map(
+                              (item) =>
+                                `${item.plan_label ?? item.label}${item.tier_raw ? ` (${item.tier_raw})` : ""}`,
+                            )
                             .join(" · ")
                         : "—"}
                     </span>
@@ -146,7 +149,8 @@ export function Explorer({ data }: { data: ExplorerData }) {
                 selected.subscriptions.map((item) => (
                   <span key={item.node} className="text-zinc-200">
                     {item.label}
-                    {item.tier_raw ? <span className="text-muted"> · {item.tier_raw}</span> : null}
+                    {item.plan_label ? <span className="text-accent"> · {item.plan_label}</span> : null}
+                    {item.tier_raw ? <span className="text-muted"> · “{item.tier_raw}”</span> : null}
                   </span>
                 ))
               ) : (
@@ -222,7 +226,7 @@ export function Explorer({ data }: { data: ExplorerData }) {
                 Comments are quoted from the frozen snapshot and may have been edited on HN since.
               </span>
             </div>
-            <Evidence ids={selected.comment_ids} label="all comments" />
+            <Evidence ids={selected.comment_ids} label="comments" />
           </div>
         ) : null}
       </PanelDialog>

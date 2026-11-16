@@ -42,11 +42,69 @@ export interface OverviewData {
   notes: string[];
 }
 
+export interface PlanRow {
+  provider: string;
+  provider_label: string;
+  plan_id: string;
+  plan_label: string;
+  audience: "individual" | "team" | "enterprise";
+  price_monthly: number | null;
+  price_annual: number | null;
+  annual_monthly: number | null;
+  list_price_monthly: number | null;
+  currency: string;
+  count: number;
+  pct_of_provider: number | null;
+  n_provider_denominator: number;
+  pct_of_respondents: number | null;
+  n_denominator: number;
+  match_methods: Record<string, number>;
+  raw_variants: { tier_raw: string; count: number }[];
+  comment_ids: string[];
+  note: string | null;
+}
+
+export interface ProviderCatalog {
+  provider: string;
+  provider_label: string;
+  verification: "verified" | "partial" | "unverified";
+  currency: string;
+  source_url: string | null;
+  retrieved_at: string;
+  notes: string | null;
+  n_provider_denominator: number;
+  plans: PlanRow[];
+}
+
+export interface UnmatchedTier {
+  provider: string | null;
+  provider_label: string;
+  tier_raw: string;
+  count: number;
+  n_provider_denominator: number;
+  comment_ids: string[];
+  method: string;
+}
+
+export interface MatchingSummary {
+  assignments: number;
+  matched_assignments: number;
+  unmatched_assignments: number;
+  matched_respondents: number;
+  unmatched_tiers: number;
+  methods: Record<string, number>;
+  plans_in_catalog: number;
+  plans_with_price: number;
+}
+
 export interface SubscriptionsData {
   n_denominator: number;
   n_with_subscription: number;
   providers: BreakdownRow[];
   tiers: TierRow[];
+  catalog: ProviderCatalog[];
+  unmatched_tiers: UnmatchedTier[];
+  matching: MatchingSummary;
   multi_subscription: BreakdownRow[];
   spend: {
     stated: number;
@@ -142,6 +200,7 @@ export interface ExplorerRow {
     node: string;
     label: string;
     tier_raw: string | null;
+    plan_label: string | null;
     comment_ids: string[];
   }[];
   outside: { node: string; label: string; access: string }[];
@@ -167,6 +226,14 @@ export interface MethodologyData {
     version: string;
     nodes: { id: string; label: string; category: string; aliases?: string[] }[];
   };
+  catalog: {
+    version: string;
+    retrieved_at: string;
+    providers: number;
+    plans: number;
+    plans_with_price: number;
+    matching: MatchingSummary;
+  } | null;
   extraction: {
     runs: {
       model: string;

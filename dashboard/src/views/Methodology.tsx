@@ -149,6 +149,49 @@ export function Methodology({ data }: { data: MethodologyData }) {
       </Section>
 
       <Section
+        kicker="Prices"
+        title="Subscription catalog"
+        description="List prices captured from vendor pages on a fixed date, used only to resolve what a respondent meant by a tier string. They are not what anyone actually paid."
+      >
+        {data.catalog ? (
+          <div className="flex flex-col gap-4">
+            <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+              <Stat label="Catalog version" value={data.catalog.version} detail={`retrieved ${data.catalog.retrieved_at}`} />
+              <Stat
+                label="Providers / plans"
+                value={`${formatNumber(data.catalog.providers)} / ${formatNumber(data.catalog.plans)}`}
+                detail={`${formatNumber(data.catalog.plans_with_price)} plans with a price`}
+              />
+              <Stat
+                label="Tier strings resolved"
+                value={formatNumber(data.catalog.matching.matched_assignments)}
+                detail={`of ${formatNumber(data.catalog.matching.assignments)} assignments`}
+              />
+              <Stat
+                label="Left unresolved"
+                value={formatNumber(data.catalog.matching.unmatched_assignments)}
+                detail={`${formatNumber(data.catalog.matching.unmatched_tiers)} distinct strings`}
+              />
+            </div>
+            <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted">
+              {Object.entries(data.catalog.matching.methods).map(([method, count]) => (
+                <span key={method} className="font-mono">
+                  {method.replace(/_/g, " ")}: {formatNumber(count)}
+                </span>
+              ))}
+            </div>
+            <Callout>
+              Prices live in <span className="font-mono text-zinc-200">pipeline/catalog/v1.yml</span> and are
+              rendered as tables in <span className="font-mono text-zinc-200">docs/CATALOG.md</span>. A plan with
+              no captured price stays blank; nothing is estimated.
+            </Callout>
+          </div>
+        ) : (
+          <Callout tone="warn">No subscription catalog was applied to this snapshot.</Callout>
+        )}
+      </Section>
+
+      <Section
         kicker="Vocabulary"
         title={`Taxonomy v${data.taxonomy.version}`}
         description="Canonical node ids the extraction is forced to choose from. Anything unlisted becomes other:<name> so a new tool shows up as itself instead of hiding in “other”."
