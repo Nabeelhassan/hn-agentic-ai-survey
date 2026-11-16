@@ -2825,6 +2825,3323 @@
       ]
     }
   ],
+  "catalog": [
+    {
+      "provider": "anthropic",
+      "provider_label": "Anthropic (Claude plans)",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://claude.com/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 172,
+      "plans": [
+        {
+          "provider": "anthropic",
+          "provider_label": "Anthropic (Claude plans)",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 172,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "anthropic",
+          "provider_label": "Anthropic (Claude plans)",
+          "plan_id": "pro",
+          "plan_label": "Pro",
+          "audience": "individual",
+          "price_monthly": 20,
+          "price_annual": 200,
+          "annual_monthly": 17,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 45,
+          "pct_of_provider": 26.2,
+          "n_provider_denominator": 172,
+          "pct_of_respondents": 10.9,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 38,
+            "alias_contained": 7
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "Pro",
+              "count": 10
+            },
+            {
+              "tier_raw": "$20",
+              "count": 9
+            },
+            {
+              "tier_raw": "pro",
+              "count": 7
+            },
+            {
+              "tier_raw": "$20/mo",
+              "count": 5
+            },
+            {
+              "tier_raw": "$20/month",
+              "count": 4
+            },
+            {
+              "tier_raw": "Claude Pro",
+              "count": 1
+            },
+            {
+              "tier_raw": "Pro 20",
+              "count": 1
+            },
+            {
+              "tier_raw": "20$",
+              "count": 1
+            },
+            {
+              "tier_raw": "Pro 20$/mo",
+              "count": 1
+            },
+            {
+              "tier_raw": "Pro ($20/mo)",
+              "count": 1
+            },
+            {
+              "tier_raw": "$20usd",
+              "count": 1
+            },
+            {
+              "tier_raw": "pro monthly",
+              "count": 1
+            },
+            {
+              "tier_raw": "$20 Claude subscription",
+              "count": 1
+            },
+            {
+              "tier_raw": "$20 tier",
+              "count": 1
+            },
+            {
+              "tier_raw": "pro 100",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367215",
+            "50367744",
+            "50368325",
+            "50372070",
+            "50373255",
+            "50373366",
+            "50373433",
+            "50373589",
+            "50373624",
+            "50373698",
+            "50373770",
+            "50373805",
+            "50373974",
+            "50374344",
+            "50374417",
+            "50374549",
+            "50375205",
+            "50375378",
+            "50375959",
+            "50376110",
+            "50376402",
+            "50376463",
+            "50376733",
+            "50376810",
+            "50377195",
+            "50377284",
+            "50378086",
+            "50378106",
+            "50378293",
+            "50378856",
+            "50379016",
+            "50379612",
+            "50380005",
+            "50380233",
+            "50380504",
+            "50380888",
+            "50380973",
+            "50381092",
+            "50385108",
+            "50388077",
+            "50391332",
+            "50393227",
+            "50407937",
+            "50411184",
+            "50444232"
+          ],
+          "note": null
+        },
+        {
+          "provider": "anthropic",
+          "provider_label": "Anthropic (Claude plans)",
+          "plan_id": "max",
+          "plan_label": "Max",
+          "audience": "individual",
+          "price_monthly": 100,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 41,
+          "pct_of_provider": 23.8,
+          "n_provider_denominator": 172,
+          "pct_of_respondents": 9.9,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 33,
+            "price": 2,
+            "alias_contained": 6
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "$100",
+              "count": 10
+            },
+            {
+              "tier_raw": "Max",
+              "count": 9
+            },
+            {
+              "tier_raw": "max",
+              "count": 5
+            },
+            {
+              "tier_raw": "$100/mo",
+              "count": 2
+            },
+            {
+              "tier_raw": "MAX",
+              "count": 1
+            },
+            {
+              "tier_raw": "100 USD",
+              "count": 1
+            },
+            {
+              "tier_raw": "$100/plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "$100/m",
+              "count": 1
+            },
+            {
+              "tier_raw": "5x Claude sub",
+              "count": 1
+            },
+            {
+              "tier_raw": "$100 for business",
+              "count": 1
+            },
+            {
+              "tier_raw": "Claude Max",
+              "count": 1
+            },
+            {
+              "tier_raw": "Max 5x",
+              "count": 1
+            },
+            {
+              "tier_raw": "MAX plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "Max (£90/month)",
+              "count": 1
+            },
+            {
+              "tier_raw": "$100 plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "Max ($100)",
+              "count": 1
+            },
+            {
+              "tier_raw": "Max $100",
+              "count": 1
+            },
+            {
+              "tier_raw": "Max plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "100$/mo",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367399",
+            "50367453",
+            "50367619",
+            "50367970",
+            "50368119",
+            "50368566",
+            "50373208",
+            "50373697",
+            "50373887",
+            "50374380",
+            "50374498",
+            "50374502",
+            "50374994",
+            "50375609",
+            "50375826",
+            "50376062",
+            "50376279",
+            "50376390",
+            "50376505",
+            "50376632",
+            "50376872",
+            "50377004",
+            "50377121",
+            "50377137",
+            "50377705",
+            "50377888",
+            "50378365",
+            "50378479",
+            "50378511",
+            "50378518",
+            "50378651",
+            "50379355",
+            "50379685",
+            "50379808",
+            "50379840",
+            "50379944",
+            "50380407",
+            "50410297",
+            "50428201",
+            "50447027",
+            "50499298"
+          ],
+          "note": null
+        },
+        {
+          "provider": "anthropic",
+          "provider_label": "Anthropic (Claude plans)",
+          "plan_id": "ultra",
+          "plan_label": "Ultra",
+          "audience": "individual",
+          "price_monthly": 200,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 52,
+          "pct_of_provider": 30.2,
+          "n_provider_denominator": 172,
+          "pct_of_respondents": 12.6,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 46,
+            "alias_contained": 6
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "Ultra",
+              "count": 24
+            },
+            {
+              "tier_raw": "$200",
+              "count": 9
+            },
+            {
+              "tier_raw": "ultra",
+              "count": 5
+            },
+            {
+              "tier_raw": "$200/ea",
+              "count": 1
+            },
+            {
+              "tier_raw": "max 20x",
+              "count": 1
+            },
+            {
+              "tier_raw": "max 200",
+              "count": 1
+            },
+            {
+              "tier_raw": "Max 20x",
+              "count": 1
+            },
+            {
+              "tier_raw": "Ultra (aka Max 20x)",
+              "count": 1
+            },
+            {
+              "tier_raw": "$200/mo",
+              "count": 1
+            },
+            {
+              "tier_raw": "Claude ultra",
+              "count": 1
+            },
+            {
+              "tier_raw": "Ultra (200)",
+              "count": 1
+            },
+            {
+              "tier_raw": "Max 200",
+              "count": 1
+            },
+            {
+              "tier_raw": "Ultra plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "~$200/month",
+              "count": 1
+            },
+            {
+              "tier_raw": "Ultra aka 20x Max, about $250/mo incl VAT",
+              "count": 1
+            },
+            {
+              "tier_raw": "ultra plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "$200 max x5 plan",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367207",
+            "50367272",
+            "50367571",
+            "50367701",
+            "50367976",
+            "50368640",
+            "50370886",
+            "50373001",
+            "50373065",
+            "50373322",
+            "50373324",
+            "50373432",
+            "50373463",
+            "50373684",
+            "50373740",
+            "50373985",
+            "50374270",
+            "50374450",
+            "50374746",
+            "50374764",
+            "50375134",
+            "50375158",
+            "50375265",
+            "50375312",
+            "50375338",
+            "50375539",
+            "50375606",
+            "50375836",
+            "50376328",
+            "50376348",
+            "50376567",
+            "50376652",
+            "50376760",
+            "50377449",
+            "50377455",
+            "50377554",
+            "50377597",
+            "50377814",
+            "50378016",
+            "50378434",
+            "50378737",
+            "50378756",
+            "50378897",
+            "50379312",
+            "50379352",
+            "50379819",
+            "50380358",
+            "50380371",
+            "50395313",
+            "50395602",
+            "50399014",
+            "50407369"
+          ],
+          "note": "The thread mostly says Ultra where the vendor now says Ultra (formerly Max 20x)."
+        },
+        {
+          "provider": "anthropic",
+          "provider_label": "Anthropic (Claude plans)",
+          "plan_id": "team-standard",
+          "plan_label": "Team (standard seat)",
+          "audience": "team",
+          "price_monthly": 25,
+          "price_annual": 240,
+          "annual_monthly": 20,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 1,
+          "pct_of_provider": 0.6,
+          "n_provider_denominator": 172,
+          "pct_of_respondents": 0.2,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias_contained": 1
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "claude team pro",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50373649"
+          ],
+          "note": null
+        },
+        {
+          "provider": "anthropic",
+          "provider_label": "Anthropic (Claude plans)",
+          "plan_id": "enterprise",
+          "plan_label": "Enterprise",
+          "audience": "enterprise",
+          "price_monthly": null,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 172,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": "Seat price plus API usage; not comparable to individual plans."
+        }
+      ]
+    },
+    {
+      "provider": "openai",
+      "provider_label": "OpenAI (ChatGPT plans)",
+      "verification": "partial",
+      "currency": "USD",
+      "source_url": "https://chatgpt.com/pricing/",
+      "retrieved_at": "2026-11-15",
+      "notes": "Plan names are verified; the page renders prices client-side and exposed no amounts, so prices are null.",
+      "n_provider_denominator": 113,
+      "plans": [
+        {
+          "provider": "openai",
+          "provider_label": "OpenAI (ChatGPT plans)",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 113,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "openai",
+          "provider_label": "OpenAI (ChatGPT plans)",
+          "plan_id": "go",
+          "plan_label": "Go",
+          "audience": "individual",
+          "price_monthly": null,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 1,
+          "pct_of_provider": 0.9,
+          "n_provider_denominator": 113,
+          "pct_of_respondents": 0.2,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias_contained": 1
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "go plan",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50375134"
+          ],
+          "note": null
+        },
+        {
+          "provider": "openai",
+          "provider_label": "OpenAI (ChatGPT plans)",
+          "plan_id": "plus",
+          "plan_label": "Plus",
+          "audience": "individual",
+          "price_monthly": null,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 32,
+          "pct_of_provider": 28.3,
+          "n_provider_denominator": 113,
+          "pct_of_respondents": 7.7,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 29,
+            "alias_contained": 3
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "$20",
+              "count": 12
+            },
+            {
+              "tier_raw": "Plus",
+              "count": 12
+            },
+            {
+              "tier_raw": "$20/mo",
+              "count": 2
+            },
+            {
+              "tier_raw": "$20/month",
+              "count": 2
+            },
+            {
+              "tier_raw": "$20 sub",
+              "count": 1
+            },
+            {
+              "tier_raw": "Plus (20 bucks)",
+              "count": 1
+            },
+            {
+              "tier_raw": "plus",
+              "count": 1
+            },
+            {
+              "tier_raw": "$20 tier",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367582",
+            "50367970",
+            "50367976",
+            "50368526",
+            "50370716",
+            "50370886",
+            "50373432",
+            "50373589",
+            "50375645",
+            "50376216",
+            "50376279",
+            "50376390",
+            "50376410",
+            "50377284",
+            "50377597",
+            "50377715",
+            "50377746",
+            "50377888",
+            "50377956",
+            "50378479",
+            "50378518",
+            "50378651",
+            "50378776",
+            "50378856",
+            "50378907",
+            "50379016",
+            "50379312",
+            "50379350",
+            "50380310",
+            "50380504",
+            "50380888",
+            "50407937"
+          ],
+          "note": null
+        },
+        {
+          "provider": "openai",
+          "provider_label": "OpenAI (ChatGPT plans)",
+          "plan_id": "pro",
+          "plan_label": "Pro",
+          "audience": "individual",
+          "price_monthly": null,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 28,
+          "pct_of_provider": 24.8,
+          "n_provider_denominator": 113,
+          "pct_of_respondents": 6.8,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias_contained": 11,
+            "alias": 17
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "Pro",
+              "count": 9
+            },
+            {
+              "tier_raw": "$200",
+              "count": 7
+            },
+            {
+              "tier_raw": "Pro 200",
+              "count": 3
+            },
+            {
+              "tier_raw": "Pro 100",
+              "count": 2
+            },
+            {
+              "tier_raw": "codex pro",
+              "count": 2
+            },
+            {
+              "tier_raw": "$200/ea",
+              "count": 1
+            },
+            {
+              "tier_raw": "pro lite codex sub",
+              "count": 1
+            },
+            {
+              "tier_raw": "$200/mo",
+              "count": 1
+            },
+            {
+              "tier_raw": "~$200/month",
+              "count": 1
+            },
+            {
+              "tier_raw": "Pro x 1",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367207",
+            "50367571",
+            "50367866",
+            "50367947",
+            "50373001",
+            "50373324",
+            "50373463",
+            "50373649",
+            "50373740",
+            "50373985",
+            "50374498",
+            "50375205",
+            "50375265",
+            "50375539",
+            "50375836",
+            "50376567",
+            "50376760",
+            "50376855",
+            "50378077",
+            "50378511",
+            "50378737",
+            "50378847",
+            "50379119",
+            "50379685",
+            "50379819",
+            "50380092",
+            "50381456",
+            "50395602",
+            "50399014"
+          ],
+          "note": null
+        },
+        {
+          "provider": "openai",
+          "provider_label": "OpenAI (ChatGPT plans)",
+          "plan_id": "business",
+          "plan_label": "Business",
+          "audience": "team",
+          "price_monthly": null,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 5,
+          "pct_of_provider": 4.4,
+          "n_provider_denominator": 113,
+          "pct_of_respondents": 1.2,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 1,
+            "alias_contained": 4
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "business",
+              "count": 1
+            },
+            {
+              "tier_raw": "Business Plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "teams/business plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "Business (premium seat)",
+              "count": 1
+            },
+            {
+              "tier_raw": "Business Premium",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50369791",
+            "50373805",
+            "50376908",
+            "50377455",
+            "50378415"
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "google",
+      "provider_label": "Google (Gemini plans)",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://gemini.google/subscriptions/",
+      "retrieved_at": "2026-11-15",
+      "notes": "AI Plus is the Gemini-only plan at $4.99; the Google One bundle called AI Plus is $9.99 and is not modelled separately. Ultra is billed monthly only.\n",
+      "n_provider_denominator": 19,
+      "plans": [
+        {
+          "provider": "google",
+          "provider_label": "Google (Gemini plans)",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 19,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "google",
+          "provider_label": "Google (Gemini plans)",
+          "plan_id": "ai-plus",
+          "plan_label": "Google AI Plus",
+          "audience": "individual",
+          "price_monthly": 4.99,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 19,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "google",
+          "provider_label": "Google (Gemini plans)",
+          "plan_id": "ai-pro",
+          "plan_label": "Google AI Pro",
+          "audience": "individual",
+          "price_monthly": 19.99,
+          "price_annual": 199.99,
+          "annual_monthly": 16.67,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 9,
+          "pct_of_provider": 47.4,
+          "n_provider_denominator": 19,
+          "pct_of_respondents": 2.2,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 7,
+            "alias_contained": 2
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "Pro",
+              "count": 3
+            },
+            {
+              "tier_raw": "Google AI Pro",
+              "count": 3
+            },
+            {
+              "tier_raw": "$20",
+              "count": 1
+            },
+            {
+              "tier_raw": "AI Premium ($20/mo)",
+              "count": 1
+            },
+            {
+              "tier_raw": "$20 tier",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50370886",
+            "50373432",
+            "50373740",
+            "50376463",
+            "50376848",
+            "50377290",
+            "50377500",
+            "50379016",
+            "50380473"
+          ],
+          "note": null
+        },
+        {
+          "provider": "google",
+          "provider_label": "Google (Gemini plans)",
+          "plan_id": "ai-ultra",
+          "plan_label": "Google AI Ultra",
+          "audience": "individual",
+          "price_monthly": 99.99,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 4,
+          "pct_of_provider": 21.1,
+          "n_provider_denominator": 19,
+          "pct_of_respondents": 1.0,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias_contained": 2,
+            "alias": 2
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "Ultra",
+              "count": 2
+            },
+            {
+              "tier_raw": "$100/mo",
+              "count": 1
+            },
+            {
+              "tier_raw": "Google Ultra $100/month",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367399",
+            "50374261",
+            "50376538",
+            "50380185"
+          ],
+          "note": "Billed monthly only."
+        }
+      ]
+    },
+    {
+      "provider": "xai",
+      "provider_label": "xAI (Grok plans)",
+      "verification": "partial",
+      "currency": "USD",
+      "source_url": "https://x.ai/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": "Plan ladder and prices match the page as fetched, but the page also described Cursor integrations; cross-check before quoting.",
+      "n_provider_denominator": 13,
+      "plans": [
+        {
+          "provider": "xai",
+          "provider_label": "xAI (Grok plans)",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 13,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "xai",
+          "provider_label": "xAI (Grok plans)",
+          "plan_id": "plus",
+          "plan_label": "Plus",
+          "audience": "individual",
+          "price_monthly": 8,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 13,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "xai",
+          "provider_label": "xAI (Grok plans)",
+          "plan_id": "premium",
+          "plan_label": "Premium",
+          "audience": "individual",
+          "price_monthly": 30,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 4,
+          "pct_of_provider": 30.8,
+          "n_provider_denominator": 13,
+          "pct_of_respondents": 1.0,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias_contained": 2,
+            "alias": 2
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "X Premium",
+              "count": 2
+            },
+            {
+              "tier_raw": "$30 for three months",
+              "count": 1
+            },
+            {
+              "tier_raw": "three months at $30",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367582",
+            "50376652",
+            "50377290",
+            "50391332"
+          ],
+          "note": null
+        },
+        {
+          "provider": "xai",
+          "provider_label": "xAI (Grok plans)",
+          "plan_id": "super",
+          "plan_label": "Super",
+          "audience": "individual",
+          "price_monthly": 100,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 3,
+          "pct_of_provider": 23.1,
+          "n_provider_denominator": 13,
+          "pct_of_respondents": 0.7,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias_contained": 1,
+            "alias": 2
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "SuperGrok",
+              "count": 2
+            },
+            {
+              "tier_raw": "$100 plan",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50370886",
+            "50373740",
+            "50457219"
+          ],
+          "note": null
+        },
+        {
+          "provider": "xai",
+          "provider_label": "xAI (Grok plans)",
+          "plan_id": "ultra",
+          "plan_label": "Ultra",
+          "audience": "individual",
+          "price_monthly": 200,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 13,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "copilot",
+      "provider_label": "GitHub Copilot",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://github.com/features/copilot/plans",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 5,
+      "plans": [
+        {
+          "provider": "copilot",
+          "provider_label": "GitHub Copilot",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 5,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "copilot",
+          "provider_label": "GitHub Copilot",
+          "plan_id": "pro",
+          "plan_label": "Pro",
+          "audience": "individual",
+          "price_monthly": 10,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 1,
+          "pct_of_provider": 20.0,
+          "n_provider_denominator": 5,
+          "pct_of_respondents": 0.2,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 1
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "$10",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50407937"
+          ],
+          "note": null
+        },
+        {
+          "provider": "copilot",
+          "provider_label": "GitHub Copilot",
+          "plan_id": "pro-plus",
+          "plan_label": "Pro+",
+          "audience": "individual",
+          "price_monthly": 39,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 5,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "copilot",
+          "provider_label": "GitHub Copilot",
+          "plan_id": "max",
+          "plan_label": "Max",
+          "audience": "individual",
+          "price_monthly": 100,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 2,
+          "pct_of_provider": 40.0,
+          "n_provider_denominator": 5,
+          "pct_of_respondents": 0.5,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 1,
+            "alias_contained": 1
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "$100",
+              "count": 1
+            },
+            {
+              "tier_raw": "max plan",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50368526",
+            "50378415"
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "Cursor",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://cursor.com/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 14,
+      "plans": [
+        {
+          "provider": "cursor",
+          "provider_label": "Cursor",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 14,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "cursor",
+          "provider_label": "Cursor",
+          "plan_id": "plus",
+          "plan_label": "Plus",
+          "audience": "individual",
+          "price_monthly": 8,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 14,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "cursor",
+          "provider_label": "Cursor",
+          "plan_id": "premium",
+          "plan_label": "Premium",
+          "audience": "individual",
+          "price_monthly": 30,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 14,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "cursor",
+          "provider_label": "Cursor",
+          "plan_id": "super",
+          "plan_label": "Super",
+          "audience": "individual",
+          "price_monthly": 100,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 14,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "cursor",
+          "provider_label": "Cursor",
+          "plan_id": "ultra",
+          "plan_label": "Ultra",
+          "audience": "individual",
+          "price_monthly": 200,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 1,
+          "pct_of_provider": 7.1,
+          "n_provider_denominator": 14,
+          "pct_of_respondents": 0.2,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 1
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "$200",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50395313"
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "windsurf",
+      "provider_label": "Windsurf",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://windsurf.com/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 0,
+      "plans": [
+        {
+          "provider": "windsurf",
+          "provider_label": "Windsurf",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "windsurf",
+          "provider_label": "Windsurf",
+          "plan_id": "pro",
+          "plan_label": "Pro",
+          "audience": "individual",
+          "price_monthly": 20,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "windsurf",
+          "provider_label": "Windsurf",
+          "plan_id": "max",
+          "plan_label": "Max",
+          "audience": "individual",
+          "price_monthly": 200,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "windsurf",
+          "provider_label": "Windsurf",
+          "plan_id": "team",
+          "plan_label": "Team",
+          "audience": "team",
+          "price_monthly": 80,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "amp",
+      "provider_label": "Amp (Sourcegraph)",
+      "verification": "partial",
+      "currency": "USD",
+      "source_url": "https://ampcode.com/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": "Hobby is free; the paid tier price ($20/mo, $10 for education) is on the page but the tier name was not in the extracted text.",
+      "n_provider_denominator": 0,
+      "plans": [
+        {
+          "provider": "amp",
+          "provider_label": "Amp (Sourcegraph)",
+          "plan_id": "hobby",
+          "plan_label": "Hobby",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "amp",
+          "provider_label": "Amp (Sourcegraph)",
+          "plan_id": "paid",
+          "plan_label": "Paid tier",
+          "audience": "individual",
+          "price_monthly": 20,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": "Education price $10/mo."
+        }
+      ]
+    },
+    {
+      "provider": "kiro",
+      "provider_label": "Kiro",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://kiro.dev/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 0,
+      "plans": [
+        {
+          "provider": "kiro",
+          "provider_label": "Kiro",
+          "plan_id": "free",
+          "plan_label": "Kiro Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "kiro",
+          "provider_label": "Kiro",
+          "plan_id": "pro",
+          "plan_label": "Kiro Pro",
+          "audience": "individual",
+          "price_monthly": 20,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": "$20 is ambiguous with the Teams seat price, so it is not aliased."
+        },
+        {
+          "provider": "kiro",
+          "provider_label": "Kiro",
+          "plan_id": "pro-plus",
+          "plan_label": "Kiro Pro+",
+          "audience": "individual",
+          "price_monthly": 40,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "kiro",
+          "provider_label": "Kiro",
+          "plan_id": "pro-max",
+          "plan_label": "Kiro Pro Max",
+          "audience": "individual",
+          "price_monthly": 100,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "kiro",
+          "provider_label": "Kiro",
+          "plan_id": "power",
+          "plan_label": "Kiro Power",
+          "audience": "individual",
+          "price_monthly": 200,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "kiro",
+          "provider_label": "Kiro",
+          "plan_id": "teams",
+          "plan_label": "Teams",
+          "audience": "team",
+          "price_monthly": 20,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": "Per seat, credit pooling."
+        }
+      ]
+    },
+    {
+      "provider": "devin",
+      "provider_label": "Devin",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://devin.ai/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 0,
+      "plans": [
+        {
+          "provider": "devin",
+          "provider_label": "Devin",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "devin",
+          "provider_label": "Devin",
+          "plan_id": "pro",
+          "plan_label": "Pro",
+          "audience": "individual",
+          "price_monthly": 20,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "devin",
+          "provider_label": "Devin",
+          "plan_id": "max",
+          "plan_label": "Max",
+          "audience": "individual",
+          "price_monthly": 200,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "devin",
+          "provider_label": "Devin",
+          "plan_id": "teams",
+          "plan_label": "Teams",
+          "audience": "team",
+          "price_monthly": 80,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": "$80 team plan plus $40 per full seat per month."
+        }
+      ]
+    },
+    {
+      "provider": "codebuddy",
+      "provider_label": "CodeBuddy",
+      "verification": "unverified",
+      "currency": "USD",
+      "source_url": null,
+      "retrieved_at": "2026-11-15",
+      "notes": "No public pricing page captured on the retrieval date.",
+      "n_provider_denominator": 1,
+      "plans": []
+    },
+    {
+      "provider": "warp",
+      "provider_label": "Warp",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://www.warp.dev/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 0,
+      "plans": [
+        {
+          "provider": "warp",
+          "provider_label": "Warp",
+          "plan_id": "free",
+          "plan_label": "Free",
+          "audience": "individual",
+          "price_monthly": 0,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "warp",
+          "provider_label": "Warp",
+          "plan_id": "build",
+          "plan_label": "Build",
+          "audience": "individual",
+          "price_monthly": 20,
+          "price_annual": 216,
+          "annual_monthly": 18,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "warp",
+          "provider_label": "Warp",
+          "plan_id": "max",
+          "plan_label": "Max",
+          "audience": "individual",
+          "price_monthly": 200,
+          "price_annual": 2160,
+          "annual_monthly": 180,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "warp",
+          "provider_label": "Warp",
+          "plan_id": "business",
+          "plan_label": "Business",
+          "audience": "team",
+          "price_monthly": 50,
+          "price_annual": 540,
+          "annual_monthly": 45,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": null,
+          "n_provider_denominator": 0,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "mistral",
+      "provider_label": "Mistral",
+      "verification": "partial",
+      "currency": "USD",
+      "source_url": "https://mistral.ai/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": "Pro and Team prices are on the page; plan labels for higher tiers were not extractable.",
+      "n_provider_denominator": 4,
+      "plans": [
+        {
+          "provider": "mistral",
+          "provider_label": "Mistral",
+          "plan_id": "pro",
+          "plan_label": "Pro",
+          "audience": "individual",
+          "price_monthly": 14.99,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 2,
+          "pct_of_provider": 50.0,
+          "n_provider_denominator": 4,
+          "pct_of_respondents": 0.5,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 1,
+            "alias_contained": 1
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "Pro",
+              "count": 1
+            },
+            {
+              "tier_raw": "$14.99 /mo",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367326",
+            "50380252"
+          ],
+          "note": "Education price $5.99/mo."
+        },
+        {
+          "provider": "mistral",
+          "provider_label": "Mistral",
+          "plan_id": "team",
+          "plan_label": "Team",
+          "audience": "team",
+          "price_monthly": 24.99,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 4,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": "Per user."
+        },
+        {
+          "provider": "mistral",
+          "provider_label": "Mistral",
+          "plan_id": "enterprise",
+          "plan_label": "Enterprise",
+          "audience": "enterprise",
+          "price_monthly": null,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 4,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "zai",
+      "provider_label": "Z.ai (GLM plans)",
+      "verification": "unverified",
+      "currency": "USD",
+      "source_url": "https://z.ai/subscribe",
+      "retrieved_at": "2026-11-15",
+      "notes": "Subscription page returned navigation only; thread references a Lite monthly plan.",
+      "n_provider_denominator": 9,
+      "plans": []
+    },
+    {
+      "provider": "moonshot",
+      "provider_label": "Moonshot (Kimi plans)",
+      "verification": "unverified",
+      "currency": "USD",
+      "source_url": "https://www.kimi.com/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": "Pricing is served client-side and was not captured; thread references Kimi Pro.",
+      "n_provider_denominator": 4,
+      "plans": []
+    },
+    {
+      "provider": "minimax",
+      "provider_label": "MiniMax",
+      "verification": "unverified",
+      "currency": "USD",
+      "source_url": "https://www.minimax.io/plans",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 0,
+      "plans": []
+    },
+    {
+      "provider": "perplexity",
+      "provider_label": "Perplexity",
+      "verification": "unverified",
+      "currency": "USD",
+      "source_url": "https://www.perplexity.ai/pro",
+      "retrieved_at": "2026-11-15",
+      "notes": "Pro page returned an image-only shell.",
+      "n_provider_denominator": 3,
+      "plans": [
+        {
+          "provider": "perplexity",
+          "provider_label": "Perplexity",
+          "plan_id": "pro",
+          "plan_label": "Pro",
+          "audience": "individual",
+          "price_monthly": null,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 3,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "synthetic",
+      "provider_label": "Synthetic",
+      "verification": "partial",
+      "currency": "USD",
+      "source_url": "https://synthetic.new/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": "Go is verified; Standard and Big prices are ordered on the page but their labels were not extracted with the amounts.",
+      "n_provider_denominator": 2,
+      "plans": [
+        {
+          "provider": "synthetic",
+          "provider_label": "Synthetic",
+          "plan_id": "go",
+          "plan_label": "Go",
+          "audience": "individual",
+          "price_monthly": 9,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 2,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "synthetic",
+          "provider_label": "Synthetic",
+          "plan_id": "standard",
+          "plan_label": "Standard",
+          "audience": "individual",
+          "price_monthly": 30,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 2,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "synthetic",
+          "provider_label": "Synthetic",
+          "plan_id": "big",
+          "plan_label": "Big",
+          "audience": "individual",
+          "price_monthly": 90,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 2,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "melious",
+      "provider_label": "Melious",
+      "verification": "verified",
+      "currency": "EUR",
+      "source_url": "https://melious.ai/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": "Prices in EUR, discounted from struck-through list prices; no conversion applied.",
+      "n_provider_denominator": 1,
+      "plans": [
+        {
+          "provider": "melious",
+          "provider_label": "Melious",
+          "plan_id": "basic",
+          "plan_label": "Basic",
+          "audience": "individual",
+          "price_monthly": 49,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": 99,
+          "currency": "EUR",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 1,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "melious",
+          "provider_label": "Melious",
+          "plan_id": "pro",
+          "plan_label": "Pro",
+          "audience": "individual",
+          "price_monthly": 149,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": 199,
+          "currency": "EUR",
+          "count": 1,
+          "pct_of_provider": 100.0,
+          "n_provider_denominator": 1,
+          "pct_of_respondents": 0.2,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 1
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "Pro",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367557"
+          ],
+          "note": null
+        },
+        {
+          "provider": "melious",
+          "provider_label": "Melious",
+          "plan_id": "unlimited-3x",
+          "plan_label": "Unlimited 3x",
+          "audience": "individual",
+          "price_monthly": 499,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "EUR",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 1,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        },
+        {
+          "provider": "melious",
+          "provider_label": "Melious",
+          "plan_id": "unlimited-6x",
+          "plan_label": "Unlimited 6x",
+          "audience": "individual",
+          "price_monthly": 999,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "EUR",
+          "count": 0,
+          "pct_of_provider": 0.0,
+          "n_provider_denominator": 1,
+          "pct_of_respondents": 0.0,
+          "n_denominator": 413,
+          "match_methods": {},
+          "raw_variants": [],
+          "comment_ids": [],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "opencode",
+      "provider_label": "OpenCode",
+      "verification": "verified",
+      "currency": "USD",
+      "source_url": "https://opencode.ai/pricing",
+      "retrieved_at": "2026-11-15",
+      "notes": null,
+      "n_provider_denominator": 21,
+      "plans": [
+        {
+          "provider": "opencode",
+          "provider_label": "OpenCode",
+          "plan_id": "go",
+          "plan_label": "Go",
+          "audience": "individual",
+          "price_monthly": 10,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 15,
+          "pct_of_provider": 71.4,
+          "n_provider_denominator": 21,
+          "pct_of_respondents": 3.6,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 12,
+            "price": 2,
+            "alias_contained": 1
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "$10",
+              "count": 7
+            },
+            {
+              "tier_raw": "Go",
+              "count": 3
+            },
+            {
+              "tier_raw": "10$",
+              "count": 1
+            },
+            {
+              "tier_raw": "go",
+              "count": 1
+            },
+            {
+              "tier_raw": "10 dollars",
+              "count": 1
+            },
+            {
+              "tier_raw": "$10 Opencode Go plan",
+              "count": 1
+            },
+            {
+              "tier_raw": "$10/month",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367589",
+            "50367789",
+            "50370716",
+            "50373317",
+            "50373351",
+            "50374549",
+            "50374806",
+            "50376216",
+            "50376733",
+            "50377705",
+            "50378907",
+            "50379169",
+            "50380005",
+            "50380946",
+            "50381117",
+            "50381494"
+          ],
+          "note": null
+        },
+        {
+          "provider": "opencode",
+          "provider_label": "OpenCode",
+          "plan_id": "go-plus",
+          "plan_label": "Go Plus",
+          "audience": "individual",
+          "price_monthly": 40,
+          "price_annual": null,
+          "annual_monthly": null,
+          "list_price_monthly": null,
+          "currency": "USD",
+          "count": 2,
+          "pct_of_provider": 9.5,
+          "n_provider_denominator": 21,
+          "pct_of_respondents": 0.5,
+          "n_denominator": 413,
+          "match_methods": {
+            "alias": 2
+          },
+          "raw_variants": [
+            {
+              "tier_raw": "$40",
+              "count": 1
+            },
+            {
+              "tier_raw": "Go Plus",
+              "count": 1
+            }
+          ],
+          "comment_ids": [
+            "50367326",
+            "50373974"
+          ],
+          "note": null
+        }
+      ]
+    },
+    {
+      "provider": "muse-code",
+      "provider_label": "Muse Code",
+      "verification": "unverified",
+      "currency": "USD",
+      "source_url": null,
+      "retrieved_at": "2026-11-15",
+      "notes": "Thread references High Usage and $5–$50 plans; no vendor pricing page captured.",
+      "n_provider_denominator": 4,
+      "plans": []
+    }
+  ],
+  "unmatched_tiers": [
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "unspecified",
+      "count": 23,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50367546",
+        "50367589",
+        "50367676",
+        "50367764",
+        "50368019",
+        "50374491",
+        "50374678",
+        "50375966",
+        "50376022",
+        "50376167",
+        "50378028",
+        "50378890",
+        "50379165",
+        "50380213",
+        "50380522",
+        "50381009",
+        "50381382",
+        "50391245",
+        "50392572",
+        "50409929",
+        "50411017",
+        "50417991",
+        "50445173"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "unspecified",
+      "count": 21,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50367589",
+        "50367676",
+        "50368019",
+        "50368119",
+        "50374491",
+        "50374678",
+        "50375826",
+        "50375966",
+        "50376167",
+        "50376601",
+        "50376652",
+        "50378028",
+        "50378890",
+        "50379150",
+        "50379165",
+        "50380213",
+        "50380522",
+        "50381382",
+        "50381494",
+        "50384963",
+        "50444232"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "$100",
+      "count": 8,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50368566",
+        "50376505",
+        "50377705",
+        "50378756",
+        "50379352",
+        "50380371",
+        "50391332",
+        "50447027"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "xai",
+      "provider_label": "xai",
+      "tier_raw": "unspecified",
+      "count": 5,
+      "n_provider_denominator": 13,
+      "comment_ids": [
+        "50367523",
+        "50374678",
+        "50379150",
+        "50380200",
+        "50380522"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "cursor",
+      "tier_raw": "unspecified",
+      "count": 4,
+      "n_provider_denominator": 14,
+      "comment_ids": [
+        "50367523",
+        "50374491",
+        "50375552",
+        "50399014"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": "google",
+      "provider_label": "google",
+      "tier_raw": "unspecified",
+      "count": 4,
+      "n_provider_denominator": 19,
+      "comment_ids": [
+        "50368119",
+        "50373357",
+        "50384963",
+        "50399014"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": null,
+      "provider_label": "ollama",
+      "tier_raw": "pro",
+      "count": 4,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50376733",
+        "50376782",
+        "50380092",
+        "50380609"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "$100 plan",
+      "count": 3,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50378273",
+        "50457219",
+        "50499298"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "zai",
+      "provider_label": "zai",
+      "tier_raw": "unspecified",
+      "count": 3,
+      "n_provider_denominator": 9,
+      "comment_ids": [
+        "50374678",
+        "50376488",
+        "50385925"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "basic",
+      "count": 2,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50378303",
+        "50378772"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "copilot",
+      "provider_label": "copilot",
+      "tier_raw": "unspecified",
+      "count": 2,
+      "n_provider_denominator": 5,
+      "comment_ids": [
+        "50380092",
+        "50380946"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "cursor",
+      "tier_raw": "$20",
+      "count": 2,
+      "n_provider_denominator": 14,
+      "comment_ids": [
+        "50373432",
+        "50377705"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "cursor",
+      "tier_raw": "$20/month",
+      "count": 2,
+      "n_provider_denominator": 14,
+      "comment_ids": [
+        "50374417",
+        "50380504"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": null,
+      "provider_label": "deepseek",
+      "tier_raw": "unspecified",
+      "count": 2,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50385812",
+        "50417991"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "mistral",
+      "provider_label": "mistral",
+      "tier_raw": "unspecified",
+      "count": 2,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50377144",
+        "50399014"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": null,
+      "provider_label": "muse",
+      "tier_raw": "unspecified",
+      "count": 2,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50367744",
+        "50374678"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "180 euro / month",
+      "count": 1,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50377573"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "200/mo",
+      "count": 1,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50373956"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "annual 200 bucks",
+      "count": 1,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50378217"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "monthly",
+      "count": 1,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50368106"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "opus 5.5",
+      "count": 1,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50378153"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "smallest plan",
+      "count": 1,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50384963"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "top tier",
+      "count": 1,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50377579"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "anthropic",
+      "provider_label": "anthropic",
+      "tier_raw": "£18 a month",
+      "count": 1,
+      "n_provider_denominator": 172,
+      "comment_ids": [
+        "50402364"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": null,
+      "provider_label": "antigravity",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50374491"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": null,
+      "provider_label": "charm-hyper",
+      "tier_raw": "$10",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50383038"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "codebuddy",
+      "provider_label": "codebuddy",
+      "tier_raw": "pro",
+      "count": 1,
+      "n_provider_denominator": 1,
+      "comment_ids": [
+        "50391332"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": null,
+      "provider_label": "codex",
+      "tier_raw": "Plus",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50374764"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "cursor",
+      "tier_raw": "$16 a month on annual plan",
+      "count": 1,
+      "n_provider_denominator": 14,
+      "comment_ids": [
+        "50378303"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "cursor",
+      "tier_raw": "$1k/month",
+      "count": 1,
+      "n_provider_denominator": 14,
+      "comment_ids": [
+        "50375302"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "cursor",
+      "tier_raw": "200",
+      "count": 1,
+      "n_provider_denominator": 14,
+      "comment_ids": [
+        "50410297"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "cursor",
+      "tier_raw": "Cursor Pro",
+      "count": 1,
+      "n_provider_denominator": 14,
+      "comment_ids": [
+        "50373740"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "cursor",
+      "provider_label": "cursor",
+      "tier_raw": "Pro",
+      "count": 1,
+      "n_provider_denominator": 14,
+      "comment_ids": [
+        "50377455"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": null,
+      "provider_label": "exe.dev",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50376381"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": null,
+      "provider_label": "fable",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50381009"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "google",
+      "provider_label": "google",
+      "tier_raw": "20 buck a month",
+      "count": 1,
+      "n_provider_denominator": 19,
+      "comment_ids": [
+        "50378217"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "google",
+      "provider_label": "google",
+      "tier_raw": "Google One subcription",
+      "count": 1,
+      "n_provider_denominator": 19,
+      "comment_ids": [
+        "50381009"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": null,
+      "provider_label": "meta-ai",
+      "tier_raw": "pro",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50380473"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "moonshot",
+      "provider_label": "moonshot",
+      "tier_raw": "Kimi Pro",
+      "count": 1,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50373740"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "moonshot",
+      "provider_label": "moonshot",
+      "tier_raw": "pro",
+      "count": 1,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50373805"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "moonshot",
+      "provider_label": "moonshot",
+      "tier_raw": "top tier",
+      "count": 1,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50377579"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "moonshot",
+      "provider_label": "moonshot",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50367326"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": "muse-code",
+      "provider_label": "muse-code",
+      "tier_raw": "$12?",
+      "count": 1,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50377888"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "muse-code",
+      "provider_label": "muse-code",
+      "tier_raw": "$5 month",
+      "count": 1,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50373256"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "muse-code",
+      "provider_label": "muse-code",
+      "tier_raw": "$50",
+      "count": 1,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50376760"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "muse-code",
+      "provider_label": "muse-code",
+      "tier_raw": "High Usage",
+      "count": 1,
+      "n_provider_denominator": 4,
+      "comment_ids": [
+        "50373740"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": null,
+      "provider_label": "nous",
+      "tier_raw": "$20/month",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50380232"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "$100 mo",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50368043"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "$100/mo",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50367272"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "$100/plan",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50428201"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "$500 a month",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50375606"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "100 USD",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50379808"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "100 USD / month",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50377573"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "100 plan",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50377814"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "20",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50374746"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "200 plan",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50377554"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "500",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50410297"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "casual plan",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50387527"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "cheap",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50378016"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "max",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50373697"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "max 200 codex",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50374450"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "openai",
+      "provider_label": "openai",
+      "tier_raw": "team",
+      "count": 1,
+      "n_provider_denominator": 113,
+      "comment_ids": [
+        "50377579"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "opencode",
+      "provider_label": "opencode",
+      "tier_raw": "$50 a month",
+      "count": 1,
+      "n_provider_denominator": 21,
+      "comment_ids": [
+        "50375807"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "opencode",
+      "provider_label": "opencode",
+      "tier_raw": "10euro",
+      "count": 1,
+      "n_provider_denominator": 21,
+      "comment_ids": [
+        "50376286"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "opencode",
+      "provider_label": "opencode",
+      "tier_raw": "USD40",
+      "count": 1,
+      "n_provider_denominator": 21,
+      "comment_ids": [
+        "50373357"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "opencode",
+      "provider_label": "opencode",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_provider_denominator": 21,
+      "comment_ids": [
+        "50377290"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": null,
+      "provider_label": "opencode-go",
+      "tier_raw": "$10",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50378279"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": null,
+      "provider_label": "opencode-zen",
+      "tier_raw": "$40",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50376760"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "perplexity",
+      "provider_label": "perplexity",
+      "tier_raw": "$17 per month",
+      "count": 1,
+      "n_provider_denominator": 3,
+      "comment_ids": [
+        "50385840"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "perplexity",
+      "provider_label": "perplexity",
+      "tier_raw": "$17/month",
+      "count": 1,
+      "n_provider_denominator": 3,
+      "comment_ids": [
+        "50380640"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "perplexity",
+      "provider_label": "perplexity",
+      "tier_raw": "legacy",
+      "count": 1,
+      "n_provider_denominator": 3,
+      "comment_ids": [
+        "50374502"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": null,
+      "provider_label": "suno",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50428201"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "synthetic",
+      "provider_label": "synthetic",
+      "tier_raw": "$10",
+      "count": 1,
+      "n_provider_denominator": 2,
+      "comment_ids": [
+        "50383038"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "synthetic",
+      "provider_label": "synthetic",
+      "tier_raw": "unspecified",
+      "count": 1,
+      "n_provider_denominator": 2,
+      "comment_ids": [
+        "50409929"
+      ],
+      "method": "unspecified"
+    },
+    {
+      "provider": null,
+      "provider_label": "unnamed",
+      "tier_raw": "$200",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50373236"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "xai",
+      "provider_label": "xai",
+      "tier_raw": "200",
+      "count": 1,
+      "n_provider_denominator": 13,
+      "comment_ids": [
+        "50410297"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": null,
+      "provider_label": "xiaomi-mimo",
+      "tier_raw": "Pro",
+      "count": 1,
+      "n_provider_denominator": 0,
+      "comment_ids": [
+        "50374722"
+      ],
+      "method": "unknown_provider"
+    },
+    {
+      "provider": "zai",
+      "provider_label": "zai",
+      "tier_raw": "$14 a month",
+      "count": 1,
+      "n_provider_denominator": 9,
+      "comment_ids": [
+        "50373447"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "zai",
+      "provider_label": "zai",
+      "tier_raw": "1 year subscription for their mid tier",
+      "count": 1,
+      "n_provider_denominator": 9,
+      "comment_ids": [
+        "50376056"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "zai",
+      "provider_label": "zai",
+      "tier_raw": "GLM 5.3",
+      "count": 1,
+      "n_provider_denominator": 9,
+      "comment_ids": [
+        "50380522"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "zai",
+      "provider_label": "zai",
+      "tier_raw": "GLM Coding Lite-Monthly Plan",
+      "count": 1,
+      "n_provider_denominator": 9,
+      "comment_ids": [
+        "50370716"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "zai",
+      "provider_label": "zai",
+      "tier_raw": "top tier",
+      "count": 1,
+      "n_provider_denominator": 9,
+      "comment_ids": [
+        "50377579"
+      ],
+      "method": "no_match"
+    },
+    {
+      "provider": "zai",
+      "provider_label": "zai",
+      "tier_raw": "~9USD/month lite sub",
+      "count": 1,
+      "n_provider_denominator": 9,
+      "comment_ids": [
+        "50374094"
+      ],
+      "method": "no_match"
+    }
+  ],
+  "matching": {
+    "assignments": 385,
+    "matched_assignments": 249,
+    "unmatched_assignments": 136,
+    "matched_respondents": 181,
+    "unmatched_tiers": 83,
+    "methods": {
+      "no_match": 69,
+      "alias": 196,
+      "unspecified": 67,
+      "alias_contained": 49,
+      "price": 4
+    },
+    "plans_in_catalog": 62,
+    "plans_with_price": 55
+  },
   "multi_subscription": [
     {
       "node": "true",

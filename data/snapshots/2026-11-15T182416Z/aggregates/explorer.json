@@ -12,6 +12,7 @@
           "node": "other:charm-hyper",
           "label": "charm-hyper",
           "tier_raw": "$10",
+          "plan_label": null,
           "comment_ids": [
             "50383038"
           ]
@@ -20,6 +21,7 @@
           "node": "synthetic",
           "label": "Synthetic",
           "tier_raw": "$10",
+          "plan_label": null,
           "comment_ids": [
             "50383038"
           ]
@@ -64,6 +66,7 @@
           "node": "muse-code",
           "label": "Muse Code",
           "tier_raw": "$5 month",
+          "plan_label": null,
           "comment_ids": [
             "50373256"
           ]
@@ -98,6 +101,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373432"
           ]
@@ -106,6 +110,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50373432"
           ]
@@ -114,6 +119,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "$20",
+          "plan_label": null,
           "comment_ids": [
             "50373432"
           ]
@@ -122,6 +128,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "$20",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50373432"
           ]
@@ -162,6 +169,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50445173"
           ]
@@ -239,6 +247,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100",
+          "plan_label": null,
           "comment_ids": [
             "50368566"
           ]
@@ -247,6 +256,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50368566"
           ]
@@ -417,6 +427,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10",
+          "plan_label": "Go",
           "comment_ids": [
             "50373351"
           ]
@@ -456,6 +467,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200/ea",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373985"
           ]
@@ -464,6 +476,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200/ea",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373985"
           ]
@@ -570,6 +583,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20 sub",
+          "plan_label": "Plus",
           "comment_ids": [
             "50380310"
           ]
@@ -657,6 +671,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50375338"
           ]
@@ -696,6 +711,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "MAX",
+          "plan_label": "Max",
           "comment_ids": [
             "50410297"
           ]
@@ -704,6 +720,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "500",
+          "plan_label": null,
           "comment_ids": [
             "50410297"
           ]
@@ -712,6 +729,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "200",
+          "plan_label": null,
           "comment_ids": [
             "50410297"
           ]
@@ -720,6 +738,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": "200",
+          "plan_label": null,
           "comment_ids": [
             "50410297"
           ]
@@ -840,6 +859,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50411184"
           ]
@@ -890,6 +910,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "10$",
+          "plan_label": "Go",
           "comment_ids": [
             "50380946"
           ]
@@ -898,6 +919,7 @@
           "node": "copilot",
           "label": "GitHub Copilot",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50380946"
           ]
@@ -963,6 +985,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50376410"
           ]
@@ -1023,6 +1046,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$50 a month",
+          "plan_label": null,
           "comment_ids": [
             "50375807"
           ]
@@ -1063,6 +1087,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50374764"
           ]
@@ -1071,6 +1096,7 @@
           "node": "other:codex",
           "label": "codex",
           "tier_raw": "Plus",
+          "plan_label": null,
           "comment_ids": [
             "50374764"
           ]
@@ -1121,6 +1147,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/mo",
+          "plan_label": "Pro",
           "comment_ids": [
             "50379612"
           ]
@@ -1155,6 +1182,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50380005"
           ]
@@ -1163,6 +1191,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10",
+          "plan_label": "Go",
           "comment_ids": [
             "50380005"
           ]
@@ -1197,6 +1226,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50376488"
           ]
@@ -1236,6 +1266,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373805"
           ]
@@ -1244,6 +1275,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "business",
+          "plan_label": "Business",
           "comment_ids": [
             "50373805"
           ]
@@ -1252,6 +1284,7 @@
           "node": "moonshot",
           "label": "Moonshot (Kimi plans)",
           "tier_raw": "pro",
+          "plan_label": null,
           "comment_ids": [
             "50373805"
           ]
@@ -1286,6 +1319,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Claude Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50385108"
           ]
@@ -1330,6 +1364,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100",
+          "plan_label": null,
           "comment_ids": [
             "50380371"
           ]
@@ -1338,6 +1373,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50380371"
           ]
@@ -1402,6 +1438,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "100 USD",
+          "plan_label": null,
           "comment_ids": [
             "50379808"
           ]
@@ -1410,6 +1447,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "100 USD",
+          "plan_label": "Max",
           "comment_ids": [
             "50379808"
           ]
@@ -1533,6 +1571,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/mo",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373624"
           ]
@@ -1583,6 +1622,7 @@
           "node": "other:opencode-go",
           "label": "opencode-go",
           "tier_raw": "$10",
+          "plan_label": null,
           "comment_ids": [
             "50378279"
           ]
@@ -1611,6 +1651,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100",
+          "plan_label": null,
           "comment_ids": [
             "50391332"
           ]
@@ -1619,6 +1660,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50391332"
           ]
@@ -1627,6 +1669,7 @@
           "node": "codebuddy",
           "label": "CodeBuddy",
           "tier_raw": "pro",
+          "plan_label": null,
           "comment_ids": [
             "50391332"
           ]
@@ -1635,6 +1678,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": "$30 for three months",
+          "plan_label": "Premium",
           "comment_ids": [
             "50391332"
           ]
@@ -1724,6 +1768,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus (20 bucks)",
+          "plan_label": "Plus",
           "comment_ids": [
             "50377956"
           ]
@@ -1944,6 +1989,7 @@
           "node": "synthetic",
           "label": "Synthetic",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50409929"
           ]
@@ -1952,6 +1998,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50409929"
           ]
@@ -1986,6 +2033,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100/plan",
+          "plan_label": "Max",
           "comment_ids": [
             "50428201"
           ]
@@ -1994,6 +2042,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100/plan",
+          "plan_label": null,
           "comment_ids": [
             "50428201"
           ]
@@ -2002,6 +2051,7 @@
           "node": "other:suno",
           "label": "suno",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50428201"
           ]
@@ -2108,6 +2158,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50378518"
           ]
@@ -2116,6 +2167,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50378518"
           ]
@@ -2185,6 +2237,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100/m",
+          "plan_label": "Max",
           "comment_ids": [
             "50376062"
           ]
@@ -2225,6 +2278,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "max 20x",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50378897"
           ]
@@ -2305,6 +2359,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50378776"
           ]
@@ -2389,6 +2444,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro 100",
+          "plan_label": "Pro",
           "comment_ids": [
             "50375205"
           ]
@@ -2397,6 +2453,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro 20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50375205"
           ]
@@ -2479,6 +2536,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50376348"
           ]
@@ -2518,6 +2576,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "20$",
+          "plan_label": "Pro",
           "comment_ids": [
             "50376402"
           ]
@@ -2604,6 +2663,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro 20$/mo",
+          "plan_label": "Pro",
           "comment_ids": [
             "50376810"
           ]
@@ -2729,6 +2789,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": "~9USD/month lite sub",
+          "plan_label": null,
           "comment_ids": [
             "50374094"
           ]
@@ -2907,6 +2968,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50378511"
           ]
@@ -2915,6 +2977,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50378511"
           ]
@@ -3000,6 +3063,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "5x Claude sub",
+          "plan_label": "Max",
           "comment_ids": [
             "50374498"
           ]
@@ -3008,6 +3072,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "pro lite codex sub",
+          "plan_label": "Pro",
           "comment_ids": [
             "50374498"
           ]
@@ -3124,6 +3189,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "max 200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50374450"
           ]
@@ -3132,6 +3198,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "max 200 codex",
+          "plan_label": null,
           "comment_ids": [
             "50374450"
           ]
@@ -3216,6 +3283,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367764"
           ]
@@ -3279,6 +3347,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50376872"
           ]
@@ -3313,6 +3382,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50376505"
           ]
@@ -3321,6 +3391,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100",
+          "plan_label": null,
           "comment_ids": [
             "50376505"
           ]
@@ -3426,6 +3497,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50376733"
           ]
@@ -3434,6 +3506,7 @@
           "node": "other:ollama",
           "label": "ollama",
           "tier_raw": "pro",
+          "plan_label": null,
           "comment_ids": [
             "50376733"
           ]
@@ -3442,6 +3515,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "go",
+          "plan_label": "Go",
           "comment_ids": [
             "50376733"
           ]
@@ -3634,6 +3708,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max 20x",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50376567"
           ]
@@ -3642,6 +3717,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50376567"
           ]
@@ -3687,6 +3763,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra (aka Max 20x)",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373322"
           ]
@@ -3787,6 +3864,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50375552"
           ]
@@ -3853,6 +3931,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/mo",
+          "plan_label": "Pro",
           "comment_ids": [
             "50380888"
           ]
@@ -3861,6 +3940,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20/mo",
+          "plan_label": "Plus",
           "comment_ids": [
             "50380888"
           ]
@@ -3889,6 +3969,7 @@
           "node": "perplexity",
           "label": "Perplexity",
           "tier_raw": "$17/month",
+          "plan_label": null,
           "comment_ids": [
             "50380640"
           ]
@@ -3918,6 +3999,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50376167"
           ]
@@ -3926,6 +4008,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50376167"
           ]
@@ -3970,6 +4053,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200/mo",
+          "plan_label": "Pro",
           "comment_ids": [
             "50395602"
           ]
@@ -3978,6 +4062,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200/mo",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50395602"
           ]
@@ -4073,6 +4158,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50411017"
           ]
@@ -4113,6 +4199,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50378077"
           ]
@@ -4168,6 +4255,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367523"
           ]
@@ -4176,6 +4264,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367523"
           ]
@@ -4214,6 +4303,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$40",
+          "plan_label": "Go Plus",
           "comment_ids": [
             "50373974"
           ]
@@ -4222,6 +4312,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373974"
           ]
@@ -4291,6 +4382,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100 mo",
+          "plan_label": null,
           "comment_ids": [
             "50368043"
           ]
@@ -4341,6 +4433,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50376022"
           ]
@@ -4436,6 +4529,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50381382"
           ]
@@ -4444,6 +4538,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50381382"
           ]
@@ -4483,6 +4578,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "basic",
+          "plan_label": null,
           "comment_ids": [
             "50378772"
           ]
@@ -4511,6 +4607,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100 plan",
+          "plan_label": null,
           "comment_ids": [
             "50378273"
           ]
@@ -4575,6 +4672,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/month",
+          "plan_label": "Pro",
           "comment_ids": [
             "50380233"
           ]
@@ -4612,6 +4710,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "max",
+          "plan_label": "Max",
           "comment_ids": [
             "50375609"
           ]
@@ -4645,6 +4744,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50372070"
           ]
@@ -4679,6 +4779,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50377121"
           ]
@@ -4728,6 +4829,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100 for business",
+          "plan_label": "Max",
           "comment_ids": [
             "50379355"
           ]
@@ -4762,6 +4864,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50367207"
           ]
@@ -4770,6 +4873,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50367207"
           ]
@@ -4803,6 +4907,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Claude Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50374502"
           ]
@@ -4811,6 +4916,7 @@
           "node": "perplexity",
           "label": "Perplexity",
           "tier_raw": "legacy",
+          "plan_label": null,
           "comment_ids": [
             "50374502"
           ]
@@ -4839,6 +4945,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50399014"
           ]
@@ -4847,6 +4954,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50399014"
           ]
@@ -4855,6 +4963,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50399014"
           ]
@@ -4863,6 +4972,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50399014"
           ]
@@ -4871,6 +4981,7 @@
           "node": "mistral",
           "label": "Mistral",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50399014"
           ]
@@ -4956,6 +5067,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50377449"
           ]
@@ -5031,6 +5143,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "Go Plus",
+          "plan_label": "Go Plus",
           "comment_ids": [
             "50367326"
           ]
@@ -5039,6 +5152,7 @@
           "node": "mistral",
           "label": "Mistral",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50367326"
           ]
@@ -5047,6 +5161,7 @@
           "node": "moonshot",
           "label": "Moonshot (Kimi plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367326"
           ]
@@ -5141,6 +5256,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100 plan",
+          "plan_label": null,
           "comment_ids": [
             "50457219"
           ]
@@ -5149,6 +5265,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": "$100 plan",
+          "plan_label": "Super",
           "comment_ids": [
             "50457219"
           ]
@@ -5182,6 +5299,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Business Plan",
+          "plan_label": "Business",
           "comment_ids": [
             "50376908"
           ]
@@ -5237,6 +5355,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50379944"
           ]
@@ -5347,6 +5466,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374678"
           ]
@@ -5355,6 +5475,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374678"
           ]
@@ -5363,6 +5484,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374678"
           ]
@@ -5371,6 +5493,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374678"
           ]
@@ -5379,6 +5502,7 @@
           "node": "other:muse",
           "label": "muse",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374678"
           ]
@@ -5412,6 +5536,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50374344"
           ]
@@ -5462,6 +5587,7 @@
           "node": "perplexity",
           "label": "Perplexity",
           "tier_raw": "$17 per month",
+          "plan_label": null,
           "comment_ids": [
             "50385840"
           ]
@@ -5490,6 +5616,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373255"
           ]
@@ -5524,6 +5651,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373001"
           ]
@@ -5532,6 +5660,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373001"
           ]
@@ -5576,6 +5705,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367546"
           ]
@@ -5722,6 +5852,7 @@
           "node": "other:nous",
           "label": "nous",
           "tier_raw": "$20/month",
+          "plan_label": null,
           "comment_ids": [
             "50380232"
           ]
@@ -5782,6 +5913,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "opus 5.5",
+          "plan_label": null,
           "comment_ids": [
             "50378153"
           ]
@@ -5852,6 +5984,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50367970"
           ]
@@ -5860,6 +5993,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50367970"
           ]
@@ -5987,6 +6121,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367676"
           ]
@@ -5995,6 +6130,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367676"
           ]
@@ -6054,6 +6190,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Claude ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50375265"
           ]
@@ -6062,6 +6199,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "codex pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50375265"
           ]
@@ -6218,6 +6356,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/month",
+          "plan_label": "Pro",
           "comment_ids": [
             "50374417"
           ]
@@ -6226,6 +6365,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "$20/month",
+          "plan_label": null,
           "comment_ids": [
             "50374417"
           ]
@@ -6276,6 +6416,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "smallest plan",
+          "plan_label": null,
           "comment_ids": [
             "50384963"
           ]
@@ -6284,6 +6425,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50384963"
           ]
@@ -6292,6 +6434,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50384963"
           ]
@@ -6336,6 +6479,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10",
+          "plan_label": "Go",
           "comment_ids": [
             "50374806"
           ]
@@ -6432,6 +6576,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max 5x",
+          "plan_label": "Max",
           "comment_ids": [
             "50376390"
           ]
@@ -6440,6 +6585,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50376390"
           ]
@@ -6504,6 +6650,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/month",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373589"
           ]
@@ -6512,6 +6659,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20/month",
+          "plan_label": "Plus",
           "comment_ids": [
             "50373589"
           ]
@@ -6577,6 +6725,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50375158"
           ]
@@ -6611,6 +6760,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50375826"
           ]
@@ -6619,6 +6769,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50375826"
           ]
@@ -6713,6 +6864,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50407937"
           ]
@@ -6721,6 +6873,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50407937"
           ]
@@ -6729,6 +6882,7 @@
           "node": "copilot",
           "label": "GitHub Copilot",
           "tier_raw": "$10",
+          "plan_label": "Pro",
           "comment_ids": [
             "50407937"
           ]
@@ -6863,6 +7017,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50381092"
           ]
@@ -6929,6 +7084,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50388077"
           ]
@@ -6963,6 +7119,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50378106"
           ]
@@ -6998,6 +7155,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro ($20/mo)",
+          "plan_label": "Pro",
           "comment_ids": [
             "50376463"
           ]
@@ -7006,6 +7164,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "AI Premium ($20/mo)",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50376463"
           ]
@@ -7040,6 +7199,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20usd",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373433"
           ]
@@ -7084,6 +7244,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "$20/month",
+          "plan_label": null,
           "comment_ids": [
             "50380504"
           ]
@@ -7092,6 +7253,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20/month",
+          "plan_label": "Plus",
           "comment_ids": [
             "50380504"
           ]
@@ -7100,6 +7262,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/month",
+          "plan_label": "Pro",
           "comment_ids": [
             "50380504"
           ]
@@ -7169,6 +7332,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50375539"
           ]
@@ -7177,6 +7341,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50375539"
           ]
@@ -7216,6 +7381,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50385925"
           ]
@@ -7271,6 +7437,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50377705"
           ]
@@ -7279,6 +7446,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100",
+          "plan_label": null,
           "comment_ids": [
             "50377705"
           ]
@@ -7287,6 +7455,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "$20",
+          "plan_label": null,
           "comment_ids": [
             "50377705"
           ]
@@ -7295,6 +7464,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10",
+          "plan_label": "Go",
           "comment_ids": [
             "50377705"
           ]
@@ -7360,6 +7530,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "monthly",
+          "plan_label": null,
           "comment_ids": [
             "50368106"
           ]
@@ -7481,6 +7652,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10",
+          "plan_label": "Go",
           "comment_ids": [
             "50379169",
             "50381117"
@@ -7523,6 +7695,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374491"
           ]
@@ -7531,6 +7704,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374491"
           ]
@@ -7539,6 +7713,7 @@
           "node": "other:antigravity",
           "label": "antigravity",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374491"
           ]
@@ -7547,6 +7722,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50374491"
           ]
@@ -7678,6 +7854,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50375606"
           ]
@@ -7686,6 +7863,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$500 a month",
+          "plan_label": null,
           "comment_ids": [
             "50375606"
           ]
@@ -7759,6 +7937,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50376652"
           ]
@@ -7767,6 +7946,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": "X Premium",
+          "plan_label": "Premium",
           "comment_ids": [
             "50376652"
           ]
@@ -7775,6 +7955,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50376652"
           ]
@@ -7856,6 +8037,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/mo",
+          "plan_label": "Pro",
           "comment_ids": [
             "50378856"
           ]
@@ -7864,6 +8046,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20/mo",
+          "plan_label": "Plus",
           "comment_ids": [
             "50378856"
           ]
@@ -7909,6 +8092,7 @@
           "node": "copilot",
           "label": "GitHub Copilot",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50368526"
           ]
@@ -7917,6 +8101,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50368526"
           ]
@@ -7967,6 +8152,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50379150"
           ]
@@ -7975,6 +8161,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50379150"
           ]
@@ -8009,6 +8196,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "USD40",
+          "plan_label": null,
           "comment_ids": [
             "50373357"
           ]
@@ -8017,6 +8205,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50373357"
           ]
@@ -8226,6 +8415,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "10 dollars",
+          "plan_label": "Go",
           "comment_ids": [
             "50381494"
           ]
@@ -8234,6 +8424,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50381494"
           ]
@@ -8346,6 +8537,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50377597"
           ]
@@ -8354,6 +8546,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50377597"
           ]
@@ -8392,6 +8585,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": "1 year subscription for their mid tier",
+          "plan_label": null,
           "comment_ids": [
             "50376056"
           ]
@@ -8460,6 +8654,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50375645"
           ]
@@ -8569,6 +8764,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50379352"
           ]
@@ -8577,6 +8773,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100",
+          "plan_label": null,
           "comment_ids": [
             "50379352"
           ]
@@ -8636,6 +8833,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50378016"
           ]
@@ -8644,6 +8842,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "cheap",
+          "plan_label": null,
           "comment_ids": [
             "50378016"
           ]
@@ -8683,6 +8882,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50378651"
           ]
@@ -8691,6 +8891,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50378651"
           ]
@@ -8749,6 +8950,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra (200)",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50374746"
           ]
@@ -8757,6 +8959,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "20",
+          "plan_label": null,
           "comment_ids": [
             "50374746"
           ]
@@ -8826,6 +9029,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50377284"
           ]
@@ -8834,6 +9038,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50377284"
           ]
@@ -8873,6 +9078,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50378293"
           ]
@@ -8912,6 +9118,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50376601"
           ]
@@ -9030,6 +9237,7 @@
           "node": "other:exe.dev",
           "label": "exe.dev",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50376381"
           ]
@@ -9058,6 +9266,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro 200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373324"
           ]
@@ -9066,6 +9275,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max 200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373324"
           ]
@@ -9236,6 +9446,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50380092"
           ]
@@ -9244,6 +9455,7 @@
           "node": "other:ollama",
           "label": "ollama",
           "tier_raw": "Max",
+          "plan_label": null,
           "comment_ids": [
             "50380092"
           ]
@@ -9252,6 +9464,7 @@
           "node": "copilot",
           "label": "GitHub Copilot",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50380092"
           ]
@@ -9291,6 +9504,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50376279"
           ]
@@ -9299,6 +9513,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50376279"
           ]
@@ -9345,6 +9560,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Pro",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50376848"
           ]
@@ -9404,6 +9620,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50377814"
           ]
@@ -9412,6 +9629,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "100 plan",
+          "plan_label": null,
           "comment_ids": [
             "50377814"
           ]
@@ -9498,6 +9716,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50367272"
           ]
@@ -9506,6 +9725,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100/mo",
+          "plan_label": null,
           "comment_ids": [
             "50367272"
           ]
@@ -9575,6 +9795,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50392572"
           ]
@@ -9616,6 +9837,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50379165"
           ]
@@ -9624,6 +9846,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50379165"
           ]
@@ -9669,6 +9892,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra plan",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50377554"
           ]
@@ -9677,6 +9901,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "200 plan",
+          "plan_label": null,
           "comment_ids": [
             "50377554"
           ]
@@ -9722,6 +9947,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "$1k/month",
+          "plan_label": null,
           "comment_ids": [
             "50375302"
           ]
@@ -9767,6 +9993,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "claude team pro",
+          "plan_label": "Team (standard seat)",
           "comment_ids": [
             "50373649"
           ]
@@ -9775,6 +10002,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "codex pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373649"
           ]
@@ -9824,6 +10052,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro 100",
+          "plan_label": "Pro",
           "comment_ids": [
             "50378847"
           ]
@@ -9954,6 +10183,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50368019"
           ]
@@ -9962,6 +10192,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50368019"
           ]
@@ -10018,6 +10249,7 @@
           "node": "other:meta-ai",
           "label": "meta-ai",
           "tier_raw": "pro",
+          "plan_label": null,
           "comment_ids": [
             "50380473"
           ]
@@ -10026,6 +10258,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Google AI Pro",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50380473"
           ]
@@ -10066,6 +10299,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50367976"
           ]
@@ -10074,6 +10308,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50367976"
           ]
@@ -10170,6 +10405,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "MAX plan",
+          "plan_label": "Max",
           "comment_ids": [
             "50380407"
           ]
@@ -10333,6 +10569,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100/mo",
+          "plan_label": "Max",
           "comment_ids": [
             "50374994"
           ]
@@ -10423,6 +10660,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50375959"
           ]
@@ -10451,6 +10689,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max (£90/month)",
+          "plan_label": "Max",
           "comment_ids": [
             "50377004"
           ]
@@ -10485,6 +10724,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50379312"
           ]
@@ -10493,6 +10733,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50379312"
           ]
@@ -10538,6 +10779,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "10euro",
+          "plan_label": null,
           "comment_ids": [
             "50376286"
           ]
@@ -10614,6 +10856,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100/mo",
+          "plan_label": "Max",
           "comment_ids": [
             "50367399"
           ]
@@ -10622,6 +10865,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "$100/mo",
+          "plan_label": "Google AI Ultra",
           "comment_ids": [
             "50367399"
           ]
@@ -10692,6 +10936,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50374270"
           ]
@@ -10742,6 +10987,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": "$14 a month",
+          "plan_label": null,
           "comment_ids": [
             "50373447"
           ]
@@ -10852,6 +11098,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100 plan",
+          "plan_label": "Max",
           "comment_ids": [
             "50499298"
           ]
@@ -10860,6 +11107,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100 plan",
+          "plan_label": null,
           "comment_ids": [
             "50499298"
           ]
@@ -10952,6 +11200,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20/mo",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373698"
           ]
@@ -11002,6 +11251,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50375966"
           ]
@@ -11010,6 +11260,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50375966"
           ]
@@ -11092,6 +11343,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "casual plan",
+          "plan_label": null,
           "comment_ids": [
             "50387527"
           ]
@@ -11141,6 +11393,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100",
+          "plan_label": null,
           "comment_ids": [
             "50447027"
           ]
@@ -11149,6 +11402,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50447027"
           ]
@@ -11183,6 +11437,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50379840"
           ]
@@ -11304,6 +11559,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50378086"
           ]
@@ -11338,6 +11594,7 @@
           "node": "other:deepseek",
           "label": "deepseek",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50385812"
           ]
@@ -11640,6 +11897,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "~$200/month",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373463"
           ]
@@ -11648,6 +11906,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "~$200/month",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373463"
           ]
@@ -11728,6 +11987,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50377195"
           ]
@@ -11768,6 +12028,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50378737"
           ]
@@ -11776,6 +12037,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50378737"
           ]
@@ -11906,6 +12168,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50367571"
           ]
@@ -11914,6 +12177,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50367571"
           ]
@@ -11958,6 +12222,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50375312"
           ]
@@ -12063,6 +12328,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50377746"
           ]
@@ -12231,6 +12497,7 @@
           "node": "other:xiaomi-mimo",
           "label": "xiaomi-mimo",
           "tier_raw": "Pro",
+          "plan_label": null,
           "comment_ids": [
             "50374722"
           ]
@@ -12276,6 +12543,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50368119"
           ]
@@ -12284,6 +12552,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50368119"
           ]
@@ -12292,6 +12561,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50368119"
           ]
@@ -12337,6 +12607,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "200/mo",
+          "plan_label": null,
           "comment_ids": [
             "50373956"
           ]
@@ -12376,6 +12647,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367589"
           ]
@@ -12384,6 +12656,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50367589"
           ]
@@ -12392,6 +12665,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "Go",
+          "plan_label": "Go",
           "comment_ids": [
             "50367589"
           ]
@@ -12442,6 +12716,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "annual 200 bucks",
+          "plan_label": null,
           "comment_ids": [
             "50378217"
           ]
@@ -12450,6 +12725,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "20 buck a month",
+          "plan_label": null,
           "comment_ids": [
             "50378217"
           ]
@@ -12495,6 +12771,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50407369"
           ]
@@ -12554,6 +12831,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50379350"
           ]
@@ -12605,6 +12883,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50379119"
           ]
@@ -12676,6 +12955,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50380522"
           ]
@@ -12684,6 +12964,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50380522"
           ]
@@ -12692,6 +12973,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50380522"
           ]
@@ -12700,6 +12982,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": "GLM 5.3",
+          "plan_label": null,
           "comment_ids": [
             "50380522"
           ]
@@ -12740,6 +13023,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373366"
           ]
@@ -12773,6 +13057,7 @@
           "node": "melious",
           "label": "Melious",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50367557"
           ]
@@ -12813,6 +13098,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10 Opencode Go plan",
+          "plan_label": "Go",
           "comment_ids": [
             "50373317"
           ]
@@ -12848,6 +13134,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "max",
+          "plan_label": "Max",
           "comment_ids": [
             "50373697"
           ]
@@ -12856,6 +13143,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "max",
+          "plan_label": null,
           "comment_ids": [
             "50373697"
           ]
@@ -12929,6 +13217,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50393227"
           ]
@@ -12963,6 +13252,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro monthly",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373770"
           ]
@@ -13013,6 +13303,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50379819"
           ]
@@ -13021,6 +13312,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50379819"
           ]
@@ -13061,6 +13353,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50367701"
           ]
@@ -13110,6 +13403,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max ($100)",
+          "plan_label": "Max",
           "comment_ids": [
             "50377888"
           ]
@@ -13118,6 +13412,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50377888"
           ]
@@ -13126,6 +13421,7 @@
           "node": "muse-code",
           "label": "Muse Code",
           "tier_raw": "$12?",
+          "plan_label": null,
           "comment_ids": [
             "50377888"
           ]
@@ -13195,6 +13491,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50380213"
           ]
@@ -13203,6 +13500,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50380213"
           ]
@@ -13247,6 +13545,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50375836"
           ]
@@ -13255,6 +13554,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50375836"
           ]
@@ -13283,6 +13583,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50378907"
           ]
@@ -13291,6 +13592,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10",
+          "plan_label": "Go",
           "comment_ids": [
             "50378907"
           ]
@@ -13330,6 +13632,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50376216"
           ]
@@ -13338,6 +13641,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10",
+          "plan_label": "Go",
           "comment_ids": [
             "50376216"
           ]
@@ -13422,6 +13726,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50378890"
           ]
@@ -13430,6 +13735,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50378890"
           ]
@@ -13485,6 +13791,7 @@
           "node": "other:ollama",
           "label": "ollama",
           "tier_raw": "Cloud",
+          "plan_label": null,
           "comment_ids": [
             "50376782"
           ]
@@ -13540,6 +13847,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50379685"
           ]
@@ -13548,6 +13856,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50379685"
           ]
@@ -13598,6 +13907,7 @@
           "node": "mistral",
           "label": "Mistral",
           "tier_raw": "$14.99 /mo",
+          "plan_label": "Pro",
           "comment_ids": [
             "50380252"
           ]
@@ -13653,6 +13963,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50368640"
           ]
@@ -13812,6 +14123,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50378434"
           ]
@@ -13881,6 +14193,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50370886"
           ]
@@ -13889,6 +14202,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50370886"
           ]
@@ -13897,6 +14211,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": "SuperGrok",
+          "plan_label": "Super",
           "comment_ids": [
             "50370886"
           ]
@@ -13905,6 +14220,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Pro",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50370886"
           ]
@@ -13995,6 +14311,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "basic",
+          "plan_label": null,
           "comment_ids": [
             "50378303"
           ]
@@ -14003,6 +14320,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "$16 a month on annual plan",
+          "plan_label": null,
           "comment_ids": [
             "50378303"
           ]
@@ -14031,6 +14349,7 @@
           "node": "other:ollama",
           "label": "ollama",
           "tier_raw": "Pro",
+          "plan_label": null,
           "comment_ids": [
             "50380609"
           ]
@@ -14086,6 +14405,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "max",
+          "plan_label": "Max",
           "comment_ids": [
             "50373887"
           ]
@@ -14114,6 +14434,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Google AI Ultra",
           "comment_ids": [
             "50380185"
           ]
@@ -14142,6 +14463,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Google Ultra $100/month",
+          "plan_label": "Google AI Ultra",
           "comment_ids": [
             "50374261"
           ]
@@ -14265,6 +14587,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50395313"
           ]
@@ -14273,6 +14596,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50395313"
           ]
@@ -14310,6 +14634,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max $100",
+          "plan_label": "Max",
           "comment_ids": [
             "50378365"
           ]
@@ -14349,6 +14674,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra aka 20x Max, about $250/mo incl VAT",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50376328"
           ]
@@ -14383,6 +14709,7 @@
           "node": "mistral",
           "label": "Mistral",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50377144"
           ]
@@ -14411,6 +14738,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373740"
           ]
@@ -14419,6 +14747,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro 200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50373740"
           ]
@@ -14427,6 +14756,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": "SuperGrok",
+          "plan_label": "Super",
           "comment_ids": [
             "50373740"
           ]
@@ -14435,6 +14765,7 @@
           "node": "moonshot",
           "label": "Moonshot (Kimi plans)",
           "tier_raw": "Kimi Pro",
+          "plan_label": null,
           "comment_ids": [
             "50373740"
           ]
@@ -14443,6 +14774,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "Cursor Pro",
+          "plan_label": null,
           "comment_ids": [
             "50373740"
           ]
@@ -14451,6 +14783,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Google AI Pro",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50373740"
           ]
@@ -14459,6 +14792,7 @@
           "node": "muse-code",
           "label": "Muse Code",
           "tier_raw": "High Usage",
+          "plan_label": null,
           "comment_ids": [
             "50373740"
           ]
@@ -14552,6 +14886,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50381456"
           ]
@@ -14599,6 +14934,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50367215"
           ]
@@ -14687,6 +15023,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50367619"
           ]
@@ -14751,6 +15088,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50391245"
           ]
@@ -14790,6 +15128,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50370716"
           ]
@@ -14798,6 +15137,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": "GLM Coding Lite-Monthly Plan",
+          "plan_label": null,
           "comment_ids": [
             "50370716"
           ]
@@ -14806,6 +15146,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "Go",
+          "plan_label": "Go",
           "comment_ids": [
             "50370716"
           ]
@@ -14849,6 +15190,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50374549"
           ]
@@ -14857,6 +15199,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "Go",
+          "plan_label": "Go",
           "comment_ids": [
             "50374549"
           ]
@@ -14923,6 +15266,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50376760"
           ]
@@ -14931,6 +15275,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50376760"
           ]
@@ -14939,6 +15284,7 @@
           "node": "muse-code",
           "label": "Muse Code",
           "tier_raw": "$50",
+          "plan_label": null,
           "comment_ids": [
             "50376760"
           ]
@@ -14947,6 +15293,7 @@
           "node": "other:opencode-zen",
           "label": "opencode-zen",
           "tier_raw": "$40",
+          "plan_label": null,
           "comment_ids": [
             "50376760"
           ]
@@ -15020,6 +15367,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "180 euro / month",
+          "plan_label": null,
           "comment_ids": [
             "50377573"
           ]
@@ -15028,6 +15376,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "100 USD / month",
+          "plan_label": null,
           "comment_ids": [
             "50377573"
           ]
@@ -15110,6 +15459,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max plan",
+          "plan_label": "Max",
           "comment_ids": [
             "50374380"
           ]
@@ -15149,6 +15499,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "ultra plan",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50375134"
           ]
@@ -15157,6 +15508,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "go plan",
+          "plan_label": "Go",
           "comment_ids": [
             "50375134"
           ]
@@ -15207,6 +15559,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": "$10/month",
+          "plan_label": "Go",
           "comment_ids": [
             "50367789"
           ]
@@ -15248,6 +15601,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50380358"
           ]
@@ -15312,6 +15666,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50378028"
           ]
@@ -15320,6 +15675,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50378028"
           ]
@@ -15405,6 +15761,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373684"
           ]
@@ -15492,6 +15849,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "£18 a month",
+          "plan_label": null,
           "comment_ids": [
             "50402364"
           ]
@@ -15552,6 +15910,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50376110"
           ]
@@ -15636,6 +15995,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "max",
+          "plan_label": "Max",
           "comment_ids": [
             "50377137"
           ]
@@ -15669,6 +16029,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Google AI Pro",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50377290"
           ]
@@ -15677,6 +16038,7 @@
           "node": "opencode",
           "label": "OpenCode",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50377290"
           ]
@@ -15685,6 +16047,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": "X Premium",
+          "plan_label": "Premium",
           "comment_ids": [
             "50377290"
           ]
@@ -15789,6 +16152,7 @@
           "node": "other:unnamed",
           "label": "unnamed",
           "tier_raw": "$200",
+          "plan_label": null,
           "comment_ids": [
             "50373236"
           ]
@@ -15862,6 +16226,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50377715"
           ]
@@ -15922,6 +16287,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20 Claude subscription",
+          "plan_label": "Pro",
           "comment_ids": [
             "50367744"
           ]
@@ -15930,6 +16296,7 @@
           "node": "other:muse",
           "label": "muse",
           "tier_raw": "$5/month",
+          "plan_label": null,
           "comment_ids": [
             "50367744"
           ]
@@ -16102,6 +16469,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50380200"
           ]
@@ -16135,6 +16503,7 @@
           "node": "copilot",
           "label": "GitHub Copilot",
           "tier_raw": "max plan",
+          "plan_label": "Max",
           "comment_ids": [
             "50378415"
           ]
@@ -16143,6 +16512,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "teams/business plan",
+          "plan_label": "Business",
           "comment_ids": [
             "50378415"
           ]
@@ -16223,6 +16593,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "max",
+          "plan_label": "Max",
           "comment_ids": [
             "50376632"
           ]
@@ -16339,6 +16710,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50377455"
           ]
@@ -16347,6 +16719,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Business (premium seat)",
+          "plan_label": "Business",
           "comment_ids": [
             "50377455"
           ]
@@ -16355,6 +16728,7 @@
           "node": "cursor",
           "label": "Cursor",
           "tier_raw": "Pro",
+          "plan_label": null,
           "comment_ids": [
             "50377455"
           ]
@@ -16419,6 +16793,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "top tier",
+          "plan_label": null,
           "comment_ids": [
             "50377579"
           ]
@@ -16427,6 +16802,7 @@
           "node": "zai",
           "label": "Z.ai (GLM plans)",
           "tier_raw": "top tier",
+          "plan_label": null,
           "comment_ids": [
             "50377579"
           ]
@@ -16435,6 +16811,7 @@
           "node": "moonshot",
           "label": "Moonshot (Kimi plans)",
           "tier_raw": "top tier",
+          "plan_label": null,
           "comment_ids": [
             "50377579"
           ]
@@ -16443,6 +16820,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "team",
+          "plan_label": null,
           "comment_ids": [
             "50377579"
           ]
@@ -16523,6 +16901,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$100",
+          "plan_label": "Max",
           "comment_ids": [
             "50378479"
           ]
@@ -16531,6 +16910,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20",
+          "plan_label": "Plus",
           "comment_ids": [
             "50378479"
           ]
@@ -16610,6 +16990,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Ultra",
+          "plan_label": "Google AI Ultra",
           "comment_ids": [
             "50376538"
           ]
@@ -16655,6 +17036,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20",
+          "plan_label": "Pro",
           "comment_ids": [
             "50380973"
           ]
@@ -16695,6 +17077,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro 200",
+          "plan_label": "Pro",
           "comment_ids": [
             "50376855"
           ]
@@ -16758,6 +17141,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Business Premium",
+          "plan_label": "Business",
           "comment_ids": [
             "50369791"
           ]
@@ -16895,6 +17279,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "100$/mo",
+          "plan_label": "Max",
           "comment_ids": [
             "50373208"
           ]
@@ -16930,6 +17315,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$20 tier",
+          "plan_label": "Pro",
           "comment_ids": [
             "50379016"
           ]
@@ -16938,6 +17324,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$20 tier",
+          "plan_label": "Plus",
           "comment_ids": [
             "50379016"
           ]
@@ -16946,6 +17333,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "$20 tier",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50379016"
           ]
@@ -16996,6 +17384,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Pro",
+          "plan_label": "Google AI Pro",
           "comment_ids": [
             "50377500"
           ]
@@ -17061,6 +17450,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50381009"
           ]
@@ -17069,6 +17459,7 @@
           "node": "google",
           "label": "Google (Gemini plans)",
           "tier_raw": "Google One subcription",
+          "plan_label": null,
           "comment_ids": [
             "50381009"
           ]
@@ -17077,6 +17468,7 @@
           "node": "other:fable",
           "label": "fable",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50381009"
           ]
@@ -17117,6 +17509,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50375378"
           ]
@@ -17162,6 +17555,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Pro",
+          "plan_label": "Pro",
           "comment_ids": [
             "50368325"
           ]
@@ -17217,6 +17611,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Pro x 1",
+          "plan_label": "Pro",
           "comment_ids": [
             "50367866",
             "50367947"
@@ -17314,6 +17709,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50378756"
           ]
@@ -17322,6 +17718,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "$100",
+          "plan_label": null,
           "comment_ids": [
             "50378756"
           ]
@@ -17356,6 +17753,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": "Plus",
+          "plan_label": "Plus",
           "comment_ids": [
             "50367582"
           ]
@@ -17364,6 +17762,7 @@
           "node": "xai",
           "label": "xAI (Grok plans)",
           "tier_raw": "three months at $30",
+          "plan_label": "Premium",
           "comment_ids": [
             "50367582"
           ]
@@ -17416,6 +17815,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "$200 max x5 plan",
+          "plan_label": "Ultra",
           "comment_ids": [
             "50373065"
           ]
@@ -17531,6 +17931,7 @@
           "node": "other:deepseek",
           "label": "deepseek",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50417991"
           ]
@@ -17539,6 +17940,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50417991"
           ]
@@ -17599,6 +18001,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "Max",
+          "plan_label": "Max",
           "comment_ids": [
             "50367453"
           ]
@@ -17709,6 +18112,7 @@
           "node": "openai",
           "label": "OpenAI (ChatGPT plans)",
           "tier_raw": null,
+          "plan_label": null,
           "comment_ids": [
             "50444232"
           ]
@@ -17717,6 +18121,7 @@
           "node": "anthropic",
           "label": "Anthropic (Claude plans)",
           "tier_raw": "pro 100",
+          "plan_label": "Pro",
           "comment_ids": [
             "50444232"
           ]
